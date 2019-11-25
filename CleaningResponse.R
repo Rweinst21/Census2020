@@ -15,8 +15,6 @@ countyresponse <- responserates %>%
   select(GEOID5, County, Geography, Countyresponse2000, Countyresponse2010)
 
 
-countyforjoin <- countyresponse %>% 
-  select(GEOID5, County)
 
 tractresponse <- responserates %>% 
   rename(Geography = "American.Indian.Area..Reservation.") %>% 
