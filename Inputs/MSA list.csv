@@ -1,0 +1,1900 @@
+﻿CBSA Title,Metropolitan/Micropolitan Statistical Area,County/County Equivalent,State Name,FIPS State Code,FIPS County Code,Central/Outlying County,FIPS_5
+"Albertville, AL",Micropolitan Statistical Area,Marshall County,Alabama,1,95,Central,1095
+"Alexander City, AL",Micropolitan Statistical Area,Tallapoosa County,Alabama,1,123,Central,1123
+"Anniston-Oxford-Jacksonville, AL",Metropolitan Statistical Area,Calhoun County,Alabama,1,15,Central,1015
+"Atmore, AL",Micropolitan Statistical Area,Escambia County,Alabama,1,53,Central,1053
+"Auburn-Opelika, AL",Metropolitan Statistical Area,Lee County,Alabama,1,81,Central,1081
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,Bibb County,Alabama,1,7,Outlying,1007
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,Blount County,Alabama,1,9,Outlying,1009
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,Chilton County,Alabama,1,21,Outlying,1021
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,Jefferson County,Alabama,1,73,Central,1073
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,St. Clair County,Alabama,1,115,Outlying,1115
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,Shelby County,Alabama,1,117,Central,1117
+"Birmingham-Hoover, AL",Metropolitan Statistical Area,Walker County,Alabama,1,127,Outlying,1127
+"Columbus, GA-AL",Metropolitan Statistical Area,Russell County,Alabama,1,113,Central,1113
+"Cullman, AL",Micropolitan Statistical Area,Cullman County,Alabama,1,43,Central,1043
+"Daphne-Fairhope-Foley, AL",Metropolitan Statistical Area,Baldwin County,Alabama,1,3,Central,1003
+"Decatur, AL",Metropolitan Statistical Area,Lawrence County,Alabama,1,79,Outlying,1079
+"Decatur, AL",Metropolitan Statistical Area,Morgan County,Alabama,1,103,Central,1103
+"Dothan, AL",Metropolitan Statistical Area,Geneva County,Alabama,1,61,Outlying,1061
+"Dothan, AL",Metropolitan Statistical Area,Henry County,Alabama,1,67,Outlying,1067
+"Dothan, AL",Metropolitan Statistical Area,Houston County,Alabama,1,69,Central,1069
+"Enterprise, AL",Micropolitan Statistical Area,Coffee County,Alabama,1,31,Central,1031
+"Eufaula, AL-GA",Micropolitan Statistical Area,Barbour County,Alabama,1,5,Central,1005
+"Florence-Muscle Shoals, AL",Metropolitan Statistical Area,Colbert County,Alabama,1,33,Central,1033
+"Florence-Muscle Shoals, AL",Metropolitan Statistical Area,Lauderdale County,Alabama,1,77,Central,1077
+"Fort Payne, AL",Micropolitan Statistical Area,DeKalb County,Alabama,1,49,Central,1049
+"Gadsden, AL",Metropolitan Statistical Area,Etowah County,Alabama,1,55,Central,1055
+"Huntsville, AL",Metropolitan Statistical Area,Limestone County,Alabama,1,83,Outlying,1083
+"Huntsville, AL",Metropolitan Statistical Area,Madison County,Alabama,1,89,Central,1089
+"Mobile, AL",Metropolitan Statistical Area,Mobile County,Alabama,1,97,Central,1097
+"Montgomery, AL",Metropolitan Statistical Area,Autauga County,Alabama,1,1,Central,1001
+"Montgomery, AL",Metropolitan Statistical Area,Elmore County,Alabama,1,51,Central,1051
+"Montgomery, AL",Metropolitan Statistical Area,Lowndes County,Alabama,1,85,Outlying,1085
+"Montgomery, AL",Metropolitan Statistical Area,Montgomery County,Alabama,1,101,Central,1101
+"Ozark, AL",Micropolitan Statistical Area,Dale County,Alabama,1,45,Central,1045
+"Scottsboro, AL",Micropolitan Statistical Area,Jackson County,Alabama,1,71,Central,1071
+"Selma, AL",Micropolitan Statistical Area,Dallas County,Alabama,1,47,Central,1047
+"Talladega-Sylacauga, AL",Micropolitan Statistical Area,Coosa County,Alabama,1,37,Outlying,1037
+"Talladega-Sylacauga, AL",Micropolitan Statistical Area,Talladega County,Alabama,1,121,Central,1121
+"Troy, AL",Micropolitan Statistical Area,Pike County,Alabama,1,109,Central,1109
+"Tuscaloosa, AL",Metropolitan Statistical Area,Hale County,Alabama,1,65,Outlying,1065
+"Tuscaloosa, AL",Metropolitan Statistical Area,Pickens County,Alabama,1,107,Outlying,1107
+"Tuscaloosa, AL",Metropolitan Statistical Area,Tuscaloosa County,Alabama,1,125,Central,1125
+"Valley, AL",Micropolitan Statistical Area,Chambers County,Alabama,1,17,Central,1017
+"Anchorage, AK",Metropolitan Statistical Area,Anchorage Municipality,Alaska,2,20,Central,2020
+"Anchorage, AK",Metropolitan Statistical Area,Matanuska-Susitna Borough,Alaska,2,170,Outlying,2170
+"Fairbanks, AK",Metropolitan Statistical Area,Fairbanks North Star Borough,Alaska,2,90,Central,2090
+"Juneau, AK",Micropolitan Statistical Area,Juneau City and Borough,Alaska,2,110,Central,2110
+"Ketchikan, AK",Micropolitan Statistical Area,Ketchikan Gateway Borough,Alaska,2,130,Central,2130
+"Flagstaff, AZ",Metropolitan Statistical Area,Coconino County,Arizona,4,5,Central,4005
+"Lake Havasu City-Kingman, AZ",Metropolitan Statistical Area,Mohave County,Arizona,4,15,Central,4015
+"Nogales, AZ",Micropolitan Statistical Area,Santa Cruz County,Arizona,4,23,Central,4023
+"Payson, AZ",Micropolitan Statistical Area,Gila County,Arizona,4,7,Central,4007
+"Phoenix-Mesa-Scottsdale, AZ",Metropolitan Statistical Area,Maricopa County,Arizona,4,13,Central,4013
+"Phoenix-Mesa-Scottsdale, AZ",Metropolitan Statistical Area,Pinal County,Arizona,4,21,Central,4021
+"Prescott, AZ",Metropolitan Statistical Area,Yavapai County,Arizona,4,25,Central,4025
+"Safford, AZ",Micropolitan Statistical Area,Graham County,Arizona,4,9,Central,4009
+"Show Low, AZ",Micropolitan Statistical Area,Navajo County,Arizona,4,17,Central,4017
+"Sierra Vista-Douglas, AZ",Metropolitan Statistical Area,Cochise County,Arizona,4,3,Central,4003
+"Tucson, AZ",Metropolitan Statistical Area,Pima County,Arizona,4,19,Central,4019
+"Yuma, AZ",Metropolitan Statistical Area,Yuma County,Arizona,4,27,Central,4027
+"Arkadelphia, AR",Micropolitan Statistical Area,Clark County,Arkansas,5,19,Central,5019
+"Batesville, AR",Micropolitan Statistical Area,Independence County,Arkansas,5,63,Central,5063
+"Blytheville, AR",Micropolitan Statistical Area,Mississippi County,Arkansas,5,93,Central,5093
+"Camden, AR",Micropolitan Statistical Area,Calhoun County,Arkansas,5,13,Outlying,5013
+"Camden, AR",Micropolitan Statistical Area,Ouachita County,Arkansas,5,103,Central,5103
+"El Dorado, AR",Micropolitan Statistical Area,Union County,Arkansas,5,139,Central,5139
+"Fayetteville-Springdale-Rogers, AR-MO",Metropolitan Statistical Area,Benton County,Arkansas,5,7,Central,5007
+"Fayetteville-Springdale-Rogers, AR-MO",Metropolitan Statistical Area,Madison County,Arkansas,5,87,Outlying,5087
+"Fayetteville-Springdale-Rogers, AR-MO",Metropolitan Statistical Area,Washington County,Arkansas,5,143,Central,5143
+"Forrest City, AR",Micropolitan Statistical Area,St. Francis County,Arkansas,5,123,Central,5123
+"Fort Smith, AR-OK",Metropolitan Statistical Area,Crawford County,Arkansas,5,33,Central,5033
+"Fort Smith, AR-OK",Metropolitan Statistical Area,Sebastian County,Arkansas,5,131,Central,5131
+"Harrison, AR",Micropolitan Statistical Area,Boone County,Arkansas,5,9,Central,5009
+"Harrison, AR",Micropolitan Statistical Area,Newton County,Arkansas,5,101,Outlying,5101
+"Helena-West Helena, AR",Micropolitan Statistical Area,Phillips County,Arkansas,5,107,Central,5107
+"Hope, AR",Micropolitan Statistical Area,Hempstead County,Arkansas,5,57,Central,5057
+"Hope, AR",Micropolitan Statistical Area,Nevada County,Arkansas,5,99,Outlying,5099
+"Hot Springs, AR",Metropolitan Statistical Area,Garland County,Arkansas,5,51,Central,5051
+"Jonesboro, AR",Metropolitan Statistical Area,Craighead County,Arkansas,5,31,Central,5031
+"Jonesboro, AR",Metropolitan Statistical Area,Poinsett County,Arkansas,5,111,Outlying,5111
+"Little Rock-North Little Rock-Conway, AR",Metropolitan Statistical Area,Faulkner County,Arkansas,5,45,Outlying,5045
+"Little Rock-North Little Rock-Conway, AR",Metropolitan Statistical Area,Grant County,Arkansas,5,53,Outlying,5053
+"Little Rock-North Little Rock-Conway, AR",Metropolitan Statistical Area,Lonoke County,Arkansas,5,85,Central,5085
+"Little Rock-North Little Rock-Conway, AR",Metropolitan Statistical Area,Perry County,Arkansas,5,105,Outlying,5105
+"Little Rock-North Little Rock-Conway, AR",Metropolitan Statistical Area,Pulaski County,Arkansas,5,119,Central,5119
+"Little Rock-North Little Rock-Conway, AR",Metropolitan Statistical Area,Saline County,Arkansas,5,125,Central,5125
+"Magnolia, AR",Micropolitan Statistical Area,Columbia County,Arkansas,5,27,Central,5027
+"Malvern, AR",Micropolitan Statistical Area,Hot Spring County,Arkansas,5,59,Central,5059
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Crittenden County,Arkansas,5,35,Central,5035
+"Mountain Home, AR",Micropolitan Statistical Area,Baxter County,Arkansas,5,5,Central,5005
+"Paragould, AR",Micropolitan Statistical Area,Greene County,Arkansas,5,55,Central,5055
+"Pine Bluff, AR",Metropolitan Statistical Area,Cleveland County,Arkansas,5,25,Outlying,5025
+"Pine Bluff, AR",Metropolitan Statistical Area,Jefferson County,Arkansas,5,69,Central,5069
+"Pine Bluff, AR",Metropolitan Statistical Area,Lincoln County,Arkansas,5,79,Outlying,5079
+"Russellville, AR",Micropolitan Statistical Area,Pope County,Arkansas,5,115,Central,5115
+"Russellville, AR",Micropolitan Statistical Area,Yell County,Arkansas,5,149,Outlying,5149
+"Searcy, AR",Micropolitan Statistical Area,White County,Arkansas,5,145,Central,5145
+"Texarkana, TX-AR",Metropolitan Statistical Area,Little River County,Arkansas,5,81,Outlying,5081
+"Texarkana, TX-AR",Metropolitan Statistical Area,Miller County,Arkansas,5,91,Central,5091
+"Bakersfield, CA",Metropolitan Statistical Area,Kern County,California,6,29,Central,6029
+"Chico, CA",Metropolitan Statistical Area,Butte County,California,6,7,Central,6007
+"Clearlake, CA",Micropolitan Statistical Area,Lake County,California,6,33,Central,6033
+"Crescent City, CA",Micropolitan Statistical Area,Del Norte County,California,6,15,Central,6015
+"El Centro, CA",Metropolitan Statistical Area,Imperial County,California,6,25,Central,6025
+"Eureka-Arcata-Fortuna, CA",Micropolitan Statistical Area,Humboldt County,California,6,23,Central,6023
+"Fresno, CA",Metropolitan Statistical Area,Fresno County,California,6,19,Central,6019
+"Hanford-Corcoran, CA",Metropolitan Statistical Area,Kings County,California,6,31,Central,6031
+"Los Angeles-Long Beach-Anaheim, CA",Metropolitan Statistical Area,Orange County,California,6,59,Central,6059
+"Los Angeles-Long Beach-Anaheim, CA",Metropolitan Statistical Area,Los Angeles County,California,6,37,Central,6037
+"Madera, CA",Metropolitan Statistical Area,Madera County,California,6,39,Central,6039
+"Merced, CA",Metropolitan Statistical Area,Merced County,California,6,47,Central,6047
+"Modesto, CA",Metropolitan Statistical Area,Stanislaus County,California,6,99,Central,6099
+"Napa, CA",Metropolitan Statistical Area,Napa County,California,6,55,Central,6055
+"Oxnard-Thousand Oaks-Ventura, CA",Metropolitan Statistical Area,Ventura County,California,6,111,Central,6111
+"Red Bluff, CA",Micropolitan Statistical Area,Tehama County,California,6,103,Central,6103
+"Redding, CA",Metropolitan Statistical Area,Shasta County,California,6,89,Central,6089
+"Riverside-San Bernardino-Ontario, CA",Metropolitan Statistical Area,Riverside County,California,6,65,Central,6065
+"Riverside-San Bernardino-Ontario, CA",Metropolitan Statistical Area,San Bernardino County,California,6,71,Central,6071
+"Sacramento--Roseville--Arden-Arcade, CA",Metropolitan Statistical Area,El Dorado County,California,6,17,Central,6017
+"Sacramento--Roseville--Arden-Arcade, CA",Metropolitan Statistical Area,Placer County,California,6,61,Central,6061
+"Sacramento--Roseville--Arden-Arcade, CA",Metropolitan Statistical Area,Sacramento County,California,6,67,Central,6067
+"Sacramento--Roseville--Arden-Arcade, CA",Metropolitan Statistical Area,Yolo County,California,6,113,Outlying,6113
+"Salinas, CA",Metropolitan Statistical Area,Monterey County,California,6,53,Central,6053
+"San Diego-Carlsbad, CA",Metropolitan Statistical Area,San Diego County,California,6,73,Central,6073
+"San Francisco-Oakland-Hayward, CA",Metropolitan Statistical Area,Alameda County,California,6,1,Central,6001
+"San Francisco-Oakland-Hayward, CA",Metropolitan Statistical Area,Contra Costa County,California,6,13,Outlying,6013
+"San Francisco-Oakland-Hayward, CA",Metropolitan Statistical Area,San Francisco County,California,6,75,Central,6075
+"San Francisco-Oakland-Hayward, CA",Metropolitan Statistical Area,San Mateo County,California,6,81,Central,6081
+"San Francisco-Oakland-Hayward, CA",Metropolitan Statistical Area,Marin County,California,6,41,Central,6041
+"San Jose-Sunnyvale-Santa Clara, CA",Metropolitan Statistical Area,San Benito County,California,6,69,Outlying,6069
+"San Jose-Sunnyvale-Santa Clara, CA",Metropolitan Statistical Area,Santa Clara County,California,6,85,Central,6085
+"San Luis Obispo-Paso Robles-Arroyo Grande, CA",Metropolitan Statistical Area,San Luis Obispo County,California,6,79,Central,6079
+"Santa Cruz-Watsonville, CA",Metropolitan Statistical Area,Santa Cruz County,California,6,87,Central,6087
+"Santa Maria-Santa Barbara, CA",Metropolitan Statistical Area,Santa Barbara County,California,6,83,Central,6083
+"Santa Rosa, CA",Metropolitan Statistical Area,Sonoma County,California,6,97,Central,6097
+"Sonora, CA",Micropolitan Statistical Area,Tuolumne County,California,6,109,Central,6109
+"Stockton-Lodi, CA",Metropolitan Statistical Area,San Joaquin County,California,6,77,Central,6077
+"Susanville, CA",Micropolitan Statistical Area,Lassen County,California,6,35,Central,6035
+"Truckee-Grass Valley, CA",Micropolitan Statistical Area,Nevada County,California,6,57,Central,6057
+"Ukiah, CA",Micropolitan Statistical Area,Mendocino County,California,6,45,Central,6045
+"Vallejo-Fairfield, CA",Metropolitan Statistical Area,Solano County,California,6,95,Central,6095
+"Visalia-Porterville, CA",Metropolitan Statistical Area,Tulare County,California,6,107,Central,6107
+"Yuba City, CA",Metropolitan Statistical Area,Sutter County,California,6,101,Central,6101
+"Yuba City, CA",Metropolitan Statistical Area,Yuba County,California,6,115,Central,6115
+"Boulder, CO",Metropolitan Statistical Area,Boulder County,Colorado,8,13,Central,8013
+"Breckenridge, CO",Micropolitan Statistical Area,Summit County,Colorado,8,117,Central,8117
+"Cañon City, CO",Micropolitan Statistical Area,Fremont County,Colorado,8,43,Central,8043
+"Colorado Springs, CO",Metropolitan Statistical Area,El Paso County,Colorado,8,41,Central,8041
+"Colorado Springs, CO",Metropolitan Statistical Area,Teller County,Colorado,8,119,Outlying,8119
+"Craig, CO",Micropolitan Statistical Area,Moffat County,Colorado,8,81,Central,8081
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Adams County,Colorado,8,1,Central,8001
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Arapahoe County,Colorado,8,5,Central,8005
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Broomfield County,Colorado,8,14,Central,8014
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Clear Creek County,Colorado,8,19,Outlying,8019
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Denver County,Colorado,8,31,Central,8031
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Douglas County,Colorado,8,35,Central,8035
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Elbert County,Colorado,8,39,Outlying,8039
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Gilpin County,Colorado,8,47,Outlying,8047
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Jefferson County,Colorado,8,59,Central,8059
+"Denver-Aurora-Lakewood, CO",Metropolitan Statistical Area,Park County,Colorado,8,93,Outlying,8093
+"Durango, CO",Micropolitan Statistical Area,La Plata County,Colorado,8,67,Central,8067
+"Edwards, CO",Micropolitan Statistical Area,Eagle County,Colorado,8,37,Central,8037
+"Fort Collins, CO",Metropolitan Statistical Area,Larimer County,Colorado,8,69,Central,8069
+"Fort Morgan, CO",Micropolitan Statistical Area,Morgan County,Colorado,8,87,Central,8087
+"Glenwood Springs, CO",Micropolitan Statistical Area,Garfield County,Colorado,8,45,Central,8045
+"Glenwood Springs, CO",Micropolitan Statistical Area,Pitkin County,Colorado,8,97,Outlying,8097
+"Grand Junction, CO",Metropolitan Statistical Area,Mesa County,Colorado,8,77,Central,8077
+"Greeley, CO",Metropolitan Statistical Area,Weld County,Colorado,8,123,Central,8123
+"Montrose, CO",Micropolitan Statistical Area,Montrose County,Colorado,8,85,Central,8085
+"Pueblo, CO",Metropolitan Statistical Area,Pueblo County,Colorado,8,101,Central,8101
+"Steamboat Springs, CO",Micropolitan Statistical Area,Routt County,Colorado,8,107,Central,8107
+"Sterling, CO",Micropolitan Statistical Area,Logan County,Colorado,8,75,Central,8075
+"Bridgeport-Stamford-Norwalk, CT",Metropolitan Statistical Area,Fairfield County,Connecticut,9,1,Central,9001
+"Hartford-West Hartford-East Hartford, CT",Metropolitan Statistical Area,Hartford County,Connecticut,9,3,Central,9003
+"Hartford-West Hartford-East Hartford, CT",Metropolitan Statistical Area,Middlesex County,Connecticut,9,7,Central,9007
+"Hartford-West Hartford-East Hartford, CT",Metropolitan Statistical Area,Tolland County,Connecticut,9,13,Central,9013
+"New Haven-Milford, CT",Metropolitan Statistical Area,New Haven County,Connecticut,9,9,Central,9009
+"Norwich-New London, CT",Metropolitan Statistical Area,New London County,Connecticut,9,11,Central,9011
+"Torrington, CT",Micropolitan Statistical Area,Litchfield County,Connecticut,9,5,Central,9005
+"Worcester, MA-CT",Metropolitan Statistical Area,Windham County,Connecticut,9,15,Central,9015
+"Dover, DE",Metropolitan Statistical Area,Kent County,Delaware,10,1,Central,10001
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,New Castle County,Delaware,10,3,Central,10003
+"Salisbury, MD-DE",Metropolitan Statistical Area,Sussex County,Delaware,10,5,Central,10005
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,District of Columbia,District of Columbia,11,1,Central,11001
+"Arcadia, FL",Micropolitan Statistical Area,DeSoto County,Florida,12,27,Central,12027
+"Cape Coral-Fort Myers, FL",Metropolitan Statistical Area,Lee County,Florida,12,71,Central,12071
+"Clewiston, FL",Micropolitan Statistical Area,Hendry County,Florida,12,51,Central,12051
+"Crestview-Fort Walton Beach-Destin, FL",Metropolitan Statistical Area,Okaloosa County,Florida,12,91,Central,12091
+"Crestview-Fort Walton Beach-Destin, FL",Metropolitan Statistical Area,Walton County,Florida,12,131,Central,12131
+"Deltona-Daytona Beach-Ormond Beach, FL",Metropolitan Statistical Area,Flagler County,Florida,12,35,Central,12035
+"Deltona-Daytona Beach-Ormond Beach, FL",Metropolitan Statistical Area,Volusia County,Florida,12,127,Central,12127
+"Gainesville, FL",Metropolitan Statistical Area,Alachua County,Florida,12,1,Central,12001
+"Gainesville, FL",Metropolitan Statistical Area,Gilchrist County,Florida,12,41,Outlying,12041
+"Homosassa Springs, FL",Metropolitan Statistical Area,Citrus County,Florida,12,17,Central,12017
+"Jacksonville, FL",Metropolitan Statistical Area,Baker County,Florida,12,3,Outlying,12003
+"Jacksonville, FL",Metropolitan Statistical Area,Clay County,Florida,12,19,Central,12019
+"Jacksonville, FL",Metropolitan Statistical Area,Duval County,Florida,12,31,Central,12031
+"Jacksonville, FL",Metropolitan Statistical Area,Nassau County,Florida,12,89,Outlying,12089
+"Jacksonville, FL",Metropolitan Statistical Area,St. Johns County,Florida,12,109,Outlying,12109
+"Key West, FL",Micropolitan Statistical Area,Monroe County,Florida,12,87,Central,12087
+"Lake City, FL",Micropolitan Statistical Area,Columbia County,Florida,12,23,Central,12023
+"Lakeland-Winter Haven, FL",Metropolitan Statistical Area,Polk County,Florida,12,105,Central,12105
+"Miami-Fort Lauderdale-West Palm Beach, FL",Metropolitan Statistical Area,Broward County,Florida,12,11,Central,12011
+"Miami-Fort Lauderdale-West Palm Beach, FL",Metropolitan Statistical Area,Miami-Dade County,Florida,12,86,Central,12086
+"Miami-Fort Lauderdale-West Palm Beach, FL",Metropolitan Statistical Area,Palm Beach County,Florida,12,99,Central,12099
+"Naples-Immokalee-Marco Island, FL",Metropolitan Statistical Area,Collier County,Florida,12,21,Central,12021
+"North Port-Sarasota-Bradenton, FL",Metropolitan Statistical Area,Manatee County,Florida,12,81,Central,12081
+"North Port-Sarasota-Bradenton, FL",Metropolitan Statistical Area,Sarasota County,Florida,12,115,Central,12115
+"Ocala, FL",Metropolitan Statistical Area,Marion County,Florida,12,83,Central,12083
+"Okeechobee, FL",Micropolitan Statistical Area,Okeechobee County,Florida,12,93,Central,12093
+"Orlando-Kissimmee-Sanford, FL",Metropolitan Statistical Area,Lake County,Florida,12,69,Outlying,12069
+"Orlando-Kissimmee-Sanford, FL",Metropolitan Statistical Area,Orange County,Florida,12,95,Central,12095
+"Orlando-Kissimmee-Sanford, FL",Metropolitan Statistical Area,Osceola County,Florida,12,97,Outlying,12097
+"Orlando-Kissimmee-Sanford, FL",Metropolitan Statistical Area,Seminole County,Florida,12,117,Central,12117
+"Palatka, FL",Micropolitan Statistical Area,Putnam County,Florida,12,107,Central,12107
+"Palm Bay-Melbourne-Titusville, FL",Metropolitan Statistical Area,Brevard County,Florida,12,9,Central,12009
+"Panama City, FL",Metropolitan Statistical Area,Bay County,Florida,12,5,Central,12005
+"Panama City, FL",Metropolitan Statistical Area,Gulf County,Florida,12,45,Outlying,12045
+"Pensacola-Ferry Pass-Brent, FL",Metropolitan Statistical Area,Escambia County,Florida,12,33,Central,12033
+"Pensacola-Ferry Pass-Brent, FL",Metropolitan Statistical Area,Santa Rosa County,Florida,12,113,Central,12113
+"Port St. Lucie, FL",Metropolitan Statistical Area,Martin County,Florida,12,85,Central,12085
+"Port St. Lucie, FL",Metropolitan Statistical Area,St. Lucie County,Florida,12,111,Central,12111
+"Punta Gorda, FL",Metropolitan Statistical Area,Charlotte County,Florida,12,15,Central,12015
+"Sebastian-Vero Beach, FL",Metropolitan Statistical Area,Indian River County,Florida,12,61,Central,12061
+"Sebring, FL",Metropolitan Statistical Area,Highlands County,Florida,12,55,Central,12055
+"Tallahassee, FL",Metropolitan Statistical Area,Gadsden County,Florida,12,39,Outlying,12039
+"Tallahassee, FL",Metropolitan Statistical Area,Jefferson County,Florida,12,65,Outlying,12065
+"Tallahassee, FL",Metropolitan Statistical Area,Leon County,Florida,12,73,Central,12073
+"Tallahassee, FL",Metropolitan Statistical Area,Wakulla County,Florida,12,129,Outlying,12129
+"Tampa-St. Petersburg-Clearwater, FL",Metropolitan Statistical Area,Hernando County,Florida,12,53,Outlying,12053
+"Tampa-St. Petersburg-Clearwater, FL",Metropolitan Statistical Area,Hillsborough County,Florida,12,57,Central,12057
+"Tampa-St. Petersburg-Clearwater, FL",Metropolitan Statistical Area,Pasco County,Florida,12,101,Central,12101
+"Tampa-St. Petersburg-Clearwater, FL",Metropolitan Statistical Area,Pinellas County,Florida,12,103,Central,12103
+"The Villages, FL",Metropolitan Statistical Area,Sumter County,Florida,12,119,Central,12119
+"Wauchula, FL",Micropolitan Statistical Area,Hardee County,Florida,12,49,Central,12049
+"Albany, GA",Metropolitan Statistical Area,Baker County,Georgia,13,7,Outlying,13007
+"Albany, GA",Metropolitan Statistical Area,Dougherty County,Georgia,13,95,Central,13095
+"Albany, GA",Metropolitan Statistical Area,Lee County,Georgia,13,177,Central,13177
+"Albany, GA",Metropolitan Statistical Area,Terrell County,Georgia,13,273,Outlying,13273
+"Albany, GA",Metropolitan Statistical Area,Worth County,Georgia,13,321,Outlying,13321
+"Americus, GA",Micropolitan Statistical Area,Schley County,Georgia,13,249,Outlying,13249
+"Americus, GA",Micropolitan Statistical Area,Sumter County,Georgia,13,261,Central,13261
+"Athens-Clarke County, GA",Metropolitan Statistical Area,Clarke County,Georgia,13,59,Central,13059
+"Athens-Clarke County, GA",Metropolitan Statistical Area,Madison County,Georgia,13,195,Outlying,13195
+"Athens-Clarke County, GA",Metropolitan Statistical Area,Oconee County,Georgia,13,219,Central,13219
+"Athens-Clarke County, GA",Metropolitan Statistical Area,Oglethorpe County,Georgia,13,221,Outlying,13221
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Barrow County,Georgia,13,13,Outlying,13013
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Bartow County,Georgia,13,15,Outlying,13015
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Butts County,Georgia,13,35,Outlying,13035
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Carroll County,Georgia,13,45,Outlying,13045
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Cherokee County,Georgia,13,57,Central,13057
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Clayton County,Georgia,13,63,Central,13063
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Cobb County,Georgia,13,67,Central,13067
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Coweta County,Georgia,13,77,Central,13077
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Dawson County,Georgia,13,85,Outlying,13085
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,DeKalb County,Georgia,13,89,Central,13089
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Douglas County,Georgia,13,97,Central,13097
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Fayette County,Georgia,13,113,Central,13113
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Forsyth County,Georgia,13,117,Central,13117
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Fulton County,Georgia,13,121,Central,13121
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Gwinnett County,Georgia,13,135,Central,13135
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Haralson County,Georgia,13,143,Outlying,13143
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Heard County,Georgia,13,149,Outlying,13149
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Henry County,Georgia,13,151,Central,13151
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Jasper County,Georgia,13,159,Outlying,13159
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Lamar County,Georgia,13,171,Outlying,13171
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Meriwether County,Georgia,13,199,Outlying,13199
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Morgan County,Georgia,13,211,Outlying,13211
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Newton County,Georgia,13,217,Central,13217
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Paulding County,Georgia,13,223,Central,13223
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Pickens County,Georgia,13,227,Outlying,13227
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Pike County,Georgia,13,231,Outlying,13231
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Rockdale County,Georgia,13,247,Central,13247
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Spalding County,Georgia,13,255,Central,13255
+"Atlanta-Sandy Springs-Roswell, GA",Metropolitan Statistical Area,Walton County,Georgia,13,297,Central,13297
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,Burke County,Georgia,13,33,Outlying,13033
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,Columbia County,Georgia,13,73,Central,13073
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,Lincoln County,Georgia,13,181,Outlying,13181
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,McDuffie County,Georgia,13,189,Outlying,13189
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,Richmond County,Georgia,13,245,Central,13245
+"Bainbridge, GA",Micropolitan Statistical Area,Decatur County,Georgia,13,87,Central,13087
+"Brunswick, GA",Metropolitan Statistical Area,Brantley County,Georgia,13,25,Outlying,13025
+"Brunswick, GA",Metropolitan Statistical Area,Glynn County,Georgia,13,127,Central,13127
+"Brunswick, GA",Metropolitan Statistical Area,McIntosh County,Georgia,13,191,Outlying,13191
+"Calhoun, GA",Micropolitan Statistical Area,Gordon County,Georgia,13,129,Central,13129
+"Cedartown, GA",Micropolitan Statistical Area,Polk County,Georgia,13,233,Central,13233
+"Chattanooga, TN-GA",Metropolitan Statistical Area,Catoosa County,Georgia,13,47,Central,13047
+"Chattanooga, TN-GA",Metropolitan Statistical Area,Dade County,Georgia,13,83,Outlying,13083
+"Chattanooga, TN-GA",Metropolitan Statistical Area,Walker County,Georgia,13,295,Central,13295
+"Columbus, GA-AL",Metropolitan Statistical Area,Chattahoochee County,Georgia,13,53,Central,13053
+"Columbus, GA-AL",Metropolitan Statistical Area,Harris County,Georgia,13,145,Outlying,13145
+"Columbus, GA-AL",Metropolitan Statistical Area,Marion County,Georgia,13,197,Outlying,13197
+"Columbus, GA-AL",Metropolitan Statistical Area,Muscogee County,Georgia,13,215,Central,13215
+"Cordele, GA",Micropolitan Statistical Area,Crisp County,Georgia,13,81,Central,13081
+"Cornelia, GA",Micropolitan Statistical Area,Habersham County,Georgia,13,137,Central,13137
+"Dalton, GA",Metropolitan Statistical Area,Murray County,Georgia,13,213,Central,13213
+"Dalton, GA",Metropolitan Statistical Area,Whitfield County,Georgia,13,313,Central,13313
+"Douglas, GA",Micropolitan Statistical Area,Coffee County,Georgia,13,69,Central,13069
+"Dublin, GA",Micropolitan Statistical Area,Johnson County,Georgia,13,167,Outlying,13167
+"Dublin, GA",Micropolitan Statistical Area,Laurens County,Georgia,13,175,Central,13175
+"Eufaula, AL-GA",Micropolitan Statistical Area,Quitman County,Georgia,13,239,Outlying,13239
+"Fitzgerald, GA",Micropolitan Statistical Area,Ben Hill County,Georgia,13,17,Central,13017
+"Gainesville, GA",Metropolitan Statistical Area,Hall County,Georgia,13,139,Central,13139
+"Hinesville, GA",Metropolitan Statistical Area,Liberty County,Georgia,13,179,Central,13179
+"Hinesville, GA",Metropolitan Statistical Area,Long County,Georgia,13,183,Outlying,13183
+"Jefferson, GA",Micropolitan Statistical Area,Jackson County,Georgia,13,157,Central,13157
+"Jesup, GA",Micropolitan Statistical Area,Wayne County,Georgia,13,305,Central,13305
+"LaGrange, GA",Micropolitan Statistical Area,Troup County,Georgia,13,285,Central,13285
+"Macon-Bibb County, GA",Metropolitan Statistical Area,Bibb County,Georgia,13,21,Central,13021
+"Macon-Bibb County, GA",Metropolitan Statistical Area,Crawford County,Georgia,13,79,Outlying,13079
+"Macon-Bibb County, GA",Metropolitan Statistical Area,Jones County,Georgia,13,169,Outlying,13169
+"Macon-Bibb County, GA",Metropolitan Statistical Area,Monroe County,Georgia,13,207,Outlying,13207
+"Macon-Bibb County, GA",Metropolitan Statistical Area,Twiggs County,Georgia,13,289,Outlying,13289
+"Milledgeville, GA",Micropolitan Statistical Area,Baldwin County,Georgia,13,9,Central,13009
+"Milledgeville, GA",Micropolitan Statistical Area,Hancock County,Georgia,13,141,Outlying,13141
+"Moultrie, GA",Micropolitan Statistical Area,Colquitt County,Georgia,13,71,Central,13071
+"Rome, GA",Metropolitan Statistical Area,Floyd County,Georgia,13,115,Central,13115
+"St. Marys, GA",Micropolitan Statistical Area,Camden County,Georgia,13,39,Central,13039
+"Savannah, GA",Metropolitan Statistical Area,Bryan County,Georgia,13,29,Central,13029
+"Savannah, GA",Metropolitan Statistical Area,Chatham County,Georgia,13,51,Central,13051
+"Savannah, GA",Metropolitan Statistical Area,Effingham County,Georgia,13,103,Outlying,13103
+"Statesboro, GA",Micropolitan Statistical Area,Bulloch County,Georgia,13,31,Central,13031
+"Summerville, GA",Micropolitan Statistical Area,Chattooga County,Georgia,13,55,Central,13055
+"Thomaston, GA",Micropolitan Statistical Area,Upson County,Georgia,13,293,Central,13293
+"Thomasville, GA",Micropolitan Statistical Area,Thomas County,Georgia,13,275,Central,13275
+"Tifton, GA",Micropolitan Statistical Area,Tift County,Georgia,13,277,Central,13277
+"Toccoa, GA",Micropolitan Statistical Area,Stephens County,Georgia,13,257,Central,13257
+"Valdosta, GA",Metropolitan Statistical Area,Brooks County,Georgia,13,27,Outlying,13027
+"Valdosta, GA",Metropolitan Statistical Area,Echols County,Georgia,13,101,Outlying,13101
+"Valdosta, GA",Metropolitan Statistical Area,Lanier County,Georgia,13,173,Outlying,13173
+"Valdosta, GA",Metropolitan Statistical Area,Lowndes County,Georgia,13,185,Central,13185
+"Vidalia, GA",Micropolitan Statistical Area,Montgomery County,Georgia,13,209,Outlying,13209
+"Vidalia, GA",Micropolitan Statistical Area,Toombs County,Georgia,13,279,Central,13279
+"Warner Robins, GA",Metropolitan Statistical Area,Houston County,Georgia,13,153,Central,13153
+"Warner Robins, GA",Metropolitan Statistical Area,Peach County,Georgia,13,225,Outlying,13225
+"Warner Robins, GA",Metropolitan Statistical Area,Pulaski County,Georgia,13,235,Outlying,13235
+"Waycross, GA",Micropolitan Statistical Area,Pierce County,Georgia,13,229,Outlying,13229
+"Waycross, GA",Micropolitan Statistical Area,Ware County,Georgia,13,299,Central,13299
+"Hilo, HI",Micropolitan Statistical Area,Hawaii County,Hawaii,15,1,Central,15001
+"Kahului-Wailuku-Lahaina, HI",Metropolitan Statistical Area,Kalawao County,Hawaii,15,5,Outlying,15005
+"Kahului-Wailuku-Lahaina, HI",Metropolitan Statistical Area,Maui County,Hawaii,15,9,Central,15009
+"Kapaa, HI",Micropolitan Statistical Area,Kauai County,Hawaii,15,7,Central,15007
+"Urban Honolulu, HI",Metropolitan Statistical Area,Honolulu County,Hawaii,15,3,Central,15003
+"Blackfoot, ID",Micropolitan Statistical Area,Bingham County,Idaho,16,11,Central,16011
+"Boise City, ID",Metropolitan Statistical Area,Ada County,Idaho,16,1,Central,16001
+"Boise City, ID",Metropolitan Statistical Area,Boise County,Idaho,16,15,Outlying,16015
+"Boise City, ID",Metropolitan Statistical Area,Canyon County,Idaho,16,27,Outlying,16027
+"Boise City, ID",Metropolitan Statistical Area,Gem County,Idaho,16,45,Outlying,16045
+"Boise City, ID",Metropolitan Statistical Area,Owyhee County,Idaho,16,73,Outlying,16073
+"Burley, ID",Micropolitan Statistical Area,Cassia County,Idaho,16,31,Central,16031
+"Burley, ID",Micropolitan Statistical Area,Minidoka County,Idaho,16,67,Outlying,16067
+"Coeur d'Alene, ID",Metropolitan Statistical Area,Kootenai County,Idaho,16,55,Central,16055
+"Hailey, ID",Micropolitan Statistical Area,Blaine County,Idaho,16,13,Central,16013
+"Hailey, ID",Micropolitan Statistical Area,Camas County,Idaho,16,25,Outlying,16025
+"Hailey, ID",Micropolitan Statistical Area,Lincoln County,Idaho,16,63,Outlying,16063
+"Idaho Falls, ID",Metropolitan Statistical Area,Bonneville County,Idaho,16,19,Central,16019
+"Idaho Falls, ID",Metropolitan Statistical Area,Butte County,Idaho,16,23,Outlying,16023
+"Idaho Falls, ID",Metropolitan Statistical Area,Jefferson County,Idaho,16,51,Outlying,16051
+"Jackson, WY-ID",Micropolitan Statistical Area,Teton County,Idaho,16,81,Outlying,16081
+"Lewiston, ID-WA",Metropolitan Statistical Area,Nez Perce County,Idaho,16,69,Central,16069
+"Logan, UT-ID",Metropolitan Statistical Area,Franklin County,Idaho,16,41,Outlying,16041
+"Moscow, ID",Micropolitan Statistical Area,Latah County,Idaho,16,57,Central,16057
+"Mountain Home, ID",Micropolitan Statistical Area,Elmore County,Idaho,16,39,Central,16039
+"Ontario, OR-ID",Micropolitan Statistical Area,Payette County,Idaho,16,75,Central,16075
+"Pocatello, ID",Metropolitan Statistical Area,Bannock County,Idaho,16,5,Central,16005
+"Rexburg, ID",Micropolitan Statistical Area,Fremont County,Idaho,16,43,Outlying,16043
+"Rexburg, ID",Micropolitan Statistical Area,Madison County,Idaho,16,65,Central,16065
+"Sandpoint, ID",Micropolitan Statistical Area,Bonner County,Idaho,16,17,Central,16017
+"Twin Falls, ID",Micropolitan Statistical Area,Jerome County,Idaho,16,53,Outlying,16053
+"Twin Falls, ID",Micropolitan Statistical Area,Twin Falls County,Idaho,16,83,Central,16083
+"Bloomington, IL",Metropolitan Statistical Area,De Witt County,Illinois,17,39,Outlying,17039
+"Bloomington, IL",Metropolitan Statistical Area,McLean County,Illinois,17,113,Central,17113
+"Burlington, IA-IL",Micropolitan Statistical Area,Henderson County,Illinois,17,71,Outlying,17071
+"Canton, IL",Micropolitan Statistical Area,Fulton County,Illinois,17,57,Central,17057
+"Cape Girardeau, MO-IL",Metropolitan Statistical Area,Alexander County,Illinois,17,3,Outlying,17003
+"Carbondale-Marion, IL",Metropolitan Statistical Area,Jackson County,Illinois,17,77,Central,17077
+"Carbondale-Marion, IL",Metropolitan Statistical Area,Williamson County,Illinois,17,199,Central,17199
+"Centralia, IL",Micropolitan Statistical Area,Marion County,Illinois,17,121,Central,17121
+"Champaign-Urbana, IL",Metropolitan Statistical Area,Champaign County,Illinois,17,19,Central,17019
+"Champaign-Urbana, IL",Metropolitan Statistical Area,Ford County,Illinois,17,53,Outlying,17053
+"Champaign-Urbana, IL",Metropolitan Statistical Area,Piatt County,Illinois,17,147,Outlying,17147
+"Charleston-Mattoon, IL",Micropolitan Statistical Area,Coles County,Illinois,17,29,Central,17029
+"Charleston-Mattoon, IL",Micropolitan Statistical Area,Cumberland County,Illinois,17,35,Outlying,17035
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Cook County,Illinois,17,31,Central,17031
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,DuPage County,Illinois,17,43,Central,17043
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Grundy County,Illinois,17,63,Outlying,17063
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Kendall County,Illinois,17,93,Central,17093
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,McHenry County,Illinois,17,111,Central,17111
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Will County,Illinois,17,197,Central,17197
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,DeKalb County,Illinois,17,37,Outlying,17037
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Kane County,Illinois,17,89,Central,17089
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Lake County,Illinois,17,97,Central,17097
+"Danville, IL",Metropolitan Statistical Area,Vermilion County,Illinois,17,183,Central,17183
+"Davenport-Moline-Rock Island, IA-IL",Metropolitan Statistical Area,Henry County,Illinois,17,73,Outlying,17073
+"Davenport-Moline-Rock Island, IA-IL",Metropolitan Statistical Area,Mercer County,Illinois,17,131,Outlying,17131
+"Davenport-Moline-Rock Island, IA-IL",Metropolitan Statistical Area,Rock Island County,Illinois,17,161,Central,17161
+"Decatur, IL",Metropolitan Statistical Area,Macon County,Illinois,17,115,Central,17115
+"Dixon, IL",Micropolitan Statistical Area,Lee County,Illinois,17,103,Central,17103
+"Effingham, IL",Micropolitan Statistical Area,Effingham County,Illinois,17,49,Central,17049
+"Fort Madison-Keokuk, IA-IL-MO",Micropolitan Statistical Area,Hancock County,Illinois,17,67,Outlying,17067
+"Freeport, IL",Micropolitan Statistical Area,Stephenson County,Illinois,17,177,Central,17177
+"Galesburg, IL",Micropolitan Statistical Area,Knox County,Illinois,17,95,Central,17095
+"Jacksonville, IL",Micropolitan Statistical Area,Morgan County,Illinois,17,137,Central,17137
+"Jacksonville, IL",Micropolitan Statistical Area,Scott County,Illinois,17,171,Outlying,17171
+"Kankakee, IL",Metropolitan Statistical Area,Kankakee County,Illinois,17,91,Central,17091
+"Lincoln, IL",Micropolitan Statistical Area,Logan County,Illinois,17,107,Central,17107
+"Macomb, IL",Micropolitan Statistical Area,McDonough County,Illinois,17,109,Central,17109
+"Mount Vernon, IL",Micropolitan Statistical Area,Jefferson County,Illinois,17,81,Central,17081
+"Ottawa-Peru, IL",Micropolitan Statistical Area,Bureau County,Illinois,17,11,Central,17011
+"Ottawa-Peru, IL",Micropolitan Statistical Area,LaSalle County,Illinois,17,99,Central,17099
+"Ottawa-Peru, IL",Micropolitan Statistical Area,Putnam County,Illinois,17,155,Outlying,17155
+"Paducah, KY-IL",Micropolitan Statistical Area,Massac County,Illinois,17,127,Outlying,17127
+"Peoria, IL",Metropolitan Statistical Area,Marshall County,Illinois,17,123,Outlying,17123
+"Peoria, IL",Metropolitan Statistical Area,Peoria County,Illinois,17,143,Central,17143
+"Peoria, IL",Metropolitan Statistical Area,Stark County,Illinois,17,175,Outlying,17175
+"Peoria, IL",Metropolitan Statistical Area,Tazewell County,Illinois,17,179,Central,17179
+"Peoria, IL",Metropolitan Statistical Area,Woodford County,Illinois,17,203,Central,17203
+"Pontiac, IL",Micropolitan Statistical Area,Livingston County,Illinois,17,105,Central,17105
+"Quincy, IL-MO",Micropolitan Statistical Area,Adams County,Illinois,17,1,Central,17001
+"Rochelle, IL",Micropolitan Statistical Area,Ogle County,Illinois,17,141,Central,17141
+"Rockford, IL",Metropolitan Statistical Area,Boone County,Illinois,17,7,Central,17007
+"Rockford, IL",Metropolitan Statistical Area,Winnebago County,Illinois,17,201,Central,17201
+"St. Louis, MO-IL",Metropolitan Statistical Area,Bond County,Illinois,17,5,Outlying,17005
+"St. Louis, MO-IL",Metropolitan Statistical Area,Calhoun County,Illinois,17,13,Outlying,17013
+"St. Louis, MO-IL",Metropolitan Statistical Area,Clinton County,Illinois,17,27,Outlying,17027
+"St. Louis, MO-IL",Metropolitan Statistical Area,Jersey County,Illinois,17,83,Outlying,17083
+"St. Louis, MO-IL",Metropolitan Statistical Area,Macoupin County,Illinois,17,117,Outlying,17117
+"St. Louis, MO-IL",Metropolitan Statistical Area,Madison County,Illinois,17,119,Central,17119
+"St. Louis, MO-IL",Metropolitan Statistical Area,Monroe County,Illinois,17,133,Central,17133
+"St. Louis, MO-IL",Metropolitan Statistical Area,St. Clair County,Illinois,17,163,Central,17163
+"Springfield, IL",Metropolitan Statistical Area,Menard County,Illinois,17,129,Outlying,17129
+"Springfield, IL",Metropolitan Statistical Area,Sangamon County,Illinois,17,167,Central,17167
+"Sterling, IL",Micropolitan Statistical Area,Whiteside County,Illinois,17,195,Central,17195
+"Taylorville, IL",Micropolitan Statistical Area,Christian County,Illinois,17,21,Central,17021
+"Angola, IN",Micropolitan Statistical Area,Steuben County,Indiana,18,151,Central,18151
+"Auburn, IN",Micropolitan Statistical Area,DeKalb County,Indiana,18,33,Central,18033
+"Bedford, IN",Micropolitan Statistical Area,Lawrence County,Indiana,18,93,Central,18093
+"Bloomington, IN",Metropolitan Statistical Area,Monroe County,Indiana,18,105,Central,18105
+"Bloomington, IN",Metropolitan Statistical Area,Owen County,Indiana,18,119,Outlying,18119
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Jasper County,Indiana,18,73,Outlying,18073
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Lake County,Indiana,18,89,Central,18089
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Newton County,Indiana,18,111,Outlying,18111
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Porter County,Indiana,18,127,Central,18127
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Dearborn County,Indiana,18,29,Outlying,18029
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Ohio County,Indiana,18,115,Outlying,18115
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Union County,Indiana,18,161,Outlying,18161
+"Columbus, IN",Metropolitan Statistical Area,Bartholomew County,Indiana,18,5,Central,18005
+"Connersville, IN",Micropolitan Statistical Area,Fayette County,Indiana,18,41,Central,18041
+"Crawfordsville, IN",Micropolitan Statistical Area,Montgomery County,Indiana,18,107,Central,18107
+"Decatur, IN",Micropolitan Statistical Area,Adams County,Indiana,18,1,Central,18001
+"Elkhart-Goshen, IN",Metropolitan Statistical Area,Elkhart County,Indiana,18,39,Central,18039
+"Evansville, IN-KY",Metropolitan Statistical Area,Posey County,Indiana,18,129,Outlying,18129
+"Evansville, IN-KY",Metropolitan Statistical Area,Vanderburgh County,Indiana,18,163,Central,18163
+"Evansville, IN-KY",Metropolitan Statistical Area,Warrick County,Indiana,18,173,Central,18173
+"Fort Wayne, IN",Metropolitan Statistical Area,Allen County,Indiana,18,3,Central,18003
+"Fort Wayne, IN",Metropolitan Statistical Area,Wells County,Indiana,18,179,Outlying,18179
+"Fort Wayne, IN",Metropolitan Statistical Area,Whitley County,Indiana,18,183,Outlying,18183
+"Frankfort, IN",Micropolitan Statistical Area,Clinton County,Indiana,18,23,Central,18023
+"Greensburg, IN",Micropolitan Statistical Area,Decatur County,Indiana,18,31,Central,18031
+"Huntington, IN",Micropolitan Statistical Area,Huntington County,Indiana,18,69,Central,18069
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Boone County,Indiana,18,11,Central,18011
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Brown County,Indiana,18,13,Outlying,18013
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Hamilton County,Indiana,18,57,Central,18057
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Hancock County,Indiana,18,59,Central,18059
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Hendricks County,Indiana,18,63,Central,18063
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Johnson County,Indiana,18,81,Central,18081
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Madison County,Indiana,18,95,Outlying,18095
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Marion County,Indiana,18,97,Central,18097
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Morgan County,Indiana,18,109,Central,18109
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Putnam County,Indiana,18,133,Outlying,18133
+"Indianapolis-Carmel-Anderson, IN",Metropolitan Statistical Area,Shelby County,Indiana,18,145,Outlying,18145
+"Jasper, IN",Micropolitan Statistical Area,Dubois County,Indiana,18,37,Central,18037
+"Jasper, IN",Micropolitan Statistical Area,Pike County,Indiana,18,125,Outlying,18125
+"Kendallville, IN",Micropolitan Statistical Area,Noble County,Indiana,18,113,Central,18113
+"Kokomo, IN",Metropolitan Statistical Area,Howard County,Indiana,18,67,Central,18067
+"Lafayette-West Lafayette, IN",Metropolitan Statistical Area,Benton County,Indiana,18,7,Outlying,18007
+"Lafayette-West Lafayette, IN",Metropolitan Statistical Area,Carroll County,Indiana,18,15,Outlying,18015
+"Lafayette-West Lafayette, IN",Metropolitan Statistical Area,Tippecanoe County,Indiana,18,157,Central,18157
+"Logansport, IN",Micropolitan Statistical Area,Cass County,Indiana,18,17,Central,18017
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Clark County,Indiana,18,19,Central,18019
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Floyd County,Indiana,18,43,Central,18043
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Harrison County,Indiana,18,61,Outlying,18061
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Scott County,Indiana,18,143,Outlying,18143
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Washington County,Indiana,18,175,Outlying,18175
+"Madison, IN",Micropolitan Statistical Area,Jefferson County,Indiana,18,77,Central,18077
+"Marion, IN",Micropolitan Statistical Area,Grant County,Indiana,18,53,Central,18053
+"Michigan City-La Porte, IN",Metropolitan Statistical Area,LaPorte County,Indiana,18,91,Central,18091
+"Muncie, IN",Metropolitan Statistical Area,Delaware County,Indiana,18,35,Central,18035
+"New Castle, IN",Micropolitan Statistical Area,Henry County,Indiana,18,65,Central,18065
+"North Vernon, IN",Micropolitan Statistical Area,Jennings County,Indiana,18,79,Central,18079
+"Peru, IN",Micropolitan Statistical Area,Miami County,Indiana,18,103,Central,18103
+"Plymouth, IN",Micropolitan Statistical Area,Marshall County,Indiana,18,99,Central,18099
+"Richmond, IN",Micropolitan Statistical Area,Wayne County,Indiana,18,177,Central,18177
+"Seymour, IN",Micropolitan Statistical Area,Jackson County,Indiana,18,71,Central,18071
+"South Bend-Mishawaka, IN-MI",Metropolitan Statistical Area,St. Joseph County,Indiana,18,141,Central,18141
+"Terre Haute, IN",Metropolitan Statistical Area,Clay County,Indiana,18,21,Central,18021
+"Terre Haute, IN",Metropolitan Statistical Area,Sullivan County,Indiana,18,153,Outlying,18153
+"Terre Haute, IN",Metropolitan Statistical Area,Vermillion County,Indiana,18,165,Outlying,18165
+"Terre Haute, IN",Metropolitan Statistical Area,Vigo County,Indiana,18,167,Central,18167
+"Vincennes, IN",Micropolitan Statistical Area,Knox County,Indiana,18,83,Central,18083
+"Wabash, IN",Micropolitan Statistical Area,Wabash County,Indiana,18,169,Central,18169
+"Warsaw, IN",Micropolitan Statistical Area,Kosciusko County,Indiana,18,85,Central,18085
+"Washington, IN",Micropolitan Statistical Area,Daviess County,Indiana,18,27,Central,18027
+"Ames, IA",Metropolitan Statistical Area,Story County,Iowa,19,169,Central,19169
+"Boone, IA",Micropolitan Statistical Area,Boone County,Iowa,19,15,Central,19015
+"Burlington, IA-IL",Micropolitan Statistical Area,Des Moines County,Iowa,19,57,Central,19057
+"Carroll, IA",Micropolitan Statistical Area,Carroll County,Iowa,19,27,Central,19027
+"Cedar Rapids, IA",Metropolitan Statistical Area,Benton County,Iowa,19,11,Outlying,19011
+"Cedar Rapids, IA",Metropolitan Statistical Area,Jones County,Iowa,19,105,Outlying,19105
+"Cedar Rapids, IA",Metropolitan Statistical Area,Linn County,Iowa,19,113,Central,19113
+"Clinton, IA",Micropolitan Statistical Area,Clinton County,Iowa,19,45,Central,19045
+"Davenport-Moline-Rock Island, IA-IL",Metropolitan Statistical Area,Scott County,Iowa,19,163,Central,19163
+"Des Moines-West Des Moines, IA",Metropolitan Statistical Area,Dallas County,Iowa,19,49,Central,19049
+"Des Moines-West Des Moines, IA",Metropolitan Statistical Area,Guthrie County,Iowa,19,77,Outlying,19077
+"Des Moines-West Des Moines, IA",Metropolitan Statistical Area,Madison County,Iowa,19,121,Outlying,19121
+"Des Moines-West Des Moines, IA",Metropolitan Statistical Area,Polk County,Iowa,19,153,Central,19153
+"Des Moines-West Des Moines, IA",Metropolitan Statistical Area,Warren County,Iowa,19,181,Outlying,19181
+"Dubuque, IA",Metropolitan Statistical Area,Dubuque County,Iowa,19,61,Central,19061
+"Fairfield, IA",Micropolitan Statistical Area,Jefferson County,Iowa,19,101,Central,19101
+"Fort Dodge, IA",Micropolitan Statistical Area,Webster County,Iowa,19,187,Central,19187
+"Fort Madison-Keokuk, IA-IL-MO",Micropolitan Statistical Area,Lee County,Iowa,19,111,Central,19111
+"Iowa City, IA",Metropolitan Statistical Area,Johnson County,Iowa,19,103,Central,19103
+"Iowa City, IA",Metropolitan Statistical Area,Washington County,Iowa,19,183,Outlying,19183
+"Marshalltown, IA",Micropolitan Statistical Area,Marshall County,Iowa,19,127,Central,19127
+"Mason City, IA",Micropolitan Statistical Area,Cerro Gordo County,Iowa,19,33,Central,19033
+"Mason City, IA",Micropolitan Statistical Area,Worth County,Iowa,19,195,Outlying,19195
+"Muscatine, IA",Micropolitan Statistical Area,Muscatine County,Iowa,19,139,Central,19139
+"Newton, IA",Micropolitan Statistical Area,Jasper County,Iowa,19,99,Central,19099
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Harrison County,Iowa,19,85,Outlying,19085
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Mills County,Iowa,19,129,Outlying,19129
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Pottawattamie County,Iowa,19,155,Central,19155
+"Oskaloosa, IA",Micropolitan Statistical Area,Mahaska County,Iowa,19,123,Central,19123
+"Ottumwa, IA",Micropolitan Statistical Area,Davis County,Iowa,19,51,Outlying,19051
+"Ottumwa, IA",Micropolitan Statistical Area,Wapello County,Iowa,19,179,Central,19179
+"Pella, IA",Micropolitan Statistical Area,Marion County,Iowa,19,125,Central,19125
+"Sioux City, IA-NE-SD",Metropolitan Statistical Area,Plymouth County,Iowa,19,149,Outlying,19149
+"Sioux City, IA-NE-SD",Metropolitan Statistical Area,Woodbury County,Iowa,19,193,Central,19193
+"Spencer, IA",Micropolitan Statistical Area,Clay County,Iowa,19,41,Central,19041
+"Spirit Lake, IA",Micropolitan Statistical Area,Dickinson County,Iowa,19,59,Central,19059
+"Storm Lake, IA",Micropolitan Statistical Area,Buena Vista County,Iowa,19,21,Central,19021
+"Waterloo-Cedar Falls, IA",Metropolitan Statistical Area,Black Hawk County,Iowa,19,13,Central,19013
+"Waterloo-Cedar Falls, IA",Metropolitan Statistical Area,Bremer County,Iowa,19,17,Outlying,19017
+"Waterloo-Cedar Falls, IA",Metropolitan Statistical Area,Grundy County,Iowa,19,75,Outlying,19075
+"Arkansas City-Winfield, KS",Micropolitan Statistical Area,Cowley County,Kansas,20,35,Central,20035
+"Atchison, KS",Micropolitan Statistical Area,Atchison County,Kansas,20,5,Central,20005
+"Coffeyville, KS",Micropolitan Statistical Area,Montgomery County,Kansas,20,125,Central,20125
+"Dodge City, KS",Micropolitan Statistical Area,Ford County,Kansas,20,57,Central,20057
+"Emporia, KS",Micropolitan Statistical Area,Lyon County,Kansas,20,111,Central,20111
+"Garden City, KS",Micropolitan Statistical Area,Finney County,Kansas,20,55,Central,20055
+"Garden City, KS",Micropolitan Statistical Area,Kearny County,Kansas,20,93,Outlying,20093
+"Great Bend, KS",Micropolitan Statistical Area,Barton County,Kansas,20,9,Central,20009
+"Hays, KS",Micropolitan Statistical Area,Ellis County,Kansas,20,51,Central,20051
+"Hutchinson, KS",Micropolitan Statistical Area,Reno County,Kansas,20,155,Central,20155
+"Junction City, KS",Micropolitan Statistical Area,Geary County,Kansas,20,61,Central,20061
+"Kansas City, MO-KS",Metropolitan Statistical Area,Johnson County,Kansas,20,91,Central,20091
+"Kansas City, MO-KS",Metropolitan Statistical Area,Leavenworth County,Kansas,20,103,Outlying,20103
+"Kansas City, MO-KS",Metropolitan Statistical Area,Linn County,Kansas,20,107,Outlying,20107
+"Kansas City, MO-KS",Metropolitan Statistical Area,Miami County,Kansas,20,121,Outlying,20121
+"Kansas City, MO-KS",Metropolitan Statistical Area,Wyandotte County,Kansas,20,209,Central,20209
+"Lawrence, KS",Metropolitan Statistical Area,Douglas County,Kansas,20,45,Central,20045
+"Liberal, KS",Micropolitan Statistical Area,Seward County,Kansas,20,175,Central,20175
+"Manhattan, KS",Metropolitan Statistical Area,Pottawatomie County,Kansas,20,149,Outlying,20149
+"Manhattan, KS",Metropolitan Statistical Area,Riley County,Kansas,20,161,Central,20161
+"McPherson, KS",Micropolitan Statistical Area,McPherson County,Kansas,20,113,Central,20113
+"Ottawa, KS",Micropolitan Statistical Area,Franklin County,Kansas,20,59,Central,20059
+"Parsons, KS",Micropolitan Statistical Area,Labette County,Kansas,20,99,Central,20099
+"Pittsburg, KS",Micropolitan Statistical Area,Crawford County,Kansas,20,37,Central,20037
+"St. Joseph, MO-KS",Metropolitan Statistical Area,Doniphan County,Kansas,20,43,Outlying,20043
+"Salina, KS",Micropolitan Statistical Area,Ottawa County,Kansas,20,143,Outlying,20143
+"Salina, KS",Micropolitan Statistical Area,Saline County,Kansas,20,169,Central,20169
+"Topeka, KS",Metropolitan Statistical Area,Jackson County,Kansas,20,85,Outlying,20085
+"Topeka, KS",Metropolitan Statistical Area,Jefferson County,Kansas,20,87,Outlying,20087
+"Topeka, KS",Metropolitan Statistical Area,Osage County,Kansas,20,139,Outlying,20139
+"Topeka, KS",Metropolitan Statistical Area,Shawnee County,Kansas,20,177,Central,20177
+"Topeka, KS",Metropolitan Statistical Area,Wabaunsee County,Kansas,20,197,Outlying,20197
+"Wichita, KS",Metropolitan Statistical Area,Butler County,Kansas,20,15,Outlying,20015
+"Wichita, KS",Metropolitan Statistical Area,Harvey County,Kansas,20,79,Outlying,20079
+"Wichita, KS",Metropolitan Statistical Area,Kingman County,Kansas,20,95,Outlying,20095
+"Wichita, KS",Metropolitan Statistical Area,Sedgwick County,Kansas,20,173,Central,20173
+"Wichita, KS",Metropolitan Statistical Area,Sumner County,Kansas,20,191,Outlying,20191
+"Bardstown, KY",Micropolitan Statistical Area,Nelson County,Kentucky,21,179,Central,21179
+"Bowling Green, KY",Metropolitan Statistical Area,Allen County,Kentucky,21,3,Outlying,21003
+"Bowling Green, KY",Metropolitan Statistical Area,Butler County,Kentucky,21,31,Outlying,21031
+"Bowling Green, KY",Metropolitan Statistical Area,Edmonson County,Kentucky,21,61,Outlying,21061
+"Bowling Green, KY",Metropolitan Statistical Area,Warren County,Kentucky,21,227,Central,21227
+"Campbellsville, KY",Micropolitan Statistical Area,Taylor County,Kentucky,21,217,Central,21217
+"Central City, KY",Micropolitan Statistical Area,Muhlenberg County,Kentucky,21,177,Central,21177
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Boone County,Kentucky,21,15,Central,21015
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Bracken County,Kentucky,21,23,Outlying,21023
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Campbell County,Kentucky,21,37,Central,21037
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Gallatin County,Kentucky,21,77,Outlying,21077
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Grant County,Kentucky,21,81,Outlying,21081
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Kenton County,Kentucky,21,117,Central,21117
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Pendleton County,Kentucky,21,191,Outlying,21191
+"Clarksville, TN-KY",Metropolitan Statistical Area,Christian County,Kentucky,21,47,Outlying,21047
+"Clarksville, TN-KY",Metropolitan Statistical Area,Trigg County,Kentucky,21,221,Outlying,21221
+"Danville, KY",Micropolitan Statistical Area,Boyle County,Kentucky,21,21,Central,21021
+"Danville, KY",Micropolitan Statistical Area,Lincoln County,Kentucky,21,137,Outlying,21137
+"Elizabethtown-Fort Knox, KY",Metropolitan Statistical Area,Hardin County,Kentucky,21,93,Central,21093
+"Elizabethtown-Fort Knox, KY",Metropolitan Statistical Area,Larue County,Kentucky,21,123,Outlying,21123
+"Elizabethtown-Fort Knox, KY",Metropolitan Statistical Area,Meade County,Kentucky,21,163,Outlying,21163
+"Evansville, IN-KY",Metropolitan Statistical Area,Henderson County,Kentucky,21,101,Central,21101
+"Frankfort, KY",Micropolitan Statistical Area,Anderson County,Kentucky,21,5,Outlying,21005
+"Frankfort, KY",Micropolitan Statistical Area,Franklin County,Kentucky,21,73,Central,21073
+"Glasgow, KY",Micropolitan Statistical Area,Barren County,Kentucky,21,9,Central,21009
+"Glasgow, KY",Micropolitan Statistical Area,Metcalfe County,Kentucky,21,169,Outlying,21169
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Boyd County,Kentucky,21,19,Central,21019
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Greenup County,Kentucky,21,89,Central,21089
+"Lexington-Fayette, KY",Metropolitan Statistical Area,Bourbon County,Kentucky,21,17,Outlying,21017
+"Lexington-Fayette, KY",Metropolitan Statistical Area,Clark County,Kentucky,21,49,Outlying,21049
+"Lexington-Fayette, KY",Metropolitan Statistical Area,Fayette County,Kentucky,21,67,Central,21067
+"Lexington-Fayette, KY",Metropolitan Statistical Area,Jessamine County,Kentucky,21,113,Outlying,21113
+"Lexington-Fayette, KY",Metropolitan Statistical Area,Scott County,Kentucky,21,209,Outlying,21209
+"Lexington-Fayette, KY",Metropolitan Statistical Area,Woodford County,Kentucky,21,239,Outlying,21239
+"London, KY",Micropolitan Statistical Area,Knox County,Kentucky,21,121,Central,21121
+"London, KY",Micropolitan Statistical Area,Laurel County,Kentucky,21,125,Central,21125
+"London, KY",Micropolitan Statistical Area,Whitley County,Kentucky,21,235,Central,21235
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Bullitt County,Kentucky,21,29,Central,21029
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Henry County,Kentucky,21,103,Outlying,21103
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Jefferson County,Kentucky,21,111,Central,21111
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Oldham County,Kentucky,21,185,Central,21185
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Shelby County,Kentucky,21,211,Outlying,21211
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Spencer County,Kentucky,21,215,Outlying,21215
+"Louisville/Jefferson County, KY-IN",Metropolitan Statistical Area,Trimble County,Kentucky,21,223,Outlying,21223
+"Madisonville, KY",Micropolitan Statistical Area,Hopkins County,Kentucky,21,107,Central,21107
+"Mayfield, KY",Micropolitan Statistical Area,Graves County,Kentucky,21,83,Central,21083
+"Maysville, KY",Micropolitan Statistical Area,Mason County,Kentucky,21,161,Central,21161
+"Middlesborough, KY",Micropolitan Statistical Area,Bell County,Kentucky,21,13,Central,21013
+"Mount Sterling, KY",Micropolitan Statistical Area,Bath County,Kentucky,21,11,Outlying,21011
+"Mount Sterling, KY",Micropolitan Statistical Area,Menifee County,Kentucky,21,165,Outlying,21165
+"Mount Sterling, KY",Micropolitan Statistical Area,Montgomery County,Kentucky,21,173,Central,21173
+"Murray, KY",Micropolitan Statistical Area,Calloway County,Kentucky,21,35,Central,21035
+"Owensboro, KY",Metropolitan Statistical Area,Daviess County,Kentucky,21,59,Central,21059
+"Owensboro, KY",Metropolitan Statistical Area,Hancock County,Kentucky,21,91,Outlying,21091
+"Owensboro, KY",Metropolitan Statistical Area,McLean County,Kentucky,21,149,Outlying,21149
+"Paducah, KY-IL",Micropolitan Statistical Area,Ballard County,Kentucky,21,7,Outlying,21007
+"Paducah, KY-IL",Micropolitan Statistical Area,Livingston County,Kentucky,21,139,Outlying,21139
+"Paducah, KY-IL",Micropolitan Statistical Area,McCracken County,Kentucky,21,145,Central,21145
+"Richmond-Berea, KY",Micropolitan Statistical Area,Madison County,Kentucky,21,151,Central,21151
+"Richmond-Berea, KY",Micropolitan Statistical Area,Rockcastle County,Kentucky,21,203,Outlying,21203
+"Somerset, KY",Micropolitan Statistical Area,Pulaski County,Kentucky,21,199,Central,21199
+"Union City, TN-KY",Micropolitan Statistical Area,Fulton County,Kentucky,21,75,Outlying,21075
+"Alexandria, LA",Metropolitan Statistical Area,Grant Parish,Louisiana,22,43,Outlying,22043
+"Alexandria, LA",Metropolitan Statistical Area,Rapides Parish,Louisiana,22,79,Central,22079
+"Bastrop, LA",Micropolitan Statistical Area,Morehouse Parish,Louisiana,22,67,Central,22067
+"Baton Rouge, LA",Metropolitan Statistical Area,Ascension Parish,Louisiana,22,5,Central,22005
+"Baton Rouge, LA",Metropolitan Statistical Area,East Baton Rouge Parish,Louisiana,22,33,Central,22033
+"Baton Rouge, LA",Metropolitan Statistical Area,East Feliciana Parish,Louisiana,22,37,Outlying,22037
+"Baton Rouge, LA",Metropolitan Statistical Area,Iberville Parish,Louisiana,22,47,Central,22047
+"Baton Rouge, LA",Metropolitan Statistical Area,Livingston Parish,Louisiana,22,63,Central,22063
+"Baton Rouge, LA",Metropolitan Statistical Area,Pointe Coupee Parish,Louisiana,22,77,Outlying,22077
+"Baton Rouge, LA",Metropolitan Statistical Area,St. Helena Parish,Louisiana,22,91,Outlying,22091
+"Baton Rouge, LA",Metropolitan Statistical Area,West Baton Rouge Parish,Louisiana,22,121,Central,22121
+"Baton Rouge, LA",Metropolitan Statistical Area,West Feliciana Parish,Louisiana,22,125,Outlying,22125
+"Bogalusa, LA",Micropolitan Statistical Area,Washington Parish,Louisiana,22,117,Central,22117
+"DeRidder, LA",Micropolitan Statistical Area,Beauregard Parish,Louisiana,22,11,Central,22011
+"Fort Polk South, LA",Micropolitan Statistical Area,Vernon Parish,Louisiana,22,115,Central,22115
+"Hammond, LA",Metropolitan Statistical Area,Tangipahoa Parish,Louisiana,22,105,Central,22105
+"Houma-Thibodaux, LA",Metropolitan Statistical Area,Lafourche Parish,Louisiana,22,57,Central,22057
+"Houma-Thibodaux, LA",Metropolitan Statistical Area,Terrebonne Parish,Louisiana,22,109,Central,22109
+"Jennings, LA",Micropolitan Statistical Area,Jefferson Davis Parish,Louisiana,22,53,Central,22053
+"Lafayette, LA",Metropolitan Statistical Area,Acadia Parish,Louisiana,22,1,Outlying,22001
+"Lafayette, LA",Metropolitan Statistical Area,Iberia Parish,Louisiana,22,45,Central,22045
+"Lafayette, LA",Metropolitan Statistical Area,Lafayette Parish,Louisiana,22,55,Central,22055
+"Lafayette, LA",Metropolitan Statistical Area,St. Martin Parish,Louisiana,22,99,Outlying,22099
+"Lafayette, LA",Metropolitan Statistical Area,Vermilion Parish,Louisiana,22,113,Outlying,22113
+"Lake Charles, LA",Metropolitan Statistical Area,Calcasieu Parish,Louisiana,22,19,Central,22019
+"Lake Charles, LA",Metropolitan Statistical Area,Cameron Parish,Louisiana,22,23,Outlying,22023
+"Monroe, LA",Metropolitan Statistical Area,Ouachita Parish,Louisiana,22,73,Central,22073
+"Monroe, LA",Metropolitan Statistical Area,Union Parish,Louisiana,22,111,Outlying,22111
+"Morgan City, LA",Micropolitan Statistical Area,St. Mary Parish,Louisiana,22,101,Central,22101
+"Natchez, MS-LA",Micropolitan Statistical Area,Concordia Parish,Louisiana,22,29,Central,22029
+"Natchitoches, LA",Micropolitan Statistical Area,Natchitoches Parish,Louisiana,22,69,Central,22069
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,Jefferson Parish,Louisiana,22,51,Central,22051
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,Orleans Parish,Louisiana,22,71,Central,22071
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,Plaquemines Parish,Louisiana,22,75,Central,22075
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,St. Bernard Parish,Louisiana,22,87,Central,22087
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,St. Charles Parish,Louisiana,22,89,Central,22089
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,St. James Parish,Louisiana,22,93,Outlying,22093
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,St. John the Baptist Parish,Louisiana,22,95,Central,22095
+"New Orleans-Metairie, LA",Metropolitan Statistical Area,St. Tammany Parish,Louisiana,22,103,Outlying,22103
+"Opelousas, LA",Micropolitan Statistical Area,St. Landry Parish,Louisiana,22,97,Central,22097
+"Ruston, LA",Micropolitan Statistical Area,Lincoln Parish,Louisiana,22,61,Central,22061
+"Shreveport-Bossier City, LA",Metropolitan Statistical Area,Bossier Parish,Louisiana,22,15,Central,22015
+"Shreveport-Bossier City, LA",Metropolitan Statistical Area,Caddo Parish,Louisiana,22,17,Central,22017
+"Shreveport-Bossier City, LA",Metropolitan Statistical Area,De Soto Parish,Louisiana,22,31,Outlying,22031
+"Shreveport-Bossier City, LA",Metropolitan Statistical Area,Webster Parish,Louisiana,22,119,Outlying,22119
+"Augusta-Waterville, ME",Micropolitan Statistical Area,Kennebec County,Maine,23,11,Central,23011
+"Bangor, ME",Metropolitan Statistical Area,Penobscot County,Maine,23,19,Central,23019
+"Lewiston-Auburn, ME",Metropolitan Statistical Area,Androscoggin County,Maine,23,1,Central,23001
+"Portland-South Portland, ME",Metropolitan Statistical Area,Cumberland County,Maine,23,5,Central,23005
+"Portland-South Portland, ME",Metropolitan Statistical Area,Sagadahoc County,Maine,23,23,Outlying,23023
+"Portland-South Portland, ME",Metropolitan Statistical Area,York County,Maine,23,31,Central,23031
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Anne Arundel County,Maryland,24,3,Central,24003
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Baltimore County,Maryland,24,5,Central,24005
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Carroll County,Maryland,24,13,Outlying,24013
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Harford County,Maryland,24,25,Outlying,24025
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Howard County,Maryland,24,27,Central,24027
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Queen Anne's County,Maryland,24,35,Central,24035
+"Baltimore-Columbia-Towson, MD",Metropolitan Statistical Area,Baltimore city,Maryland,24,510,Central,24510
+"California-Lexington Park, MD",Metropolitan Statistical Area,St. Mary's County,Maryland,24,37,Central,24037
+"Cambridge, MD",Micropolitan Statistical Area,Dorchester County,Maryland,24,19,Central,24019
+"Cumberland, MD-WV",Metropolitan Statistical Area,Allegany County,Maryland,24,1,Central,24001
+"Easton, MD",Micropolitan Statistical Area,Talbot County,Maryland,24,41,Central,24041
+"Hagerstown-Martinsburg, MD-WV",Metropolitan Statistical Area,Washington County,Maryland,24,43,Central,24043
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Cecil County,Maryland,24,15,Central,24015
+"Salisbury, MD-DE",Metropolitan Statistical Area,Somerset County,Maryland,24,39,Outlying,24039
+"Salisbury, MD-DE",Metropolitan Statistical Area,Wicomico County,Maryland,24,45,Central,24045
+"Salisbury, MD-DE",Metropolitan Statistical Area,Worcester County,Maryland,24,47,Outlying,24047
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Frederick County,Maryland,24,21,Outlying,24021
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Montgomery County,Maryland,24,31,Central,24031
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Calvert County,Maryland,24,9,Outlying,24009
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Charles County,Maryland,24,17,Outlying,24017
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Prince George's County,Maryland,24,33,Central,24033
+"Barnstable Town, MA",Metropolitan Statistical Area,Barnstable County,Massachusetts,25,1,Central,25001
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Norfolk County,Massachusetts,25,21,Central,25021
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Plymouth County,Massachusetts,25,23,Central,25023
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Suffolk County,Massachusetts,25,25,Central,25025
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Essex County,Massachusetts,25,9,Central,25009
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Middlesex County,Massachusetts,25,17,Central,25017
+"Greenfield Town, MA",Micropolitan Statistical Area,Franklin County,Massachusetts,25,11,Central,25011
+"Pittsfield, MA",Metropolitan Statistical Area,Berkshire County,Massachusetts,25,3,Central,25003
+"Providence-Warwick, RI-MA",Metropolitan Statistical Area,Bristol County,Massachusetts,25,5,Central,25005
+"Springfield, MA",Metropolitan Statistical Area,Hampden County,Massachusetts,25,13,Central,25013
+"Springfield, MA",Metropolitan Statistical Area,Hampshire County,Massachusetts,25,15,Central,25015
+"Vineyard Haven, MA",Micropolitan Statistical Area,Dukes County,Massachusetts,25,7,Central,25007
+"Worcester, MA-CT",Metropolitan Statistical Area,Worcester County,Massachusetts,25,27,Central,25027
+"Adrian, MI",Micropolitan Statistical Area,Lenawee County,Michigan,26,91,Central,26091
+"Alma, MI",Micropolitan Statistical Area,Gratiot County,Michigan,26,57,Central,26057
+"Alpena, MI",Micropolitan Statistical Area,Alpena County,Michigan,26,7,Central,26007
+"Ann Arbor, MI",Metropolitan Statistical Area,Washtenaw County,Michigan,26,161,Central,26161
+"Battle Creek, MI",Metropolitan Statistical Area,Calhoun County,Michigan,26,25,Central,26025
+"Bay City, MI",Metropolitan Statistical Area,Bay County,Michigan,26,17,Central,26017
+"Big Rapids, MI",Micropolitan Statistical Area,Mecosta County,Michigan,26,107,Central,26107
+"Cadillac, MI",Micropolitan Statistical Area,Missaukee County,Michigan,26,113,Outlying,26113
+"Cadillac, MI",Micropolitan Statistical Area,Wexford County,Michigan,26,165,Central,26165
+"Coldwater, MI",Micropolitan Statistical Area,Branch County,Michigan,26,23,Central,26023
+"Detroit-Warren-Dearborn, MI",Metropolitan Statistical Area,Wayne County,Michigan,26,163,Central,26163
+"Detroit-Warren-Dearborn, MI",Metropolitan Statistical Area,Lapeer County,Michigan,26,87,Outlying,26087
+"Detroit-Warren-Dearborn, MI",Metropolitan Statistical Area,Livingston County,Michigan,26,93,Outlying,26093
+"Detroit-Warren-Dearborn, MI",Metropolitan Statistical Area,Macomb County,Michigan,26,99,Central,26099
+"Detroit-Warren-Dearborn, MI",Metropolitan Statistical Area,Oakland County,Michigan,26,125,Central,26125
+"Detroit-Warren-Dearborn, MI",Metropolitan Statistical Area,St. Clair County,Michigan,26,147,Outlying,26147
+"Escanaba, MI",Micropolitan Statistical Area,Delta County,Michigan,26,41,Central,26041
+"Flint, MI",Metropolitan Statistical Area,Genesee County,Michigan,26,49,Central,26049
+"Grand Rapids-Wyoming, MI",Metropolitan Statistical Area,Barry County,Michigan,26,15,Outlying,26015
+"Grand Rapids-Wyoming, MI",Metropolitan Statistical Area,Kent County,Michigan,26,81,Central,26081
+"Grand Rapids-Wyoming, MI",Metropolitan Statistical Area,Montcalm County,Michigan,26,117,Outlying,26117
+"Grand Rapids-Wyoming, MI",Metropolitan Statistical Area,Ottawa County,Michigan,26,139,Outlying,26139
+"Hillsdale, MI",Micropolitan Statistical Area,Hillsdale County,Michigan,26,59,Central,26059
+"Holland, MI",Micropolitan Statistical Area,Allegan County,Michigan,26,5,Central,26005
+"Houghton, MI",Micropolitan Statistical Area,Houghton County,Michigan,26,61,Central,26061
+"Houghton, MI",Micropolitan Statistical Area,Keweenaw County,Michigan,26,83,Outlying,26083
+"Ionia, MI",Micropolitan Statistical Area,Ionia County,Michigan,26,67,Central,26067
+"Iron Mountain, MI-WI",Micropolitan Statistical Area,Dickinson County,Michigan,26,43,Central,26043
+"Jackson, MI",Metropolitan Statistical Area,Jackson County,Michigan,26,75,Central,26075
+"Kalamazoo-Portage, MI",Metropolitan Statistical Area,Kalamazoo County,Michigan,26,77,Central,26077
+"Kalamazoo-Portage, MI",Metropolitan Statistical Area,Van Buren County,Michigan,26,159,Outlying,26159
+"Lansing-East Lansing, MI",Metropolitan Statistical Area,Clinton County,Michigan,26,37,Central,26037
+"Lansing-East Lansing, MI",Metropolitan Statistical Area,Eaton County,Michigan,26,45,Central,26045
+"Lansing-East Lansing, MI",Metropolitan Statistical Area,Ingham County,Michigan,26,65,Central,26065
+"Ludington, MI",Micropolitan Statistical Area,Mason County,Michigan,26,105,Central,26105
+"Marinette, WI-MI",Micropolitan Statistical Area,Menominee County,Michigan,26,109,Central,26109
+"Marquette, MI",Micropolitan Statistical Area,Marquette County,Michigan,26,103,Central,26103
+"Midland, MI",Metropolitan Statistical Area,Midland County,Michigan,26,111,Central,26111
+"Monroe, MI",Metropolitan Statistical Area,Monroe County,Michigan,26,115,Central,26115
+"Mount Pleasant, MI",Micropolitan Statistical Area,Isabella County,Michigan,26,73,Central,26073
+"Muskegon, MI",Metropolitan Statistical Area,Muskegon County,Michigan,26,121,Central,26121
+"Niles-Benton Harbor, MI",Metropolitan Statistical Area,Berrien County,Michigan,26,21,Central,26021
+"Owosso, MI",Micropolitan Statistical Area,Shiawassee County,Michigan,26,155,Central,26155
+"Saginaw, MI",Metropolitan Statistical Area,Saginaw County,Michigan,26,145,Central,26145
+"Sault Ste. Marie, MI",Micropolitan Statistical Area,Chippewa County,Michigan,26,33,Central,26033
+"South Bend-Mishawaka, IN-MI",Metropolitan Statistical Area,Cass County,Michigan,26,27,Central,26027
+"Sturgis, MI",Micropolitan Statistical Area,St. Joseph County,Michigan,26,149,Central,26149
+"Traverse City, MI",Micropolitan Statistical Area,Benzie County,Michigan,26,19,Outlying,26019
+"Traverse City, MI",Micropolitan Statistical Area,Grand Traverse County,Michigan,26,55,Central,26055
+"Traverse City, MI",Micropolitan Statistical Area,Kalkaska County,Michigan,26,79,Outlying,26079
+"Traverse City, MI",Micropolitan Statistical Area,Leelanau County,Michigan,26,89,Outlying,26089
+"Albert Lea, MN",Micropolitan Statistical Area,Freeborn County,Minnesota,27,47,Central,27047
+"Alexandria, MN",Micropolitan Statistical Area,Douglas County,Minnesota,27,41,Central,27041
+"Austin, MN",Micropolitan Statistical Area,Mower County,Minnesota,27,99,Central,27099
+"Bemidji, MN",Micropolitan Statistical Area,Beltrami County,Minnesota,27,7,Central,27007
+"Brainerd, MN",Micropolitan Statistical Area,Cass County,Minnesota,27,21,Outlying,27021
+"Brainerd, MN",Micropolitan Statistical Area,Crow Wing County,Minnesota,27,35,Central,27035
+"Duluth, MN-WI",Metropolitan Statistical Area,Carlton County,Minnesota,27,17,Outlying,27017
+"Duluth, MN-WI",Metropolitan Statistical Area,St. Louis County,Minnesota,27,137,Central,27137
+"Fairmont, MN",Micropolitan Statistical Area,Martin County,Minnesota,27,91,Central,27091
+"Fargo, ND-MN",Metropolitan Statistical Area,Clay County,Minnesota,27,27,Central,27027
+"Faribault-Northfield, MN",Micropolitan Statistical Area,Rice County,Minnesota,27,131,Central,27131
+"Fergus Falls, MN",Micropolitan Statistical Area,Otter Tail County,Minnesota,27,111,Central,27111
+"Grand Forks, ND-MN",Metropolitan Statistical Area,Polk County,Minnesota,27,119,Central,27119
+"Grand Rapids, MN",Micropolitan Statistical Area,Itasca County,Minnesota,27,61,Central,27061
+"Hutchinson, MN",Micropolitan Statistical Area,McLeod County,Minnesota,27,85,Central,27085
+"La Crosse-Onalaska, WI-MN",Metropolitan Statistical Area,Houston County,Minnesota,27,55,Central,27055
+"Mankato-North Mankato, MN",Metropolitan Statistical Area,Blue Earth County,Minnesota,27,13,Central,27013
+"Mankato-North Mankato, MN",Metropolitan Statistical Area,Nicollet County,Minnesota,27,103,Central,27103
+"Marshall, MN",Micropolitan Statistical Area,Lyon County,Minnesota,27,83,Central,27083
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Anoka County,Minnesota,27,3,Central,27003
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Carver County,Minnesota,27,19,Central,27019
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Chisago County,Minnesota,27,25,Outlying,27025
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Dakota County,Minnesota,27,37,Central,27037
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Hennepin County,Minnesota,27,53,Central,27053
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Isanti County,Minnesota,27,59,Outlying,27059
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Le Sueur County,Minnesota,27,79,Outlying,27079
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Mille Lacs County,Minnesota,27,95,Outlying,27095
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Ramsey County,Minnesota,27,123,Central,27123
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Scott County,Minnesota,27,139,Central,27139
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Sherburne County,Minnesota,27,141,Central,27141
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Sibley County,Minnesota,27,143,Outlying,27143
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Washington County,Minnesota,27,163,Central,27163
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Wright County,Minnesota,27,171,Central,27171
+"New Ulm, MN",Micropolitan Statistical Area,Brown County,Minnesota,27,15,Central,27015
+"Owatonna, MN",Micropolitan Statistical Area,Steele County,Minnesota,27,147,Central,27147
+"Red Wing, MN",Micropolitan Statistical Area,Goodhue County,Minnesota,27,49,Central,27049
+"Rochester, MN",Metropolitan Statistical Area,Dodge County,Minnesota,27,39,Outlying,27039
+"Rochester, MN",Metropolitan Statistical Area,Fillmore County,Minnesota,27,45,Outlying,27045
+"Rochester, MN",Metropolitan Statistical Area,Olmsted County,Minnesota,27,109,Central,27109
+"Rochester, MN",Metropolitan Statistical Area,Wabasha County,Minnesota,27,157,Outlying,27157
+"St. Cloud, MN",Metropolitan Statistical Area,Benton County,Minnesota,27,9,Central,27009
+"St. Cloud, MN",Metropolitan Statistical Area,Stearns County,Minnesota,27,145,Central,27145
+"Wahpeton, ND-MN",Micropolitan Statistical Area,Wilkin County,Minnesota,27,167,Outlying,27167
+"Willmar, MN",Micropolitan Statistical Area,Kandiyohi County,Minnesota,27,67,Central,27067
+"Winona, MN",Micropolitan Statistical Area,Winona County,Minnesota,27,169,Central,27169
+"Worthington, MN",Micropolitan Statistical Area,Nobles County,Minnesota,27,105,Central,27105
+"Brookhaven, MS",Micropolitan Statistical Area,Lincoln County,Mississippi,28,85,Central,28085
+"Clarksdale, MS",Micropolitan Statistical Area,Coahoma County,Mississippi,28,27,Central,28027
+"Cleveland, MS",Micropolitan Statistical Area,Bolivar County,Mississippi,28,11,Central,28011
+"Columbus, MS",Micropolitan Statistical Area,Lowndes County,Mississippi,28,87,Central,28087
+"Corinth, MS",Micropolitan Statistical Area,Alcorn County,Mississippi,28,3,Central,28003
+"Greenville, MS",Micropolitan Statistical Area,Washington County,Mississippi,28,151,Central,28151
+"Greenwood, MS",Micropolitan Statistical Area,Carroll County,Mississippi,28,15,Outlying,28015
+"Greenwood, MS",Micropolitan Statistical Area,Leflore County,Mississippi,28,83,Central,28083
+"Grenada, MS",Micropolitan Statistical Area,Grenada County,Mississippi,28,43,Central,28043
+"Gulfport-Biloxi-Pascagoula, MS",Metropolitan Statistical Area,Hancock County,Mississippi,28,45,Central,28045
+"Gulfport-Biloxi-Pascagoula, MS",Metropolitan Statistical Area,Harrison County,Mississippi,28,47,Central,28047
+"Gulfport-Biloxi-Pascagoula, MS",Metropolitan Statistical Area,Jackson County,Mississippi,28,59,Outlying,28059
+"Hattiesburg, MS",Metropolitan Statistical Area,Forrest County,Mississippi,28,35,Central,28035
+"Hattiesburg, MS",Metropolitan Statistical Area,Lamar County,Mississippi,28,73,Central,28073
+"Hattiesburg, MS",Metropolitan Statistical Area,Perry County,Mississippi,28,111,Outlying,28111
+"Indianola, MS",Micropolitan Statistical Area,Sunflower County,Mississippi,28,133,Central,28133
+"Jackson, MS",Metropolitan Statistical Area,Copiah County,Mississippi,28,29,Outlying,28029
+"Jackson, MS",Metropolitan Statistical Area,Hinds County,Mississippi,28,49,Central,28049
+"Jackson, MS",Metropolitan Statistical Area,Madison County,Mississippi,28,89,Central,28089
+"Jackson, MS",Metropolitan Statistical Area,Rankin County,Mississippi,28,121,Central,28121
+"Jackson, MS",Metropolitan Statistical Area,Simpson County,Mississippi,28,127,Outlying,28127
+"Jackson, MS",Metropolitan Statistical Area,Yazoo County,Mississippi,28,163,Outlying,28163
+"Laurel, MS",Micropolitan Statistical Area,Jasper County,Mississippi,28,61,Outlying,28061
+"Laurel, MS",Micropolitan Statistical Area,Jones County,Mississippi,28,67,Central,28067
+"McComb, MS",Micropolitan Statistical Area,Amite County,Mississippi,28,5,Outlying,28005
+"McComb, MS",Micropolitan Statistical Area,Pike County,Mississippi,28,113,Central,28113
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Benton County,Mississippi,28,9,Outlying,28009
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,DeSoto County,Mississippi,28,33,Central,28033
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Marshall County,Mississippi,28,93,Outlying,28093
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Tate County,Mississippi,28,137,Outlying,28137
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Tunica County,Mississippi,28,143,Outlying,28143
+"Meridian, MS",Micropolitan Statistical Area,Clarke County,Mississippi,28,23,Outlying,28023
+"Meridian, MS",Micropolitan Statistical Area,Kemper County,Mississippi,28,69,Outlying,28069
+"Meridian, MS",Micropolitan Statistical Area,Lauderdale County,Mississippi,28,75,Central,28075
+"Natchez, MS-LA",Micropolitan Statistical Area,Adams County,Mississippi,28,1,Central,28001
+"Oxford, MS",Micropolitan Statistical Area,Lafayette County,Mississippi,28,71,Central,28071
+"Picayune, MS",Micropolitan Statistical Area,Pearl River County,Mississippi,28,109,Central,28109
+"Starkville, MS",Micropolitan Statistical Area,Oktibbeha County,Mississippi,28,105,Central,28105
+"Tupelo, MS",Micropolitan Statistical Area,Itawamba County,Mississippi,28,57,Outlying,28057
+"Tupelo, MS",Micropolitan Statistical Area,Lee County,Mississippi,28,81,Central,28081
+"Tupelo, MS",Micropolitan Statistical Area,Pontotoc County,Mississippi,28,115,Outlying,28115
+"Vicksburg, MS",Micropolitan Statistical Area,Claiborne County,Mississippi,28,21,Outlying,28021
+"Vicksburg, MS",Micropolitan Statistical Area,Warren County,Mississippi,28,149,Central,28149
+"West Point, MS",Micropolitan Statistical Area,Clay County,Mississippi,28,25,Central,28025
+"Branson, MO",Micropolitan Statistical Area,Stone County,Missouri,29,209,Outlying,29209
+"Branson, MO",Micropolitan Statistical Area,Taney County,Missouri,29,213,Central,29213
+"Cape Girardeau, MO-IL",Metropolitan Statistical Area,Bollinger County,Missouri,29,17,Outlying,29017
+"Cape Girardeau, MO-IL",Metropolitan Statistical Area,Cape Girardeau County,Missouri,29,31,Central,29031
+"Columbia, MO",Metropolitan Statistical Area,Boone County,Missouri,29,19,Central,29019
+"Farmington, MO",Micropolitan Statistical Area,St. Francois County,Missouri,29,187,Central,29187
+"Fayetteville-Springdale-Rogers, AR-MO",Metropolitan Statistical Area,McDonald County,Missouri,29,119,Outlying,29119
+"Fort Leonard Wood, MO",Micropolitan Statistical Area,Pulaski County,Missouri,29,169,Central,29169
+"Fort Madison-Keokuk, IA-IL-MO",Micropolitan Statistical Area,Clark County,Missouri,29,45,Outlying,29045
+"Hannibal, MO",Micropolitan Statistical Area,Marion County,Missouri,29,127,Central,29127
+"Hannibal, MO",Micropolitan Statistical Area,Ralls County,Missouri,29,173,Outlying,29173
+"Jefferson City, MO",Metropolitan Statistical Area,Callaway County,Missouri,29,27,Outlying,29027
+"Jefferson City, MO",Metropolitan Statistical Area,Cole County,Missouri,29,51,Central,29051
+"Jefferson City, MO",Metropolitan Statistical Area,Moniteau County,Missouri,29,135,Outlying,29135
+"Jefferson City, MO",Metropolitan Statistical Area,Osage County,Missouri,29,151,Outlying,29151
+"Joplin, MO",Metropolitan Statistical Area,Jasper County,Missouri,29,97,Central,29097
+"Joplin, MO",Metropolitan Statistical Area,Newton County,Missouri,29,145,Outlying,29145
+"Kansas City, MO-KS",Metropolitan Statistical Area,Bates County,Missouri,29,13,Outlying,29013
+"Kansas City, MO-KS",Metropolitan Statistical Area,Caldwell County,Missouri,29,25,Outlying,29025
+"Kansas City, MO-KS",Metropolitan Statistical Area,Cass County,Missouri,29,37,Central,29037
+"Kansas City, MO-KS",Metropolitan Statistical Area,Clay County,Missouri,29,47,Central,29047
+"Kansas City, MO-KS",Metropolitan Statistical Area,Clinton County,Missouri,29,49,Outlying,29049
+"Kansas City, MO-KS",Metropolitan Statistical Area,Jackson County,Missouri,29,95,Central,29095
+"Kansas City, MO-KS",Metropolitan Statistical Area,Lafayette County,Missouri,29,107,Outlying,29107
+"Kansas City, MO-KS",Metropolitan Statistical Area,Platte County,Missouri,29,165,Central,29165
+"Kansas City, MO-KS",Metropolitan Statistical Area,Ray County,Missouri,29,177,Outlying,29177
+"Kennett, MO",Micropolitan Statistical Area,Dunklin County,Missouri,29,69,Central,29069
+"Kirksville, MO",Micropolitan Statistical Area,Adair County,Missouri,29,1,Central,29001
+"Kirksville, MO",Micropolitan Statistical Area,Schuyler County,Missouri,29,197,Outlying,29197
+"Lebanon, MO",Micropolitan Statistical Area,Laclede County,Missouri,29,105,Central,29105
+"Marshall, MO",Micropolitan Statistical Area,Saline County,Missouri,29,195,Central,29195
+"Maryville, MO",Micropolitan Statistical Area,Nodaway County,Missouri,29,147,Central,29147
+"Mexico, MO",Micropolitan Statistical Area,Audrain County,Missouri,29,7,Central,29007
+"Moberly, MO",Micropolitan Statistical Area,Randolph County,Missouri,29,175,Central,29175
+"Poplar Bluff, MO",Micropolitan Statistical Area,Butler County,Missouri,29,23,Central,29023
+"Quincy, IL-MO",Micropolitan Statistical Area,Lewis County,Missouri,29,111,Outlying,29111
+"Rolla, MO",Micropolitan Statistical Area,Phelps County,Missouri,29,161,Central,29161
+"St. Joseph, MO-KS",Metropolitan Statistical Area,Andrew County,Missouri,29,3,Outlying,29003
+"St. Joseph, MO-KS",Metropolitan Statistical Area,Buchanan County,Missouri,29,21,Central,29021
+"St. Joseph, MO-KS",Metropolitan Statistical Area,DeKalb County,Missouri,29,63,Outlying,29063
+"St. Louis, MO-IL",Metropolitan Statistical Area,Franklin County,Missouri,29,71,Outlying,29071
+"St. Louis, MO-IL",Metropolitan Statistical Area,Jefferson County,Missouri,29,99,Central,29099
+"St. Louis, MO-IL",Metropolitan Statistical Area,Lincoln County,Missouri,29,113,Outlying,29113
+"St. Louis, MO-IL",Metropolitan Statistical Area,St. Charles County,Missouri,29,183,Central,29183
+"St. Louis, MO-IL",Metropolitan Statistical Area,St. Louis County,Missouri,29,189,Central,29189
+"St. Louis, MO-IL",Metropolitan Statistical Area,Warren County,Missouri,29,219,Outlying,29219
+"St. Louis, MO-IL",Metropolitan Statistical Area,St. Louis city,Missouri,29,510,Central,29510
+"Sedalia, MO",Micropolitan Statistical Area,Pettis County,Missouri,29,159,Central,29159
+"Sikeston, MO",Micropolitan Statistical Area,Scott County,Missouri,29,201,Central,29201
+"Springfield, MO",Metropolitan Statistical Area,Christian County,Missouri,29,43,Central,29043
+"Springfield, MO",Metropolitan Statistical Area,Dallas County,Missouri,29,59,Outlying,29059
+"Springfield, MO",Metropolitan Statistical Area,Greene County,Missouri,29,77,Central,29077
+"Springfield, MO",Metropolitan Statistical Area,Polk County,Missouri,29,167,Outlying,29167
+"Springfield, MO",Metropolitan Statistical Area,Webster County,Missouri,29,225,Outlying,29225
+"Warrensburg, MO",Micropolitan Statistical Area,Johnson County,Missouri,29,101,Central,29101
+"West Plains, MO",Micropolitan Statistical Area,Howell County,Missouri,29,91,Central,29091
+"Billings, MT",Metropolitan Statistical Area,Carbon County,Montana,30,9,Outlying,30009
+"Billings, MT",Metropolitan Statistical Area,Golden Valley County,Montana,30,37,Outlying,30037
+"Billings, MT",Metropolitan Statistical Area,Yellowstone County,Montana,30,111,Central,30111
+"Bozeman, MT",Micropolitan Statistical Area,Gallatin County,Montana,30,31,Central,30031
+"Butte-Silver Bow, MT",Micropolitan Statistical Area,Silver Bow County,Montana,30,93,Central,30093
+"Great Falls, MT",Metropolitan Statistical Area,Cascade County,Montana,30,13,Central,30013
+"Helena, MT",Micropolitan Statistical Area,Jefferson County,Montana,30,43,Outlying,30043
+"Helena, MT",Micropolitan Statistical Area,Lewis and Clark County,Montana,30,49,Central,30049
+"Kalispell, MT",Micropolitan Statistical Area,Flathead County,Montana,30,29,Central,30029
+"Missoula, MT",Metropolitan Statistical Area,Missoula County,Montana,30,63,Central,30063
+"Beatrice, NE",Micropolitan Statistical Area,Gage County,Nebraska,31,67,Central,31067
+"Columbus, NE",Micropolitan Statistical Area,Platte County,Nebraska,31,141,Central,31141
+"Fremont, NE",Micropolitan Statistical Area,Dodge County,Nebraska,31,53,Central,31053
+"Grand Island, NE",Metropolitan Statistical Area,Hall County,Nebraska,31,79,Central,31079
+"Grand Island, NE",Metropolitan Statistical Area,Hamilton County,Nebraska,31,81,Outlying,31081
+"Grand Island, NE",Metropolitan Statistical Area,Howard County,Nebraska,31,93,Outlying,31093
+"Grand Island, NE",Metropolitan Statistical Area,Merrick County,Nebraska,31,121,Outlying,31121
+"Hastings, NE",Micropolitan Statistical Area,Adams County,Nebraska,31,1,Central,31001
+"Kearney, NE",Micropolitan Statistical Area,Buffalo County,Nebraska,31,19,Central,31019
+"Kearney, NE",Micropolitan Statistical Area,Kearney County,Nebraska,31,99,Outlying,31099
+"Lexington, NE",Micropolitan Statistical Area,Dawson County,Nebraska,31,47,Central,31047
+"Lexington, NE",Micropolitan Statistical Area,Gosper County,Nebraska,31,73,Outlying,31073
+"Lincoln, NE",Metropolitan Statistical Area,Lancaster County,Nebraska,31,109,Central,31109
+"Lincoln, NE",Metropolitan Statistical Area,Seward County,Nebraska,31,159,Outlying,31159
+"Norfolk, NE",Micropolitan Statistical Area,Madison County,Nebraska,31,119,Central,31119
+"Norfolk, NE",Micropolitan Statistical Area,Pierce County,Nebraska,31,139,Outlying,31139
+"Norfolk, NE",Micropolitan Statistical Area,Stanton County,Nebraska,31,167,Outlying,31167
+"North Platte, NE",Micropolitan Statistical Area,Lincoln County,Nebraska,31,111,Central,31111
+"North Platte, NE",Micropolitan Statistical Area,Logan County,Nebraska,31,113,Outlying,31113
+"North Platte, NE",Micropolitan Statistical Area,McPherson County,Nebraska,31,117,Outlying,31117
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Cass County,Nebraska,31,25,Outlying,31025
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Douglas County,Nebraska,31,55,Central,31055
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Sarpy County,Nebraska,31,153,Central,31153
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Saunders County,Nebraska,31,155,Outlying,31155
+"Omaha-Council Bluffs, NE-IA",Metropolitan Statistical Area,Washington County,Nebraska,31,177,Outlying,31177
+"Scottsbluff, NE",Micropolitan Statistical Area,Banner County,Nebraska,31,7,Outlying,31007
+"Scottsbluff, NE",Micropolitan Statistical Area,Scotts Bluff County,Nebraska,31,157,Central,31157
+"Scottsbluff, NE",Micropolitan Statistical Area,Sioux County,Nebraska,31,165,Outlying,31165
+"Sioux City, IA-NE-SD",Metropolitan Statistical Area,Dakota County,Nebraska,31,43,Central,31043
+"Sioux City, IA-NE-SD",Metropolitan Statistical Area,Dixon County,Nebraska,31,51,Outlying,31051
+"Carson City, NV",Metropolitan Statistical Area,Carson City,Nevada,32,510,Central,32510
+"Elko, NV",Micropolitan Statistical Area,Elko County,Nevada,32,7,Central,32007
+"Elko, NV",Micropolitan Statistical Area,Eureka County,Nevada,32,11,Outlying,32011
+"Fallon, NV",Micropolitan Statistical Area,Churchill County,Nevada,32,1,Central,32001
+"Fernley, NV",Micropolitan Statistical Area,Lyon County,Nevada,32,19,Central,32019
+"Gardnerville Ranchos, NV",Micropolitan Statistical Area,Douglas County,Nevada,32,5,Central,32005
+"Las Vegas-Henderson-Paradise, NV",Metropolitan Statistical Area,Clark County,Nevada,32,3,Central,32003
+"Pahrump, NV",Micropolitan Statistical Area,Nye County,Nevada,32,23,Central,32023
+"Reno, NV",Metropolitan Statistical Area,Storey County,Nevada,32,29,Outlying,32029
+"Reno, NV",Metropolitan Statistical Area,Washoe County,Nevada,32,31,Central,32031
+"Winnemucca, NV",Micropolitan Statistical Area,Humboldt County,Nevada,32,13,Central,32013
+"Berlin, NH-VT",Micropolitan Statistical Area,Coos County,New Hampshire,33,7,Central,33007
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Rockingham County,New Hampshire,33,15,Central,33015
+"Boston-Cambridge-Newton, MA-NH",Metropolitan Statistical Area,Strafford County,New Hampshire,33,17,Outlying,33017
+"Claremont-Lebanon, NH-VT",Micropolitan Statistical Area,Grafton County,New Hampshire,33,9,Central,33009
+"Claremont-Lebanon, NH-VT",Micropolitan Statistical Area,Sullivan County,New Hampshire,33,19,Outlying,33019
+"Concord, NH",Micropolitan Statistical Area,Merrimack County,New Hampshire,33,13,Central,33013
+"Keene, NH",Micropolitan Statistical Area,Cheshire County,New Hampshire,33,5,Central,33005
+"Laconia, NH",Micropolitan Statistical Area,Belknap County,New Hampshire,33,1,Central,33001
+"Manchester-Nashua, NH",Metropolitan Statistical Area,Hillsborough County,New Hampshire,33,11,Central,33011
+"Allentown-Bethlehem-Easton, PA-NJ",Metropolitan Statistical Area,Warren County,New Jersey,34,41,Central,34041
+"Atlantic City-Hammonton, NJ",Metropolitan Statistical Area,Atlantic County,New Jersey,34,1,Central,34001
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Essex County,New Jersey,34,13,Central,34013
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Hunterdon County,New Jersey,34,19,Central,34019
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Morris County,New Jersey,34,27,Central,34027
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Somerset County,New Jersey,34,35,Central,34035
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Sussex County,New Jersey,34,37,Central,34037
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Union County,New Jersey,34,39,Central,34039
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Bergen County,New Jersey,34,3,Central,34003
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Hudson County,New Jersey,34,17,Central,34017
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Middlesex County,New Jersey,34,23,Central,34023
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Monmouth County,New Jersey,34,25,Central,34025
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Ocean County,New Jersey,34,29,Central,34029
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Passaic County,New Jersey,34,31,Central,34031
+"Ocean City, NJ",Metropolitan Statistical Area,Cape May County,New Jersey,34,9,Central,34009
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Burlington County,New Jersey,34,5,Central,34005
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Camden County,New Jersey,34,7,Central,34007
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Gloucester County,New Jersey,34,15,Central,34015
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Salem County,New Jersey,34,33,Central,34033
+"Trenton, NJ",Metropolitan Statistical Area,Mercer County,New Jersey,34,21,Central,34021
+"Vineland-Bridgeton, NJ",Metropolitan Statistical Area,Cumberland County,New Jersey,34,11,Central,34011
+"Alamogordo, NM",Micropolitan Statistical Area,Otero County,New Mexico,35,35,Central,35035
+"Albuquerque, NM",Metropolitan Statistical Area,Bernalillo County,New Mexico,35,1,Central,35001
+"Albuquerque, NM",Metropolitan Statistical Area,Sandoval County,New Mexico,35,43,Central,35043
+"Albuquerque, NM",Metropolitan Statistical Area,Torrance County,New Mexico,35,57,Outlying,35057
+"Albuquerque, NM",Metropolitan Statistical Area,Valencia County,New Mexico,35,61,Outlying,35061
+"Carlsbad-Artesia, NM",Micropolitan Statistical Area,Eddy County,New Mexico,35,15,Central,35015
+"Clovis, NM",Micropolitan Statistical Area,Curry County,New Mexico,35,9,Central,35009
+"Deming, NM",Micropolitan Statistical Area,Luna County,New Mexico,35,29,Central,35029
+"Española, NM",Micropolitan Statistical Area,Rio Arriba County,New Mexico,35,39,Central,35039
+"Farmington, NM",Metropolitan Statistical Area,San Juan County,New Mexico,35,45,Central,35045
+"Gallup, NM",Micropolitan Statistical Area,McKinley County,New Mexico,35,31,Central,35031
+"Grants, NM",Micropolitan Statistical Area,Cibola County,New Mexico,35,6,Central,35006
+"Hobbs, NM",Micropolitan Statistical Area,Lea County,New Mexico,35,25,Central,35025
+"Las Cruces, NM",Metropolitan Statistical Area,Doña Ana County,New Mexico,35,13,Central,35013
+"Las Vegas, NM",Micropolitan Statistical Area,San Miguel County,New Mexico,35,47,Central,35047
+"Los Alamos, NM",Micropolitan Statistical Area,Los Alamos County,New Mexico,35,28,Central,35028
+"Portales, NM",Micropolitan Statistical Area,Roosevelt County,New Mexico,35,41,Central,35041
+"Roswell, NM",Micropolitan Statistical Area,Chaves County,New Mexico,35,5,Central,35005
+"Ruidoso, NM",Micropolitan Statistical Area,Lincoln County,New Mexico,35,27,Central,35027
+"Santa Fe, NM",Metropolitan Statistical Area,Santa Fe County,New Mexico,35,49,Central,35049
+"Silver City, NM",Micropolitan Statistical Area,Grant County,New Mexico,35,17,Central,35017
+"Taos, NM",Micropolitan Statistical Area,Taos County,New Mexico,35,55,Central,35055
+"Albany-Schenectady-Troy, NY",Metropolitan Statistical Area,Albany County,New York,36,1,Central,36001
+"Albany-Schenectady-Troy, NY",Metropolitan Statistical Area,Rensselaer County,New York,36,83,Central,36083
+"Albany-Schenectady-Troy, NY",Metropolitan Statistical Area,Saratoga County,New York,36,91,Central,36091
+"Albany-Schenectady-Troy, NY",Metropolitan Statistical Area,Schenectady County,New York,36,93,Central,36093
+"Albany-Schenectady-Troy, NY",Metropolitan Statistical Area,Schoharie County,New York,36,95,Outlying,36095
+"Amsterdam, NY",Micropolitan Statistical Area,Montgomery County,New York,36,57,Central,36057
+"Auburn, NY",Micropolitan Statistical Area,Cayuga County,New York,36,11,Central,36011
+"Batavia, NY",Micropolitan Statistical Area,Genesee County,New York,36,37,Central,36037
+"Binghamton, NY",Metropolitan Statistical Area,Broome County,New York,36,7,Central,36007
+"Binghamton, NY",Metropolitan Statistical Area,Tioga County,New York,36,107,Central,36107
+"Buffalo-Cheektowaga-Niagara Falls, NY",Metropolitan Statistical Area,Erie County,New York,36,29,Central,36029
+"Buffalo-Cheektowaga-Niagara Falls, NY",Metropolitan Statistical Area,Niagara County,New York,36,63,Central,36063
+"Corning, NY",Micropolitan Statistical Area,Steuben County,New York,36,101,Central,36101
+"Cortland, NY",Micropolitan Statistical Area,Cortland County,New York,36,23,Central,36023
+"Elmira, NY",Metropolitan Statistical Area,Chemung County,New York,36,15,Central,36015
+"Glens Falls, NY",Metropolitan Statistical Area,Warren County,New York,36,113,Central,36113
+"Glens Falls, NY",Metropolitan Statistical Area,Washington County,New York,36,115,Central,36115
+"Gloversville, NY",Micropolitan Statistical Area,Fulton County,New York,36,35,Central,36035
+"Hudson, NY",Micropolitan Statistical Area,Columbia County,New York,36,21,Central,36021
+"Ithaca, NY",Metropolitan Statistical Area,Tompkins County,New York,36,109,Central,36109
+"Jamestown-Dunkirk-Fredonia, NY",Micropolitan Statistical Area,Chautauqua County,New York,36,13,Central,36013
+"Kingston, NY",Metropolitan Statistical Area,Ulster County,New York,36,111,Central,36111
+"Malone, NY",Micropolitan Statistical Area,Franklin County,New York,36,33,Central,36033
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Dutchess County,New York,36,27,Outlying,36027
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Putnam County,New York,36,79,Central,36079
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Nassau County,New York,36,59,Central,36059
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Suffolk County,New York,36,103,Central,36103
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Bronx County,New York,36,5,Central,36005
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Kings County,New York,36,47,Central,36047
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,New York County,New York,36,61,Central,36061
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Orange County,New York,36,71,Outlying,36071
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Queens County,New York,36,81,Central,36081
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Richmond County,New York,36,85,Central,36085
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Rockland County,New York,36,87,Central,36087
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Westchester County,New York,36,119,Central,36119
+"Ogdensburg-Massena, NY",Micropolitan Statistical Area,St. Lawrence County,New York,36,89,Central,36089
+"Olean, NY",Micropolitan Statistical Area,Cattaraugus County,New York,36,9,Central,36009
+"Oneonta, NY",Micropolitan Statistical Area,Otsego County,New York,36,77,Central,36077
+"Plattsburgh, NY",Micropolitan Statistical Area,Clinton County,New York,36,19,Central,36019
+"Rochester, NY",Metropolitan Statistical Area,Livingston County,New York,36,51,Outlying,36051
+"Rochester, NY",Metropolitan Statistical Area,Monroe County,New York,36,55,Central,36055
+"Rochester, NY",Metropolitan Statistical Area,Ontario County,New York,36,69,Central,36069
+"Rochester, NY",Metropolitan Statistical Area,Orleans County,New York,36,73,Outlying,36073
+"Rochester, NY",Metropolitan Statistical Area,Wayne County,New York,36,117,Outlying,36117
+"Rochester, NY",Metropolitan Statistical Area,Yates County,New York,36,123,Outlying,36123
+"Seneca Falls, NY",Micropolitan Statistical Area,Seneca County,New York,36,99,Central,36099
+"Syracuse, NY",Metropolitan Statistical Area,Madison County,New York,36,53,Outlying,36053
+"Syracuse, NY",Metropolitan Statistical Area,Onondaga County,New York,36,67,Central,36067
+"Syracuse, NY",Metropolitan Statistical Area,Oswego County,New York,36,75,Outlying,36075
+"Utica-Rome, NY",Metropolitan Statistical Area,Herkimer County,New York,36,43,Outlying,36043
+"Utica-Rome, NY",Metropolitan Statistical Area,Oneida County,New York,36,65,Central,36065
+"Watertown-Fort Drum, NY",Metropolitan Statistical Area,Jefferson County,New York,36,45,Central,36045
+"Albemarle, NC",Micropolitan Statistical Area,Stanly County,North Carolina,37,167,Central,37167
+"Asheville, NC",Metropolitan Statistical Area,Buncombe County,North Carolina,37,21,Central,37021
+"Asheville, NC",Metropolitan Statistical Area,Haywood County,North Carolina,37,87,Central,37087
+"Asheville, NC",Metropolitan Statistical Area,Henderson County,North Carolina,37,89,Central,37089
+"Asheville, NC",Metropolitan Statistical Area,Madison County,North Carolina,37,115,Outlying,37115
+"Boone, NC",Micropolitan Statistical Area,Watauga County,North Carolina,37,189,Central,37189
+"Brevard, NC",Micropolitan Statistical Area,Transylvania County,North Carolina,37,175,Central,37175
+"Burlington, NC",Metropolitan Statistical Area,Alamance County,North Carolina,37,1,Central,37001
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Cabarrus County,North Carolina,37,25,Outlying,37025
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Gaston County,North Carolina,37,71,Outlying,37071
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Iredell County,North Carolina,37,97,Central,37097
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Lincoln County,North Carolina,37,109,Outlying,37109
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Mecklenburg County,North Carolina,37,119,Central,37119
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Rowan County,North Carolina,37,159,Outlying,37159
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Union County,North Carolina,37,179,Central,37179
+"Cullowhee, NC",Micropolitan Statistical Area,Jackson County,North Carolina,37,99,Central,37099
+"Dunn, NC",Micropolitan Statistical Area,Harnett County,North Carolina,37,85,Central,37085
+"Durham-Chapel Hill, NC",Metropolitan Statistical Area,Chatham County,North Carolina,37,37,Central,37037
+"Durham-Chapel Hill, NC",Metropolitan Statistical Area,Durham County,North Carolina,37,63,Central,37063
+"Durham-Chapel Hill, NC",Metropolitan Statistical Area,Orange County,North Carolina,37,135,Central,37135
+"Durham-Chapel Hill, NC",Metropolitan Statistical Area,Person County,North Carolina,37,145,Outlying,37145
+"Elizabeth City, NC",Micropolitan Statistical Area,Camden County,North Carolina,37,29,Outlying,37029
+"Elizabeth City, NC",Micropolitan Statistical Area,Pasquotank County,North Carolina,37,139,Central,37139
+"Elizabeth City, NC",Micropolitan Statistical Area,Perquimans County,North Carolina,37,143,Outlying,37143
+"Fayetteville, NC",Metropolitan Statistical Area,Cumberland County,North Carolina,37,51,Central,37051
+"Fayetteville, NC",Metropolitan Statistical Area,Hoke County,North Carolina,37,93,Central,37093
+"Forest City, NC",Micropolitan Statistical Area,Rutherford County,North Carolina,37,161,Central,37161
+"Goldsboro, NC",Metropolitan Statistical Area,Wayne County,North Carolina,37,191,Central,37191
+"Greensboro-High Point, NC",Metropolitan Statistical Area,Guilford County,North Carolina,37,81,Central,37081
+"Greensboro-High Point, NC",Metropolitan Statistical Area,Randolph County,North Carolina,37,151,Outlying,37151
+"Greensboro-High Point, NC",Metropolitan Statistical Area,Rockingham County,North Carolina,37,157,Outlying,37157
+"Greenville, NC",Metropolitan Statistical Area,Pitt County,North Carolina,37,147,Central,37147
+"Henderson, NC",Micropolitan Statistical Area,Vance County,North Carolina,37,181,Central,37181
+"Hickory-Lenoir-Morganton, NC",Metropolitan Statistical Area,Alexander County,North Carolina,37,3,Outlying,37003
+"Hickory-Lenoir-Morganton, NC",Metropolitan Statistical Area,Burke County,North Carolina,37,23,Central,37023
+"Hickory-Lenoir-Morganton, NC",Metropolitan Statistical Area,Caldwell County,North Carolina,37,27,Central,37027
+"Hickory-Lenoir-Morganton, NC",Metropolitan Statistical Area,Catawba County,North Carolina,37,35,Central,37035
+"Jacksonville, NC",Metropolitan Statistical Area,Onslow County,North Carolina,37,133,Central,37133
+"Kill Devil Hills, NC",Micropolitan Statistical Area,Dare County,North Carolina,37,55,Central,37055
+"Kill Devil Hills, NC",Micropolitan Statistical Area,Tyrrell County,North Carolina,37,177,Outlying,37177
+"Kinston, NC",Micropolitan Statistical Area,Lenoir County,North Carolina,37,107,Central,37107
+"Laurinburg, NC",Micropolitan Statistical Area,Scotland County,North Carolina,37,165,Central,37165
+"Lumberton, NC",Micropolitan Statistical Area,Robeson County,North Carolina,37,155,Central,37155
+"Marion, NC",Micropolitan Statistical Area,McDowell County,North Carolina,37,111,Central,37111
+"Morehead City, NC",Micropolitan Statistical Area,Carteret County,North Carolina,37,31,Central,37031
+"Mount Airy, NC",Micropolitan Statistical Area,Surry County,North Carolina,37,171,Central,37171
+"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",Metropolitan Statistical Area,Brunswick County,North Carolina,37,19,Central,37019
+"New Bern, NC",Metropolitan Statistical Area,Craven County,North Carolina,37,49,Central,37049
+"New Bern, NC",Metropolitan Statistical Area,Jones County,North Carolina,37,103,Outlying,37103
+"New Bern, NC",Metropolitan Statistical Area,Pamlico County,North Carolina,37,137,Outlying,37137
+"North Wilkesboro, NC",Micropolitan Statistical Area,Wilkes County,North Carolina,37,193,Central,37193
+"Oxford, NC",Micropolitan Statistical Area,Granville County,North Carolina,37,77,Central,37077
+"Pinehurst-Southern Pines, NC",Micropolitan Statistical Area,Moore County,North Carolina,37,125,Central,37125
+"Raleigh, NC",Metropolitan Statistical Area,Franklin County,North Carolina,37,69,Outlying,37069
+"Raleigh, NC",Metropolitan Statistical Area,Johnston County,North Carolina,37,101,Central,37101
+"Raleigh, NC",Metropolitan Statistical Area,Wake County,North Carolina,37,183,Central,37183
+"Roanoke Rapids, NC",Micropolitan Statistical Area,Halifax County,North Carolina,37,83,Central,37083
+"Roanoke Rapids, NC",Micropolitan Statistical Area,Northampton County,North Carolina,37,131,Outlying,37131
+"Rockingham, NC",Micropolitan Statistical Area,Richmond County,North Carolina,37,153,Central,37153
+"Rocky Mount, NC",Metropolitan Statistical Area,Edgecombe County,North Carolina,37,65,Central,37065
+"Rocky Mount, NC",Metropolitan Statistical Area,Nash County,North Carolina,37,127,Central,37127
+"Sanford, NC",Micropolitan Statistical Area,Lee County,North Carolina,37,105,Central,37105
+"Shelby, NC",Micropolitan Statistical Area,Cleveland County,North Carolina,37,45,Central,37045
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Currituck County,North Carolina,37,53,Outlying,37053
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Gates County,North Carolina,37,73,Outlying,37073
+"Washington, NC",Micropolitan Statistical Area,Beaufort County,North Carolina,37,13,Central,37013
+"Wilmington, NC",Metropolitan Statistical Area,New Hanover County,North Carolina,37,129,Central,37129
+"Wilmington, NC",Metropolitan Statistical Area,Pender County,North Carolina,37,141,Outlying,37141
+"Wilson, NC",Micropolitan Statistical Area,Wilson County,North Carolina,37,195,Central,37195
+"Winston-Salem, NC",Metropolitan Statistical Area,Davidson County,North Carolina,37,57,Central,37057
+"Winston-Salem, NC",Metropolitan Statistical Area,Davie County,North Carolina,37,59,Central,37059
+"Winston-Salem, NC",Metropolitan Statistical Area,Forsyth County,North Carolina,37,67,Central,37067
+"Winston-Salem, NC",Metropolitan Statistical Area,Stokes County,North Carolina,37,169,Central,37169
+"Winston-Salem, NC",Metropolitan Statistical Area,Yadkin County,North Carolina,37,197,Outlying,37197
+"Bismarck, ND",Metropolitan Statistical Area,Burleigh County,North Dakota,38,15,Central,38015
+"Bismarck, ND",Metropolitan Statistical Area,Morton County,North Dakota,38,59,Central,38059
+"Bismarck, ND",Metropolitan Statistical Area,Oliver County,North Dakota,38,65,Outlying,38065
+"Bismarck, ND",Metropolitan Statistical Area,Sioux County,North Dakota,38,85,Outlying,38085
+"Dickinson, ND",Micropolitan Statistical Area,Stark County,North Dakota,38,89,Central,38089
+"Fargo, ND-MN",Metropolitan Statistical Area,Cass County,North Dakota,38,17,Central,38017
+"Grand Forks, ND-MN",Metropolitan Statistical Area,Grand Forks County,North Dakota,38,35,Central,38035
+"Jamestown, ND",Micropolitan Statistical Area,Stutsman County,North Dakota,38,93,Central,38093
+"Minot, ND",Micropolitan Statistical Area,McHenry County,North Dakota,38,49,Outlying,38049
+"Minot, ND",Micropolitan Statistical Area,Renville County,North Dakota,38,75,Outlying,38075
+"Minot, ND",Micropolitan Statistical Area,Ward County,North Dakota,38,101,Central,38101
+"Wahpeton, ND-MN",Micropolitan Statistical Area,Richland County,North Dakota,38,77,Central,38077
+"Williston, ND",Micropolitan Statistical Area,Williams County,North Dakota,38,105,Central,38105
+"Akron, OH",Metropolitan Statistical Area,Portage County,Ohio,39,133,Central,39133
+"Akron, OH",Metropolitan Statistical Area,Summit County,Ohio,39,153,Central,39153
+"Ashland, OH",Micropolitan Statistical Area,Ashland County,Ohio,39,5,Central,39005
+"Ashtabula, OH",Micropolitan Statistical Area,Ashtabula County,Ohio,39,7,Central,39007
+"Athens, OH",Micropolitan Statistical Area,Athens County,Ohio,39,9,Central,39009
+"Bellefontaine, OH",Micropolitan Statistical Area,Logan County,Ohio,39,91,Central,39091
+"Bucyrus, OH",Micropolitan Statistical Area,Crawford County,Ohio,39,33,Central,39033
+"Cambridge, OH",Micropolitan Statistical Area,Guernsey County,Ohio,39,59,Central,39059
+"Canton-Massillon, OH",Metropolitan Statistical Area,Carroll County,Ohio,39,19,Outlying,39019
+"Canton-Massillon, OH",Metropolitan Statistical Area,Stark County,Ohio,39,151,Central,39151
+"Celina, OH",Micropolitan Statistical Area,Mercer County,Ohio,39,107,Central,39107
+"Chillicothe, OH",Micropolitan Statistical Area,Ross County,Ohio,39,141,Central,39141
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Brown County,Ohio,39,15,Outlying,39015
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Butler County,Ohio,39,17,Central,39017
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Clermont County,Ohio,39,25,Central,39025
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Hamilton County,Ohio,39,61,Central,39061
+"Cincinnati, OH-KY-IN",Metropolitan Statistical Area,Warren County,Ohio,39,165,Central,39165
+"Cleveland-Elyria, OH",Metropolitan Statistical Area,Cuyahoga County,Ohio,39,35,Central,39035
+"Cleveland-Elyria, OH",Metropolitan Statistical Area,Geauga County,Ohio,39,55,Central,39055
+"Cleveland-Elyria, OH",Metropolitan Statistical Area,Lake County,Ohio,39,85,Central,39085
+"Cleveland-Elyria, OH",Metropolitan Statistical Area,Lorain County,Ohio,39,93,Outlying,39093
+"Cleveland-Elyria, OH",Metropolitan Statistical Area,Medina County,Ohio,39,103,Central,39103
+"Columbus, OH",Metropolitan Statistical Area,Delaware County,Ohio,39,41,Central,39041
+"Columbus, OH",Metropolitan Statistical Area,Fairfield County,Ohio,39,45,Central,39045
+"Columbus, OH",Metropolitan Statistical Area,Franklin County,Ohio,39,49,Central,39049
+"Columbus, OH",Metropolitan Statistical Area,Hocking County,Ohio,39,73,Outlying,39073
+"Columbus, OH",Metropolitan Statistical Area,Licking County,Ohio,39,89,Outlying,39089
+"Columbus, OH",Metropolitan Statistical Area,Madison County,Ohio,39,97,Outlying,39097
+"Columbus, OH",Metropolitan Statistical Area,Morrow County,Ohio,39,117,Outlying,39117
+"Columbus, OH",Metropolitan Statistical Area,Perry County,Ohio,39,127,Outlying,39127
+"Columbus, OH",Metropolitan Statistical Area,Pickaway County,Ohio,39,129,Outlying,39129
+"Columbus, OH",Metropolitan Statistical Area,Union County,Ohio,39,159,Outlying,39159
+"Coshocton, OH",Micropolitan Statistical Area,Coshocton County,Ohio,39,31,Central,39031
+"Dayton, OH",Metropolitan Statistical Area,Greene County,Ohio,39,57,Central,39057
+"Dayton, OH",Metropolitan Statistical Area,Miami County,Ohio,39,109,Central,39109
+"Dayton, OH",Metropolitan Statistical Area,Montgomery County,Ohio,39,113,Central,39113
+"Defiance, OH",Micropolitan Statistical Area,Defiance County,Ohio,39,39,Central,39039
+"Findlay, OH",Micropolitan Statistical Area,Hancock County,Ohio,39,63,Central,39063
+"Fremont, OH",Micropolitan Statistical Area,Sandusky County,Ohio,39,143,Central,39143
+"Greenville, OH",Micropolitan Statistical Area,Darke County,Ohio,39,37,Central,39037
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Lawrence County,Ohio,39,87,Central,39087
+"Jackson, OH",Micropolitan Statistical Area,Jackson County,Ohio,39,79,Central,39079
+"Lima, OH",Metropolitan Statistical Area,Allen County,Ohio,39,3,Central,39003
+"Mansfield, OH",Metropolitan Statistical Area,Richland County,Ohio,39,139,Central,39139
+"Marietta, OH",Micropolitan Statistical Area,Washington County,Ohio,39,167,Central,39167
+"Marion, OH",Micropolitan Statistical Area,Marion County,Ohio,39,101,Central,39101
+"Mount Vernon, OH",Micropolitan Statistical Area,Knox County,Ohio,39,83,Central,39083
+"New Philadelphia-Dover, OH",Micropolitan Statistical Area,Tuscarawas County,Ohio,39,157,Central,39157
+"Norwalk, OH",Micropolitan Statistical Area,Huron County,Ohio,39,77,Central,39077
+"Point Pleasant, WV-OH",Micropolitan Statistical Area,Gallia County,Ohio,39,53,Central,39053
+"Port Clinton, OH",Micropolitan Statistical Area,Ottawa County,Ohio,39,123,Central,39123
+"Portsmouth, OH",Micropolitan Statistical Area,Scioto County,Ohio,39,145,Central,39145
+"Salem, OH",Micropolitan Statistical Area,Columbiana County,Ohio,39,29,Central,39029
+"Sandusky, OH",Micropolitan Statistical Area,Erie County,Ohio,39,43,Central,39043
+"Sidney, OH",Micropolitan Statistical Area,Shelby County,Ohio,39,149,Central,39149
+"Springfield, OH",Metropolitan Statistical Area,Clark County,Ohio,39,23,Central,39023
+"Tiffin, OH",Micropolitan Statistical Area,Seneca County,Ohio,39,147,Central,39147
+"Toledo, OH",Metropolitan Statistical Area,Fulton County,Ohio,39,51,Outlying,39051
+"Toledo, OH",Metropolitan Statistical Area,Lucas County,Ohio,39,95,Central,39095
+"Toledo, OH",Metropolitan Statistical Area,Wood County,Ohio,39,173,Central,39173
+"Urbana, OH",Micropolitan Statistical Area,Champaign County,Ohio,39,21,Central,39021
+"Van Wert, OH",Micropolitan Statistical Area,Van Wert County,Ohio,39,161,Central,39161
+"Wapakoneta, OH",Micropolitan Statistical Area,Auglaize County,Ohio,39,11,Central,39011
+"Washington Court House, OH",Micropolitan Statistical Area,Fayette County,Ohio,39,47,Central,39047
+"Weirton-Steubenville, WV-OH",Metropolitan Statistical Area,Jefferson County,Ohio,39,81,Central,39081
+"Wheeling, WV-OH",Metropolitan Statistical Area,Belmont County,Ohio,39,13,Central,39013
+"Wilmington, OH",Micropolitan Statistical Area,Clinton County,Ohio,39,27,Central,39027
+"Wooster, OH",Micropolitan Statistical Area,Wayne County,Ohio,39,169,Central,39169
+"Youngstown-Warren-Boardman, OH-PA",Metropolitan Statistical Area,Mahoning County,Ohio,39,99,Central,39099
+"Youngstown-Warren-Boardman, OH-PA",Metropolitan Statistical Area,Trumbull County,Ohio,39,155,Central,39155
+"Zanesville, OH",Micropolitan Statistical Area,Muskingum County,Ohio,39,119,Central,39119
+"Ada, OK",Micropolitan Statistical Area,Pontotoc County,Oklahoma,40,123,Central,40123
+"Altus, OK",Micropolitan Statistical Area,Jackson County,Oklahoma,40,65,Central,40065
+"Ardmore, OK",Micropolitan Statistical Area,Carter County,Oklahoma,40,19,Central,40019
+"Bartlesville, OK",Micropolitan Statistical Area,Washington County,Oklahoma,40,147,Central,40147
+"Duncan, OK",Micropolitan Statistical Area,Stephens County,Oklahoma,40,137,Central,40137
+"Durant, OK",Micropolitan Statistical Area,Bryan County,Oklahoma,40,13,Central,40013
+"Elk City, OK",Micropolitan Statistical Area,Beckham County,Oklahoma,40,9,Central,40009
+"Enid, OK",Metropolitan Statistical Area,Garfield County,Oklahoma,40,47,Central,40047
+"Fort Smith, AR-OK",Metropolitan Statistical Area,Le Flore County,Oklahoma,40,79,Outlying,40079
+"Fort Smith, AR-OK",Metropolitan Statistical Area,Sequoyah County,Oklahoma,40,135,Outlying,40135
+"Guymon, OK",Micropolitan Statistical Area,Texas County,Oklahoma,40,139,Central,40139
+"Lawton, OK",Metropolitan Statistical Area,Comanche County,Oklahoma,40,31,Central,40031
+"Lawton, OK",Metropolitan Statistical Area,Cotton County,Oklahoma,40,33,Outlying,40033
+"McAlester, OK",Micropolitan Statistical Area,Pittsburg County,Oklahoma,40,121,Central,40121
+"Miami, OK",Micropolitan Statistical Area,Ottawa County,Oklahoma,40,115,Central,40115
+"Muskogee, OK",Micropolitan Statistical Area,Muskogee County,Oklahoma,40,101,Central,40101
+"Oklahoma City, OK",Metropolitan Statistical Area,Canadian County,Oklahoma,40,17,Central,40017
+"Oklahoma City, OK",Metropolitan Statistical Area,Cleveland County,Oklahoma,40,27,Central,40027
+"Oklahoma City, OK",Metropolitan Statistical Area,Grady County,Oklahoma,40,51,Outlying,40051
+"Oklahoma City, OK",Metropolitan Statistical Area,Lincoln County,Oklahoma,40,81,Outlying,40081
+"Oklahoma City, OK",Metropolitan Statistical Area,Logan County,Oklahoma,40,83,Central,40083
+"Oklahoma City, OK",Metropolitan Statistical Area,McClain County,Oklahoma,40,87,Outlying,40087
+"Oklahoma City, OK",Metropolitan Statistical Area,Oklahoma County,Oklahoma,40,109,Central,40109
+"Ponca City, OK",Micropolitan Statistical Area,Kay County,Oklahoma,40,71,Central,40071
+"Shawnee, OK",Micropolitan Statistical Area,Pottawatomie County,Oklahoma,40,125,Central,40125
+"Stillwater, OK",Micropolitan Statistical Area,Payne County,Oklahoma,40,119,Central,40119
+"Tahlequah, OK",Micropolitan Statistical Area,Cherokee County,Oklahoma,40,21,Central,40021
+"Tulsa, OK",Metropolitan Statistical Area,Creek County,Oklahoma,40,37,Central,40037
+"Tulsa, OK",Metropolitan Statistical Area,Okmulgee County,Oklahoma,40,111,Outlying,40111
+"Tulsa, OK",Metropolitan Statistical Area,Osage County,Oklahoma,40,113,Central,40113
+"Tulsa, OK",Metropolitan Statistical Area,Pawnee County,Oklahoma,40,117,Outlying,40117
+"Tulsa, OK",Metropolitan Statistical Area,Rogers County,Oklahoma,40,131,Outlying,40131
+"Tulsa, OK",Metropolitan Statistical Area,Tulsa County,Oklahoma,40,143,Central,40143
+"Tulsa, OK",Metropolitan Statistical Area,Wagoner County,Oklahoma,40,145,Central,40145
+"Weatherford, OK",Micropolitan Statistical Area,Custer County,Oklahoma,40,39,Central,40039
+"Woodward, OK",Micropolitan Statistical Area,Woodward County,Oklahoma,40,153,Central,40153
+"Albany, OR",Metropolitan Statistical Area,Linn County,Oregon,41,43,Central,41043
+"Astoria, OR",Micropolitan Statistical Area,Clatsop County,Oregon,41,7,Central,41007
+"Bend-Redmond, OR",Metropolitan Statistical Area,Deschutes County,Oregon,41,17,Central,41017
+"Brookings, OR",Micropolitan Statistical Area,Curry County,Oregon,41,15,Central,41015
+"Coos Bay, OR",Micropolitan Statistical Area,Coos County,Oregon,41,11,Central,41011
+"Corvallis, OR",Metropolitan Statistical Area,Benton County,Oregon,41,3,Central,41003
+"Eugene, OR",Metropolitan Statistical Area,Lane County,Oregon,41,39,Central,41039
+"Grants Pass, OR",Metropolitan Statistical Area,Josephine County,Oregon,41,33,Central,41033
+"Hermiston-Pendleton, OR",Micropolitan Statistical Area,Morrow County,Oregon,41,49,Outlying,41049
+"Hermiston-Pendleton, OR",Micropolitan Statistical Area,Umatilla County,Oregon,41,59,Central,41059
+"Hood River, OR",Micropolitan Statistical Area,Hood River County,Oregon,41,27,Central,41027
+"Klamath Falls, OR",Micropolitan Statistical Area,Klamath County,Oregon,41,35,Central,41035
+"La Grande, OR",Micropolitan Statistical Area,Union County,Oregon,41,61,Central,41061
+"Medford, OR",Metropolitan Statistical Area,Jackson County,Oregon,41,29,Central,41029
+"Newport, OR",Micropolitan Statistical Area,Lincoln County,Oregon,41,41,Central,41041
+"Ontario, OR-ID",Micropolitan Statistical Area,Malheur County,Oregon,41,45,Central,41045
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Clackamas County,Oregon,41,5,Central,41005
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Columbia County,Oregon,41,9,Outlying,41009
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Multnomah County,Oregon,41,51,Central,41051
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Washington County,Oregon,41,67,Central,41067
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Yamhill County,Oregon,41,71,Outlying,41071
+"Prineville, OR",Micropolitan Statistical Area,Crook County,Oregon,41,13,Central,41013
+"Roseburg, OR",Micropolitan Statistical Area,Douglas County,Oregon,41,19,Central,41019
+"Salem, OR",Metropolitan Statistical Area,Marion County,Oregon,41,47,Central,41047
+"Salem, OR",Metropolitan Statistical Area,Polk County,Oregon,41,53,Central,41053
+"The Dalles, OR",Micropolitan Statistical Area,Wasco County,Oregon,41,65,Central,41065
+"Allentown-Bethlehem-Easton, PA-NJ",Metropolitan Statistical Area,Carbon County,Pennsylvania,42,25,Central,42025
+"Allentown-Bethlehem-Easton, PA-NJ",Metropolitan Statistical Area,Lehigh County,Pennsylvania,42,77,Central,42077
+"Allentown-Bethlehem-Easton, PA-NJ",Metropolitan Statistical Area,Northampton County,Pennsylvania,42,95,Central,42095
+"Altoona, PA",Metropolitan Statistical Area,Blair County,Pennsylvania,42,13,Central,42013
+"Bloomsburg-Berwick, PA",Metropolitan Statistical Area,Columbia County,Pennsylvania,42,37,Central,42037
+"Bloomsburg-Berwick, PA",Metropolitan Statistical Area,Montour County,Pennsylvania,42,93,Central,42093
+"Bradford, PA",Micropolitan Statistical Area,McKean County,Pennsylvania,42,83,Central,42083
+"Chambersburg-Waynesboro, PA",Metropolitan Statistical Area,Franklin County,Pennsylvania,42,55,Central,42055
+"DuBois, PA",Micropolitan Statistical Area,Clearfield County,Pennsylvania,42,33,Central,42033
+"East Stroudsburg, PA",Metropolitan Statistical Area,Monroe County,Pennsylvania,42,89,Central,42089
+"Erie, PA",Metropolitan Statistical Area,Erie County,Pennsylvania,42,49,Central,42049
+"Gettysburg, PA",Metropolitan Statistical Area,Adams County,Pennsylvania,42,1,Central,42001
+"Harrisburg-Carlisle, PA",Metropolitan Statistical Area,Cumberland County,Pennsylvania,42,41,Central,42041
+"Harrisburg-Carlisle, PA",Metropolitan Statistical Area,Dauphin County,Pennsylvania,42,43,Central,42043
+"Harrisburg-Carlisle, PA",Metropolitan Statistical Area,Perry County,Pennsylvania,42,99,Outlying,42099
+"Huntingdon, PA",Micropolitan Statistical Area,Huntingdon County,Pennsylvania,42,61,Central,42061
+"Indiana, PA",Micropolitan Statistical Area,Indiana County,Pennsylvania,42,63,Central,42063
+"Johnstown, PA",Metropolitan Statistical Area,Cambria County,Pennsylvania,42,21,Central,42021
+"Lancaster, PA",Metropolitan Statistical Area,Lancaster County,Pennsylvania,42,71,Central,42071
+"Lebanon, PA",Metropolitan Statistical Area,Lebanon County,Pennsylvania,42,75,Central,42075
+"Lewisburg, PA",Micropolitan Statistical Area,Union County,Pennsylvania,42,119,Central,42119
+"Lewistown, PA",Micropolitan Statistical Area,Mifflin County,Pennsylvania,42,87,Central,42087
+"Lock Haven, PA",Micropolitan Statistical Area,Clinton County,Pennsylvania,42,35,Central,42035
+"Meadville, PA",Micropolitan Statistical Area,Crawford County,Pennsylvania,42,39,Central,42039
+"New Castle, PA",Micropolitan Statistical Area,Lawrence County,Pennsylvania,42,73,Central,42073
+"New York-Newark-Jersey City, NY-NJ-PA",Metropolitan Statistical Area,Pike County,Pennsylvania,42,103,Outlying,42103
+"Oil City, PA",Micropolitan Statistical Area,Venango County,Pennsylvania,42,121,Central,42121
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Bucks County,Pennsylvania,42,17,Central,42017
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Chester County,Pennsylvania,42,29,Central,42029
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Montgomery County,Pennsylvania,42,91,Central,42091
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Delaware County,Pennsylvania,42,45,Central,42045
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",Metropolitan Statistical Area,Philadelphia County,Pennsylvania,42,101,Central,42101
+"Pittsburgh, PA",Metropolitan Statistical Area,Allegheny County,Pennsylvania,42,3,Central,42003
+"Pittsburgh, PA",Metropolitan Statistical Area,Armstrong County,Pennsylvania,42,5,Outlying,42005
+"Pittsburgh, PA",Metropolitan Statistical Area,Beaver County,Pennsylvania,42,7,Central,42007
+"Pittsburgh, PA",Metropolitan Statistical Area,Butler County,Pennsylvania,42,19,Central,42019
+"Pittsburgh, PA",Metropolitan Statistical Area,Fayette County,Pennsylvania,42,51,Outlying,42051
+"Pittsburgh, PA",Metropolitan Statistical Area,Washington County,Pennsylvania,42,125,Central,42125
+"Pittsburgh, PA",Metropolitan Statistical Area,Westmoreland County,Pennsylvania,42,129,Central,42129
+"Pottsville, PA",Micropolitan Statistical Area,Schuylkill County,Pennsylvania,42,107,Central,42107
+"Reading, PA",Metropolitan Statistical Area,Berks County,Pennsylvania,42,11,Central,42011
+"St. Marys, PA",Micropolitan Statistical Area,Elk County,Pennsylvania,42,47,Central,42047
+"Sayre, PA",Micropolitan Statistical Area,Bradford County,Pennsylvania,42,15,Central,42015
+"Scranton--Wilkes-Barre--Hazleton, PA",Metropolitan Statistical Area,Lackawanna County,Pennsylvania,42,69,Central,42069
+"Scranton--Wilkes-Barre--Hazleton, PA",Metropolitan Statistical Area,Luzerne County,Pennsylvania,42,79,Central,42079
+"Scranton--Wilkes-Barre--Hazleton, PA",Metropolitan Statistical Area,Wyoming County,Pennsylvania,42,131,Outlying,42131
+"Selinsgrove, PA",Micropolitan Statistical Area,Snyder County,Pennsylvania,42,109,Central,42109
+"Somerset, PA",Micropolitan Statistical Area,Somerset County,Pennsylvania,42,111,Central,42111
+"State College, PA",Metropolitan Statistical Area,Centre County,Pennsylvania,42,27,Central,42027
+"Sunbury, PA",Micropolitan Statistical Area,Northumberland County,Pennsylvania,42,97,Central,42097
+"Warren, PA",Micropolitan Statistical Area,Warren County,Pennsylvania,42,123,Central,42123
+"Williamsport, PA",Metropolitan Statistical Area,Lycoming County,Pennsylvania,42,81,Central,42081
+"York-Hanover, PA",Metropolitan Statistical Area,York County,Pennsylvania,42,133,Central,42133
+"Youngstown-Warren-Boardman, OH-PA",Metropolitan Statistical Area,Mercer County,Pennsylvania,42,85,Central,42085
+"Providence-Warwick, RI-MA",Metropolitan Statistical Area,Bristol County,Rhode Island,44,1,Central,44001
+"Providence-Warwick, RI-MA",Metropolitan Statistical Area,Kent County,Rhode Island,44,3,Central,44003
+"Providence-Warwick, RI-MA",Metropolitan Statistical Area,Newport County,Rhode Island,44,5,Central,44005
+"Providence-Warwick, RI-MA",Metropolitan Statistical Area,Providence County,Rhode Island,44,7,Central,44007
+"Providence-Warwick, RI-MA",Metropolitan Statistical Area,Washington County,Rhode Island,44,9,Central,44009
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,Aiken County,South Carolina,45,3,Central,45003
+"Augusta-Richmond County, GA-SC",Metropolitan Statistical Area,Edgefield County,South Carolina,45,37,Outlying,45037
+"Bennettsville, SC",Micropolitan Statistical Area,Marlboro County,South Carolina,45,69,Central,45069
+"Charleston-North Charleston, SC",Metropolitan Statistical Area,Berkeley County,South Carolina,45,15,Central,45015
+"Charleston-North Charleston, SC",Metropolitan Statistical Area,Charleston County,South Carolina,45,19,Central,45019
+"Charleston-North Charleston, SC",Metropolitan Statistical Area,Dorchester County,South Carolina,45,35,Central,45035
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Chester County,South Carolina,45,23,Outlying,45023
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,Lancaster County,South Carolina,45,57,Outlying,45057
+"Charlotte-Concord-Gastonia, NC-SC",Metropolitan Statistical Area,York County,South Carolina,45,91,Outlying,45091
+"Columbia, SC",Metropolitan Statistical Area,Calhoun County,South Carolina,45,17,Outlying,45017
+"Columbia, SC",Metropolitan Statistical Area,Fairfield County,South Carolina,45,39,Outlying,45039
+"Columbia, SC",Metropolitan Statistical Area,Kershaw County,South Carolina,45,55,Outlying,45055
+"Columbia, SC",Metropolitan Statistical Area,Lexington County,South Carolina,45,63,Central,45063
+"Columbia, SC",Metropolitan Statistical Area,Richland County,South Carolina,45,79,Central,45079
+"Columbia, SC",Metropolitan Statistical Area,Saluda County,South Carolina,45,81,Outlying,45081
+"Florence, SC",Metropolitan Statistical Area,Darlington County,South Carolina,45,31,Outlying,45031
+"Florence, SC",Metropolitan Statistical Area,Florence County,South Carolina,45,41,Central,45041
+"Gaffney, SC",Micropolitan Statistical Area,Cherokee County,South Carolina,45,21,Central,45021
+"Georgetown, SC",Micropolitan Statistical Area,Georgetown County,South Carolina,45,43,Central,45043
+"Greenville-Anderson-Mauldin, SC",Metropolitan Statistical Area,Anderson County,South Carolina,45,7,Outlying,45007
+"Greenville-Anderson-Mauldin, SC",Metropolitan Statistical Area,Greenville County,South Carolina,45,45,Central,45045
+"Greenville-Anderson-Mauldin, SC",Metropolitan Statistical Area,Laurens County,South Carolina,45,59,Outlying,45059
+"Greenville-Anderson-Mauldin, SC",Metropolitan Statistical Area,Pickens County,South Carolina,45,77,Central,45077
+"Greenwood, SC",Micropolitan Statistical Area,Abbeville County,South Carolina,45,1,Outlying,45001
+"Greenwood, SC",Micropolitan Statistical Area,Greenwood County,South Carolina,45,47,Central,45047
+"Hilton Head Island-Bluffton-Beaufort, SC",Metropolitan Statistical Area,Beaufort County,South Carolina,45,13,Central,45013
+"Hilton Head Island-Bluffton-Beaufort, SC",Metropolitan Statistical Area,Jasper County,South Carolina,45,53,Outlying,45053
+"Myrtle Beach-Conway-North Myrtle Beach, SC-NC",Metropolitan Statistical Area,Horry County,South Carolina,45,51,Central,45051
+"Newberry, SC",Micropolitan Statistical Area,Newberry County,South Carolina,45,71,Central,45071
+"Orangeburg, SC",Micropolitan Statistical Area,Orangeburg County,South Carolina,45,75,Central,45075
+"Seneca, SC",Micropolitan Statistical Area,Oconee County,South Carolina,45,73,Central,45073
+"Spartanburg, SC",Metropolitan Statistical Area,Spartanburg County,South Carolina,45,83,Central,45083
+"Spartanburg, SC",Metropolitan Statistical Area,Union County,South Carolina,45,87,Outlying,45087
+"Sumter, SC",Metropolitan Statistical Area,Sumter County,South Carolina,45,85,Central,45085
+"Aberdeen, SD",Micropolitan Statistical Area,Brown County,South Dakota,46,13,Central,46013
+"Aberdeen, SD",Micropolitan Statistical Area,Edmunds County,South Dakota,46,45,Outlying,46045
+"Brookings, SD",Micropolitan Statistical Area,Brookings County,South Dakota,46,11,Central,46011
+"Huron, SD",Micropolitan Statistical Area,Beadle County,South Dakota,46,5,Central,46005
+"Mitchell, SD",Micropolitan Statistical Area,Davison County,South Dakota,46,35,Central,46035
+"Mitchell, SD",Micropolitan Statistical Area,Hanson County,South Dakota,46,61,Outlying,46061
+"Pierre, SD",Micropolitan Statistical Area,Hughes County,South Dakota,46,65,Central,46065
+"Pierre, SD",Micropolitan Statistical Area,Stanley County,South Dakota,46,117,Central,46117
+"Pierre, SD",Micropolitan Statistical Area,Sully County,South Dakota,46,119,Outlying,46119
+"Rapid City, SD",Metropolitan Statistical Area,Custer County,South Dakota,46,33,Outlying,46033
+"Rapid City, SD",Metropolitan Statistical Area,Meade County,South Dakota,46,93,Central,46093
+"Rapid City, SD",Metropolitan Statistical Area,Pennington County,South Dakota,46,103,Central,46103
+"Sioux City, IA-NE-SD",Metropolitan Statistical Area,Union County,South Dakota,46,127,Central,46127
+"Sioux Falls, SD",Metropolitan Statistical Area,Lincoln County,South Dakota,46,83,Central,46083
+"Sioux Falls, SD",Metropolitan Statistical Area,McCook County,South Dakota,46,87,Outlying,46087
+"Sioux Falls, SD",Metropolitan Statistical Area,Minnehaha County,South Dakota,46,99,Central,46099
+"Sioux Falls, SD",Metropolitan Statistical Area,Turner County,South Dakota,46,125,Outlying,46125
+"Spearfish, SD",Micropolitan Statistical Area,Lawrence County,South Dakota,46,81,Central,46081
+"Vermillion, SD",Micropolitan Statistical Area,Clay County,South Dakota,46,27,Central,46027
+"Watertown, SD",Micropolitan Statistical Area,Codington County,South Dakota,46,29,Central,46029
+"Yankton, SD",Micropolitan Statistical Area,Yankton County,South Dakota,46,135,Central,46135
+"Athens, TN",Micropolitan Statistical Area,McMinn County,Tennessee,47,107,Central,47107
+"Brownsville, TN",Micropolitan Statistical Area,Haywood County,Tennessee,47,75,Central,47075
+"Chattanooga, TN-GA",Metropolitan Statistical Area,Hamilton County,Tennessee,47,65,Central,47065
+"Chattanooga, TN-GA",Metropolitan Statistical Area,Marion County,Tennessee,47,115,Outlying,47115
+"Chattanooga, TN-GA",Metropolitan Statistical Area,Sequatchie County,Tennessee,47,153,Outlying,47153
+"Clarksville, TN-KY",Metropolitan Statistical Area,Montgomery County,Tennessee,47,125,Central,47125
+"Cleveland, TN",Metropolitan Statistical Area,Bradley County,Tennessee,47,11,Central,47011
+"Cleveland, TN",Metropolitan Statistical Area,Polk County,Tennessee,47,139,Outlying,47139
+"Cookeville, TN",Micropolitan Statistical Area,Jackson County,Tennessee,47,87,Outlying,47087
+"Cookeville, TN",Micropolitan Statistical Area,Overton County,Tennessee,47,133,Outlying,47133
+"Cookeville, TN",Micropolitan Statistical Area,Putnam County,Tennessee,47,141,Central,47141
+"Crossville, TN",Micropolitan Statistical Area,Cumberland County,Tennessee,47,35,Central,47035
+"Dayton, TN",Micropolitan Statistical Area,Rhea County,Tennessee,47,143,Central,47143
+"Dyersburg, TN",Micropolitan Statistical Area,Dyer County,Tennessee,47,45,Central,47045
+"Greeneville, TN",Micropolitan Statistical Area,Greene County,Tennessee,47,59,Central,47059
+"Jackson, TN",Metropolitan Statistical Area,Chester County,Tennessee,47,23,Outlying,47023
+"Jackson, TN",Metropolitan Statistical Area,Crockett County,Tennessee,47,33,Outlying,47033
+"Jackson, TN",Metropolitan Statistical Area,Madison County,Tennessee,47,113,Central,47113
+"Johnson City, TN",Metropolitan Statistical Area,Carter County,Tennessee,47,19,Central,47019
+"Johnson City, TN",Metropolitan Statistical Area,Unicoi County,Tennessee,47,171,Outlying,47171
+"Johnson City, TN",Metropolitan Statistical Area,Washington County,Tennessee,47,179,Central,47179
+"Kingsport-Bristol-Bristol, TN-VA",Metropolitan Statistical Area,Hawkins County,Tennessee,47,73,Central,47073
+"Kingsport-Bristol-Bristol, TN-VA",Metropolitan Statistical Area,Sullivan County,Tennessee,47,163,Central,47163
+"Knoxville, TN",Metropolitan Statistical Area,Anderson County,Tennessee,47,1,Central,47001
+"Knoxville, TN",Metropolitan Statistical Area,Blount County,Tennessee,47,9,Central,47009
+"Knoxville, TN",Metropolitan Statistical Area,Campbell County,Tennessee,47,13,Outlying,47013
+"Knoxville, TN",Metropolitan Statistical Area,Grainger County,Tennessee,47,57,Outlying,47057
+"Knoxville, TN",Metropolitan Statistical Area,Knox County,Tennessee,47,93,Central,47093
+"Knoxville, TN",Metropolitan Statistical Area,Loudon County,Tennessee,47,105,Central,47105
+"Knoxville, TN",Metropolitan Statistical Area,Morgan County,Tennessee,47,129,Outlying,47129
+"Knoxville, TN",Metropolitan Statistical Area,Roane County,Tennessee,47,145,Outlying,47145
+"Knoxville, TN",Metropolitan Statistical Area,Union County,Tennessee,47,173,Outlying,47173
+"Lawrenceburg, TN",Micropolitan Statistical Area,Lawrence County,Tennessee,47,99,Central,47099
+"Lewisburg, TN",Micropolitan Statistical Area,Marshall County,Tennessee,47,117,Central,47117
+"Martin, TN",Micropolitan Statistical Area,Weakley County,Tennessee,47,183,Central,47183
+"McMinnville, TN",Micropolitan Statistical Area,Warren County,Tennessee,47,177,Central,47177
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Fayette County,Tennessee,47,47,Outlying,47047
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Shelby County,Tennessee,47,157,Central,47157
+"Memphis, TN-MS-AR",Metropolitan Statistical Area,Tipton County,Tennessee,47,167,Outlying,47167
+"Morristown, TN",Metropolitan Statistical Area,Hamblen County,Tennessee,47,63,Central,47063
+"Morristown, TN",Metropolitan Statistical Area,Jefferson County,Tennessee,47,89,Central,47089
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Cannon County,Tennessee,47,15,Outlying,47015
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Cheatham County,Tennessee,47,21,Outlying,47021
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Davidson County,Tennessee,47,37,Central,47037
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Dickson County,Tennessee,47,43,Outlying,47043
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Hickman County,Tennessee,47,81,Outlying,47081
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Macon County,Tennessee,47,111,Outlying,47111
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Maury County,Tennessee,47,119,Outlying,47119
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Robertson County,Tennessee,47,147,Outlying,47147
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Rutherford County,Tennessee,47,149,Outlying,47149
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Smith County,Tennessee,47,159,Outlying,47159
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Sumner County,Tennessee,47,165,Central,47165
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Trousdale County,Tennessee,47,169,Outlying,47169
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Williamson County,Tennessee,47,187,Central,47187
+"Nashville-Davidson--Murfreesboro--Franklin, TN",Metropolitan Statistical Area,Wilson County,Tennessee,47,189,Central,47189
+"Newport, TN",Micropolitan Statistical Area,Cocke County,Tennessee,47,29,Central,47029
+"Paris, TN",Micropolitan Statistical Area,Henry County,Tennessee,47,79,Central,47079
+"Sevierville, TN",Micropolitan Statistical Area,Sevier County,Tennessee,47,155,Central,47155
+"Shelbyville, TN",Micropolitan Statistical Area,Bedford County,Tennessee,47,3,Central,47003
+"Tullahoma-Manchester, TN",Micropolitan Statistical Area,Coffee County,Tennessee,47,31,Central,47031
+"Tullahoma-Manchester, TN",Micropolitan Statistical Area,Franklin County,Tennessee,47,51,Outlying,47051
+"Tullahoma-Manchester, TN",Micropolitan Statistical Area,Moore County,Tennessee,47,127,Outlying,47127
+"Union City, TN-KY",Micropolitan Statistical Area,Obion County,Tennessee,47,131,Central,47131
+"Abilene, TX",Metropolitan Statistical Area,Callahan County,Texas,48,59,Outlying,48059
+"Abilene, TX",Metropolitan Statistical Area,Jones County,Texas,48,253,Outlying,48253
+"Abilene, TX",Metropolitan Statistical Area,Taylor County,Texas,48,441,Central,48441
+"Alice, TX",Micropolitan Statistical Area,Jim Wells County,Texas,48,249,Central,48249
+"Amarillo, TX",Metropolitan Statistical Area,Armstrong County,Texas,48,11,Outlying,48011
+"Amarillo, TX",Metropolitan Statistical Area,Carson County,Texas,48,65,Outlying,48065
+"Amarillo, TX",Metropolitan Statistical Area,Oldham County,Texas,48,359,Outlying,48359
+"Amarillo, TX",Metropolitan Statistical Area,Potter County,Texas,48,375,Central,48375
+"Amarillo, TX",Metropolitan Statistical Area,Randall County,Texas,48,381,Central,48381
+"Andrews, TX",Micropolitan Statistical Area,Andrews County,Texas,48,3,Central,48003
+"Athens, TX",Micropolitan Statistical Area,Henderson County,Texas,48,213,Central,48213
+"Austin-Round Rock, TX",Metropolitan Statistical Area,Bastrop County,Texas,48,21,Outlying,48021
+"Austin-Round Rock, TX",Metropolitan Statistical Area,Caldwell County,Texas,48,55,Outlying,48055
+"Austin-Round Rock, TX",Metropolitan Statistical Area,Hays County,Texas,48,209,Central,48209
+"Austin-Round Rock, TX",Metropolitan Statistical Area,Travis County,Texas,48,453,Central,48453
+"Austin-Round Rock, TX",Metropolitan Statistical Area,Williamson County,Texas,48,491,Central,48491
+"Bay City, TX",Micropolitan Statistical Area,Matagorda County,Texas,48,321,Central,48321
+"Beaumont-Port Arthur, TX",Metropolitan Statistical Area,Hardin County,Texas,48,199,Outlying,48199
+"Beaumont-Port Arthur, TX",Metropolitan Statistical Area,Jefferson County,Texas,48,245,Central,48245
+"Beaumont-Port Arthur, TX",Metropolitan Statistical Area,Newton County,Texas,48,351,Outlying,48351
+"Beaumont-Port Arthur, TX",Metropolitan Statistical Area,Orange County,Texas,48,361,Central,48361
+"Beeville, TX",Micropolitan Statistical Area,Bee County,Texas,48,25,Central,48025
+"Big Spring, TX",Micropolitan Statistical Area,Glasscock County,Texas,48,173,Outlying,48173
+"Big Spring, TX",Micropolitan Statistical Area,Howard County,Texas,48,227,Central,48227
+"Bonham, TX",Micropolitan Statistical Area,Fannin County,Texas,48,147,Central,48147
+"Borger, TX",Micropolitan Statistical Area,Hutchinson County,Texas,48,233,Central,48233
+"Brenham, TX",Micropolitan Statistical Area,Washington County,Texas,48,477,Central,48477
+"Brownsville-Harlingen, TX",Metropolitan Statistical Area,Cameron County,Texas,48,61,Central,48061
+"Brownwood, TX",Micropolitan Statistical Area,Brown County,Texas,48,49,Central,48049
+"College Station-Bryan, TX",Metropolitan Statistical Area,Brazos County,Texas,48,41,Central,48041
+"College Station-Bryan, TX",Metropolitan Statistical Area,Burleson County,Texas,48,51,Outlying,48051
+"College Station-Bryan, TX",Metropolitan Statistical Area,Robertson County,Texas,48,395,Outlying,48395
+"Corpus Christi, TX",Metropolitan Statistical Area,Aransas County,Texas,48,7,Outlying,48007
+"Corpus Christi, TX",Metropolitan Statistical Area,Nueces County,Texas,48,355,Central,48355
+"Corpus Christi, TX",Metropolitan Statistical Area,San Patricio County,Texas,48,409,Central,48409
+"Corsicana, TX",Micropolitan Statistical Area,Navarro County,Texas,48,349,Central,48349
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Collin County,Texas,48,85,Central,48085
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Dallas County,Texas,48,113,Central,48113
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Denton County,Texas,48,121,Outlying,48121
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Ellis County,Texas,48,139,Central,48139
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Hunt County,Texas,48,231,Outlying,48231
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Kaufman County,Texas,48,257,Outlying,48257
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Rockwall County,Texas,48,397,Central,48397
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Hood County,Texas,48,221,Outlying,48221
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Johnson County,Texas,48,251,Central,48251
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Parker County,Texas,48,367,Outlying,48367
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Somervell County,Texas,48,425,Outlying,48425
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Tarrant County,Texas,48,439,Central,48439
+"Dallas-Fort Worth-Arlington, TX",Metropolitan Statistical Area,Wise County,Texas,48,497,Outlying,48497
+"Del Rio, TX",Micropolitan Statistical Area,Val Verde County,Texas,48,465,Central,48465
+"Dumas, TX",Micropolitan Statistical Area,Moore County,Texas,48,341,Central,48341
+"Eagle Pass, TX",Micropolitan Statistical Area,Maverick County,Texas,48,323,Central,48323
+"El Campo, TX",Micropolitan Statistical Area,Wharton County,Texas,48,481,Central,48481
+"El Paso, TX",Metropolitan Statistical Area,El Paso County,Texas,48,141,Central,48141
+"El Paso, TX",Metropolitan Statistical Area,Hudspeth County,Texas,48,229,Outlying,48229
+"Fredericksburg, TX",Micropolitan Statistical Area,Gillespie County,Texas,48,171,Central,48171
+"Gainesville, TX",Micropolitan Statistical Area,Cooke County,Texas,48,97,Central,48097
+"Hereford, TX",Micropolitan Statistical Area,Deaf Smith County,Texas,48,117,Central,48117
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Austin County,Texas,48,15,Outlying,48015
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Brazoria County,Texas,48,39,Central,48039
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Chambers County,Texas,48,71,Central,48071
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Fort Bend County,Texas,48,157,Central,48157
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Galveston County,Texas,48,167,Central,48167
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Harris County,Texas,48,201,Central,48201
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Liberty County,Texas,48,291,Outlying,48291
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Montgomery County,Texas,48,339,Outlying,48339
+"Houston-The Woodlands-Sugar Land, TX",Metropolitan Statistical Area,Waller County,Texas,48,473,Outlying,48473
+"Huntsville, TX",Micropolitan Statistical Area,Trinity County,Texas,48,455,Outlying,48455
+"Huntsville, TX",Micropolitan Statistical Area,Walker County,Texas,48,471,Central,48471
+"Jacksonville, TX",Micropolitan Statistical Area,Cherokee County,Texas,48,73,Central,48073
+"Kerrville, TX",Micropolitan Statistical Area,Kerr County,Texas,48,265,Central,48265
+"Killeen-Temple, TX",Metropolitan Statistical Area,Bell County,Texas,48,27,Central,48027
+"Killeen-Temple, TX",Metropolitan Statistical Area,Coryell County,Texas,48,99,Central,48099
+"Killeen-Temple, TX",Metropolitan Statistical Area,Lampasas County,Texas,48,281,Outlying,48281
+"Kingsville, TX",Micropolitan Statistical Area,Kenedy County,Texas,48,261,Outlying,48261
+"Kingsville, TX",Micropolitan Statistical Area,Kleberg County,Texas,48,273,Central,48273
+"Lamesa, TX",Micropolitan Statistical Area,Dawson County,Texas,48,115,Central,48115
+"Laredo, TX",Metropolitan Statistical Area,Webb County,Texas,48,479,Central,48479
+"Levelland, TX",Micropolitan Statistical Area,Hockley County,Texas,48,219,Central,48219
+"Longview, TX",Metropolitan Statistical Area,Gregg County,Texas,48,183,Central,48183
+"Longview, TX",Metropolitan Statistical Area,Rusk County,Texas,48,401,Outlying,48401
+"Longview, TX",Metropolitan Statistical Area,Upshur County,Texas,48,459,Outlying,48459
+"Lubbock, TX",Metropolitan Statistical Area,Crosby County,Texas,48,107,Outlying,48107
+"Lubbock, TX",Metropolitan Statistical Area,Lubbock County,Texas,48,303,Central,48303
+"Lubbock, TX",Metropolitan Statistical Area,Lynn County,Texas,48,305,Outlying,48305
+"Lufkin, TX",Micropolitan Statistical Area,Angelina County,Texas,48,5,Central,48005
+"Marshall, TX",Micropolitan Statistical Area,Harrison County,Texas,48,203,Central,48203
+"McAllen-Edinburg-Mission, TX",Metropolitan Statistical Area,Hidalgo County,Texas,48,215,Central,48215
+"Midland, TX",Metropolitan Statistical Area,Martin County,Texas,48,317,Outlying,48317
+"Midland, TX",Metropolitan Statistical Area,Midland County,Texas,48,329,Central,48329
+"Mineral Wells, TX",Micropolitan Statistical Area,Palo Pinto County,Texas,48,363,Central,48363
+"Mount Pleasant, TX",Micropolitan Statistical Area,Titus County,Texas,48,449,Central,48449
+"Nacogdoches, TX",Micropolitan Statistical Area,Nacogdoches County,Texas,48,347,Central,48347
+"Odessa, TX",Metropolitan Statistical Area,Ector County,Texas,48,135,Central,48135
+"Palestine, TX",Micropolitan Statistical Area,Anderson County,Texas,48,1,Central,48001
+"Pampa, TX",Micropolitan Statistical Area,Gray County,Texas,48,179,Central,48179
+"Paris, TX",Micropolitan Statistical Area,Lamar County,Texas,48,277,Central,48277
+"Pecos, TX",Micropolitan Statistical Area,Reeves County,Texas,48,389,Central,48389
+"Plainview, TX",Micropolitan Statistical Area,Hale County,Texas,48,189,Central,48189
+"Port Lavaca, TX",Micropolitan Statistical Area,Calhoun County,Texas,48,57,Central,48057
+"Raymondville, TX",Micropolitan Statistical Area,Willacy County,Texas,48,489,Central,48489
+"Rio Grande City, TX",Micropolitan Statistical Area,Starr County,Texas,48,427,Central,48427
+"San Angelo, TX",Metropolitan Statistical Area,Irion County,Texas,48,235,Outlying,48235
+"San Angelo, TX",Metropolitan Statistical Area,Tom Green County,Texas,48,451,Central,48451
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Atascosa County,Texas,48,13,Outlying,48013
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Bandera County,Texas,48,19,Outlying,48019
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Bexar County,Texas,48,29,Central,48029
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Comal County,Texas,48,91,Central,48091
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Guadalupe County,Texas,48,187,Central,48187
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Kendall County,Texas,48,259,Outlying,48259
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Medina County,Texas,48,325,Outlying,48325
+"San Antonio-New Braunfels, TX",Metropolitan Statistical Area,Wilson County,Texas,48,493,Outlying,48493
+"Sherman-Denison, TX",Metropolitan Statistical Area,Grayson County,Texas,48,181,Central,48181
+"Snyder, TX",Micropolitan Statistical Area,Scurry County,Texas,48,415,Central,48415
+"Stephenville, TX",Micropolitan Statistical Area,Erath County,Texas,48,143,Central,48143
+"Sulphur Springs, TX",Micropolitan Statistical Area,Hopkins County,Texas,48,223,Central,48223
+"Sweetwater, TX",Micropolitan Statistical Area,Nolan County,Texas,48,353,Central,48353
+"Texarkana, TX-AR",Metropolitan Statistical Area,Bowie County,Texas,48,37,Central,48037
+"Tyler, TX",Metropolitan Statistical Area,Smith County,Texas,48,423,Central,48423
+"Uvalde, TX",Micropolitan Statistical Area,Uvalde County,Texas,48,463,Central,48463
+"Vernon, TX",Micropolitan Statistical Area,Wilbarger County,Texas,48,487,Central,48487
+"Victoria, TX",Metropolitan Statistical Area,Goliad County,Texas,48,175,Outlying,48175
+"Victoria, TX",Metropolitan Statistical Area,Victoria County,Texas,48,469,Central,48469
+"Waco, TX",Metropolitan Statistical Area,Falls County,Texas,48,145,Outlying,48145
+"Waco, TX",Metropolitan Statistical Area,McLennan County,Texas,48,309,Central,48309
+"Wichita Falls, TX",Metropolitan Statistical Area,Archer County,Texas,48,9,Outlying,48009
+"Wichita Falls, TX",Metropolitan Statistical Area,Clay County,Texas,48,77,Outlying,48077
+"Wichita Falls, TX",Metropolitan Statistical Area,Wichita County,Texas,48,485,Central,48485
+"Zapata, TX",Micropolitan Statistical Area,Zapata County,Texas,48,505,Central,48505
+"Cedar City, UT",Micropolitan Statistical Area,Iron County,Utah,49,21,Central,49021
+"Heber, UT",Micropolitan Statistical Area,Wasatch County,Utah,49,51,Central,49051
+"Logan, UT-ID",Metropolitan Statistical Area,Cache County,Utah,49,5,Central,49005
+"Ogden-Clearfield, UT",Metropolitan Statistical Area,Box Elder County,Utah,49,3,Central,49003
+"Ogden-Clearfield, UT",Metropolitan Statistical Area,Davis County,Utah,49,11,Central,49011
+"Ogden-Clearfield, UT",Metropolitan Statistical Area,Morgan County,Utah,49,29,Outlying,49029
+"Ogden-Clearfield, UT",Metropolitan Statistical Area,Weber County,Utah,49,57,Central,49057
+"Price, UT",Micropolitan Statistical Area,Carbon County,Utah,49,7,Central,49007
+"Provo-Orem, UT",Metropolitan Statistical Area,Juab County,Utah,49,23,Outlying,49023
+"Provo-Orem, UT",Metropolitan Statistical Area,Utah County,Utah,49,49,Central,49049
+"St. George, UT",Metropolitan Statistical Area,Washington County,Utah,49,53,Central,49053
+"Salt Lake City, UT",Metropolitan Statistical Area,Salt Lake County,Utah,49,35,Central,49035
+"Salt Lake City, UT",Metropolitan Statistical Area,Tooele County,Utah,49,45,Outlying,49045
+"Summit Park, UT",Micropolitan Statistical Area,Summit County,Utah,49,43,Central,49043
+"Vernal, UT",Micropolitan Statistical Area,Uintah County,Utah,49,47,Central,49047
+"Barre, VT",Micropolitan Statistical Area,Washington County,Vermont,50,23,Central,50023
+"Bennington, VT",Micropolitan Statistical Area,Bennington County,Vermont,50,3,Central,50003
+"Berlin, NH-VT",Micropolitan Statistical Area,Essex County,Vermont,50,9,Outlying,50009
+"Burlington-South Burlington, VT",Metropolitan Statistical Area,Chittenden County,Vermont,50,7,Central,50007
+"Burlington-South Burlington, VT",Metropolitan Statistical Area,Franklin County,Vermont,50,11,Outlying,50011
+"Burlington-South Burlington, VT",Metropolitan Statistical Area,Grand Isle County,Vermont,50,13,Outlying,50013
+"Claremont-Lebanon, NH-VT",Micropolitan Statistical Area,Orange County,Vermont,50,17,Outlying,50017
+"Claremont-Lebanon, NH-VT",Micropolitan Statistical Area,Windsor County,Vermont,50,27,Central,50027
+"Rutland, VT",Micropolitan Statistical Area,Rutland County,Vermont,50,21,Central,50021
+"Big Stone Gap, VA",Micropolitan Statistical Area,Dickenson County,Virginia,51,51,Outlying,51051
+"Big Stone Gap, VA",Micropolitan Statistical Area,Wise County,Virginia,51,195,Central,51195
+"Big Stone Gap, VA",Micropolitan Statistical Area,Norton city,Virginia,51,720,Central,51720
+"Blacksburg-Christiansburg-Radford, VA",Metropolitan Statistical Area,Floyd County,Virginia,51,63,Outlying,51063
+"Blacksburg-Christiansburg-Radford, VA",Metropolitan Statistical Area,Giles County,Virginia,51,71,Outlying,51071
+"Blacksburg-Christiansburg-Radford, VA",Metropolitan Statistical Area,Montgomery County,Virginia,51,121,Central,51121
+"Blacksburg-Christiansburg-Radford, VA",Metropolitan Statistical Area,Pulaski County,Virginia,51,155,Outlying,51155
+"Blacksburg-Christiansburg-Radford, VA",Metropolitan Statistical Area,Radford city,Virginia,51,750,Central,51750
+"Bluefield, WV-VA",Micropolitan Statistical Area,Tazewell County,Virginia,51,185,Central,51185
+"Charlottesville, VA",Metropolitan Statistical Area,Albemarle County,Virginia,51,3,Central,51003
+"Charlottesville, VA",Metropolitan Statistical Area,Buckingham County,Virginia,51,29,Outlying,51029
+"Charlottesville, VA",Metropolitan Statistical Area,Fluvanna County,Virginia,51,65,Outlying,51065
+"Charlottesville, VA",Metropolitan Statistical Area,Greene County,Virginia,51,79,Outlying,51079
+"Charlottesville, VA",Metropolitan Statistical Area,Nelson County,Virginia,51,125,Outlying,51125
+"Charlottesville, VA",Metropolitan Statistical Area,Charlottesville city,Virginia,51,540,Central,51540
+"Danville, VA",Micropolitan Statistical Area,Pittsylvania County,Virginia,51,143,Central,51143
+"Danville, VA",Micropolitan Statistical Area,Danville city,Virginia,51,590,Central,51590
+"Harrisonburg, VA",Metropolitan Statistical Area,Rockingham County,Virginia,51,165,Central,51165
+"Harrisonburg, VA",Metropolitan Statistical Area,Harrisonburg city,Virginia,51,660,Central,51660
+"Kingsport-Bristol-Bristol, TN-VA",Metropolitan Statistical Area,Scott County,Virginia,51,169,Outlying,51169
+"Kingsport-Bristol-Bristol, TN-VA",Metropolitan Statistical Area,Washington County,Virginia,51,191,Outlying,51191
+"Kingsport-Bristol-Bristol, TN-VA",Metropolitan Statistical Area,Bristol city,Virginia,51,520,Outlying,51520
+"Lynchburg, VA",Metropolitan Statistical Area,Amherst County,Virginia,51,9,Central,51009
+"Lynchburg, VA",Metropolitan Statistical Area,Appomattox County,Virginia,51,11,Outlying,51011
+"Lynchburg, VA",Metropolitan Statistical Area,Bedford County,Virginia,51,19,Central,51019
+"Lynchburg, VA",Metropolitan Statistical Area,Campbell County,Virginia,51,31,Central,51031
+"Lynchburg, VA",Metropolitan Statistical Area,Lynchburg city,Virginia,51,680,Central,51680
+"Martinsville, VA",Micropolitan Statistical Area,Henry County,Virginia,51,89,Central,51089
+"Martinsville, VA",Micropolitan Statistical Area,Martinsville city,Virginia,51,690,Central,51690
+"Richmond, VA",Metropolitan Statistical Area,Amelia County,Virginia,51,7,Outlying,51007
+"Richmond, VA",Metropolitan Statistical Area,Caroline County,Virginia,51,33,Outlying,51033
+"Richmond, VA",Metropolitan Statistical Area,Charles City County,Virginia,51,36,Outlying,51036
+"Richmond, VA",Metropolitan Statistical Area,Chesterfield County,Virginia,51,41,Central,51041
+"Richmond, VA",Metropolitan Statistical Area,Dinwiddie County,Virginia,51,53,Central,51053
+"Richmond, VA",Metropolitan Statistical Area,Goochland County,Virginia,51,75,Outlying,51075
+"Richmond, VA",Metropolitan Statistical Area,Hanover County,Virginia,51,85,Central,51085
+"Richmond, VA",Metropolitan Statistical Area,Henrico County,Virginia,51,87,Central,51087
+"Richmond, VA",Metropolitan Statistical Area,King William County,Virginia,51,101,Outlying,51101
+"Richmond, VA",Metropolitan Statistical Area,New Kent County,Virginia,51,127,Outlying,51127
+"Richmond, VA",Metropolitan Statistical Area,Powhatan County,Virginia,51,145,Outlying,51145
+"Richmond, VA",Metropolitan Statistical Area,Prince George County,Virginia,51,149,Central,51149
+"Richmond, VA",Metropolitan Statistical Area,Sussex County,Virginia,51,183,Outlying,51183
+"Richmond, VA",Metropolitan Statistical Area,Colonial Heights city,Virginia,51,570,Central,51570
+"Richmond, VA",Metropolitan Statistical Area,Hopewell city,Virginia,51,670,Central,51670
+"Richmond, VA",Metropolitan Statistical Area,Petersburg city,Virginia,51,730,Central,51730
+"Richmond, VA",Metropolitan Statistical Area,Richmond city,Virginia,51,760,Central,51760
+"Roanoke, VA",Metropolitan Statistical Area,Botetourt County,Virginia,51,23,Central,51023
+"Roanoke, VA",Metropolitan Statistical Area,Craig County,Virginia,51,45,Outlying,51045
+"Roanoke, VA",Metropolitan Statistical Area,Franklin County,Virginia,51,67,Outlying,51067
+"Roanoke, VA",Metropolitan Statistical Area,Roanoke County,Virginia,51,161,Central,51161
+"Roanoke, VA",Metropolitan Statistical Area,Roanoke city,Virginia,51,770,Central,51770
+"Roanoke, VA",Metropolitan Statistical Area,Salem city,Virginia,51,775,Central,51775
+"Staunton-Waynesboro, VA",Metropolitan Statistical Area,Augusta County,Virginia,51,15,Central,51015
+"Staunton-Waynesboro, VA",Metropolitan Statistical Area,Staunton city,Virginia,51,790,Central,51790
+"Staunton-Waynesboro, VA",Metropolitan Statistical Area,Waynesboro city,Virginia,51,820,Central,51820
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Gloucester County,Virginia,51,73,Central,51073
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Isle of Wight County,Virginia,51,93,Outlying,51093
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,James City County,Virginia,51,95,Outlying,51095
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Mathews County,Virginia,51,115,Outlying,51115
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,York County,Virginia,51,199,Central,51199
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Chesapeake city,Virginia,51,550,Central,51550
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Hampton city,Virginia,51,650,Central,51650
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Newport News city,Virginia,51,700,Central,51700
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Norfolk city,Virginia,51,710,Central,51710
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Poquoson city,Virginia,51,735,Central,51735
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Portsmouth city,Virginia,51,740,Central,51740
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Suffolk city,Virginia,51,800,Central,51800
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Virginia Beach city,Virginia,51,810,Central,51810
+"Virginia Beach-Norfolk-Newport News, VA-NC",Metropolitan Statistical Area,Williamsburg city,Virginia,51,830,Outlying,51830
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Arlington County,Virginia,51,13,Central,51013
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Clarke County,Virginia,51,43,Outlying,51043
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Culpeper County,Virginia,51,47,Outlying,51047
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Fairfax County,Virginia,51,59,Central,51059
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Fauquier County,Virginia,51,61,Central,51061
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Loudoun County,Virginia,51,107,Central,51107
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Prince William County,Virginia,51,153,Central,51153
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Rappahannock County,Virginia,51,157,Outlying,51157
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Spotsylvania County,Virginia,51,177,Outlying,51177
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Stafford County,Virginia,51,179,Central,51179
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Warren County,Virginia,51,187,Outlying,51187
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Alexandria city,Virginia,51,510,Central,51510
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Fairfax city,Virginia,51,600,Central,51600
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Falls Church city,Virginia,51,610,Central,51610
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Fredericksburg city,Virginia,51,630,Outlying,51630
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Manassas city,Virginia,51,683,Central,51683
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Manassas Park city,Virginia,51,685,Central,51685
+"Winchester, VA-WV",Metropolitan Statistical Area,Frederick County,Virginia,51,69,Central,51069
+"Winchester, VA-WV",Metropolitan Statistical Area,Winchester city,Virginia,51,840,Central,51840
+"Aberdeen, WA",Micropolitan Statistical Area,Grays Harbor County,Washington,53,27,Central,53027
+"Bellingham, WA",Metropolitan Statistical Area,Whatcom County,Washington,53,73,Central,53073
+"Bremerton-Silverdale, WA",Metropolitan Statistical Area,Kitsap County,Washington,53,35,Central,53035
+"Centralia, WA",Micropolitan Statistical Area,Lewis County,Washington,53,41,Central,53041
+"Ellensburg, WA",Micropolitan Statistical Area,Kittitas County,Washington,53,37,Central,53037
+"Kennewick-Richland, WA",Metropolitan Statistical Area,Benton County,Washington,53,5,Central,53005
+"Kennewick-Richland, WA",Metropolitan Statistical Area,Franklin County,Washington,53,21,Central,53021
+"Lewiston, ID-WA",Metropolitan Statistical Area,Asotin County,Washington,53,3,Central,53003
+"Longview, WA",Metropolitan Statistical Area,Cowlitz County,Washington,53,15,Central,53015
+"Moses Lake, WA",Micropolitan Statistical Area,Grant County,Washington,53,25,Central,53025
+"Mount Vernon-Anacortes, WA",Metropolitan Statistical Area,Skagit County,Washington,53,57,Central,53057
+"Oak Harbor, WA",Micropolitan Statistical Area,Island County,Washington,53,29,Central,53029
+"Olympia-Tumwater, WA",Metropolitan Statistical Area,Thurston County,Washington,53,67,Central,53067
+"Othello, WA",Micropolitan Statistical Area,Adams County,Washington,53,1,Central,53001
+"Port Angeles, WA",Micropolitan Statistical Area,Clallam County,Washington,53,9,Central,53009
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Clark County,Washington,53,11,Central,53011
+"Portland-Vancouver-Hillsboro, OR-WA",Metropolitan Statistical Area,Skamania County,Washington,53,59,Outlying,53059
+"Pullman, WA",Micropolitan Statistical Area,Whitman County,Washington,53,75,Central,53075
+"Seattle-Tacoma-Bellevue, WA",Metropolitan Statistical Area,King County,Washington,53,33,Central,53033
+"Seattle-Tacoma-Bellevue, WA",Metropolitan Statistical Area,Snohomish County,Washington,53,61,Central,53061
+"Seattle-Tacoma-Bellevue, WA",Metropolitan Statistical Area,Pierce County,Washington,53,53,Central,53053
+"Shelton, WA",Micropolitan Statistical Area,Mason County,Washington,53,45,Central,53045
+"Spokane-Spokane Valley, WA",Metropolitan Statistical Area,Pend Oreille County,Washington,53,51,Outlying,53051
+"Spokane-Spokane Valley, WA",Metropolitan Statistical Area,Spokane County,Washington,53,63,Central,53063
+"Spokane-Spokane Valley, WA",Metropolitan Statistical Area,Stevens County,Washington,53,65,Outlying,53065
+"Walla Walla, WA",Metropolitan Statistical Area,Columbia County,Washington,53,13,Outlying,53013
+"Walla Walla, WA",Metropolitan Statistical Area,Walla Walla County,Washington,53,71,Central,53071
+"Wenatchee, WA",Metropolitan Statistical Area,Chelan County,Washington,53,7,Central,53007
+"Wenatchee, WA",Metropolitan Statistical Area,Douglas County,Washington,53,17,Central,53017
+"Yakima, WA",Metropolitan Statistical Area,Yakima County,Washington,53,77,Central,53077
+"Beckley, WV",Metropolitan Statistical Area,Fayette County,West Virginia,54,19,Central,54019
+"Beckley, WV",Metropolitan Statistical Area,Raleigh County,West Virginia,54,81,Central,54081
+"Bluefield, WV-VA",Micropolitan Statistical Area,Mercer County,West Virginia,54,55,Central,54055
+"Charleston, WV",Metropolitan Statistical Area,Boone County,West Virginia,54,5,Outlying,54005
+"Charleston, WV",Metropolitan Statistical Area,Clay County,West Virginia,54,15,Outlying,54015
+"Charleston, WV",Metropolitan Statistical Area,Kanawha County,West Virginia,54,39,Central,54039
+"Clarksburg, WV",Micropolitan Statistical Area,Doddridge County,West Virginia,54,17,Outlying,54017
+"Clarksburg, WV",Micropolitan Statistical Area,Harrison County,West Virginia,54,33,Central,54033
+"Clarksburg, WV",Micropolitan Statistical Area,Taylor County,West Virginia,54,91,Outlying,54091
+"Cumberland, MD-WV",Metropolitan Statistical Area,Mineral County,West Virginia,54,57,Outlying,54057
+"Elkins, WV",Micropolitan Statistical Area,Randolph County,West Virginia,54,83,Central,54083
+"Fairmont, WV",Micropolitan Statistical Area,Marion County,West Virginia,54,49,Central,54049
+"Hagerstown-Martinsburg, MD-WV",Metropolitan Statistical Area,Berkeley County,West Virginia,54,3,Central,54003
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Cabell County,West Virginia,54,11,Central,54011
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Lincoln County,West Virginia,54,43,Outlying,54043
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Putnam County,West Virginia,54,79,Central,54079
+"Huntington-Ashland, WV-KY-OH",Metropolitan Statistical Area,Wayne County,West Virginia,54,99,Central,54099
+"Logan, WV",Micropolitan Statistical Area,Logan County,West Virginia,54,45,Central,54045
+"Morgantown, WV",Metropolitan Statistical Area,Monongalia County,West Virginia,54,61,Central,54061
+"Morgantown, WV",Metropolitan Statistical Area,Preston County,West Virginia,54,77,Outlying,54077
+"Parkersburg-Vienna, WV",Metropolitan Statistical Area,Wirt County,West Virginia,54,105,Outlying,54105
+"Parkersburg-Vienna, WV",Metropolitan Statistical Area,Wood County,West Virginia,54,107,Central,54107
+"Point Pleasant, WV-OH",Micropolitan Statistical Area,Mason County,West Virginia,54,53,Central,54053
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",Metropolitan Statistical Area,Jefferson County,West Virginia,54,37,Outlying,54037
+"Weirton-Steubenville, WV-OH",Metropolitan Statistical Area,Brooke County,West Virginia,54,9,Central,54009
+"Weirton-Steubenville, WV-OH",Metropolitan Statistical Area,Hancock County,West Virginia,54,29,Central,54029
+"Wheeling, WV-OH",Metropolitan Statistical Area,Marshall County,West Virginia,54,51,Central,54051
+"Wheeling, WV-OH",Metropolitan Statistical Area,Ohio County,West Virginia,54,69,Central,54069
+"Winchester, VA-WV",Metropolitan Statistical Area,Hampshire County,West Virginia,54,27,Outlying,54027
+"Appleton, WI",Metropolitan Statistical Area,Calumet County,Wisconsin,55,15,Central,55015
+"Appleton, WI",Metropolitan Statistical Area,Outagamie County,Wisconsin,55,87,Central,55087
+"Baraboo, WI",Micropolitan Statistical Area,Sauk County,Wisconsin,55,111,Central,55111
+"Beaver Dam, WI",Micropolitan Statistical Area,Dodge County,Wisconsin,55,27,Central,55027
+"Chicago-Naperville-Elgin, IL-IN-WI",Metropolitan Statistical Area,Kenosha County,Wisconsin,55,59,Outlying,55059
+"Duluth, MN-WI",Metropolitan Statistical Area,Douglas County,Wisconsin,55,31,Central,55031
+"Eau Claire, WI",Metropolitan Statistical Area,Chippewa County,Wisconsin,55,17,Central,55017
+"Eau Claire, WI",Metropolitan Statistical Area,Eau Claire County,Wisconsin,55,35,Central,55035
+"Fond du Lac, WI",Metropolitan Statistical Area,Fond du Lac County,Wisconsin,55,39,Central,55039
+"Green Bay, WI",Metropolitan Statistical Area,Brown County,Wisconsin,55,9,Central,55009
+"Green Bay, WI",Metropolitan Statistical Area,Kewaunee County,Wisconsin,55,61,Outlying,55061
+"Green Bay, WI",Metropolitan Statistical Area,Oconto County,Wisconsin,55,83,Outlying,55083
+"Iron Mountain, MI-WI",Micropolitan Statistical Area,Florence County,Wisconsin,55,37,Outlying,55037
+"Janesville-Beloit, WI",Metropolitan Statistical Area,Rock County,Wisconsin,55,105,Central,55105
+"La Crosse-Onalaska, WI-MN",Metropolitan Statistical Area,La Crosse County,Wisconsin,55,63,Central,55063
+"Madison, WI",Metropolitan Statistical Area,Columbia County,Wisconsin,55,21,Outlying,55021
+"Madison, WI",Metropolitan Statistical Area,Dane County,Wisconsin,55,25,Central,55025
+"Madison, WI",Metropolitan Statistical Area,Green County,Wisconsin,55,45,Outlying,55045
+"Madison, WI",Metropolitan Statistical Area,Iowa County,Wisconsin,55,49,Outlying,55049
+"Manitowoc, WI",Micropolitan Statistical Area,Manitowoc County,Wisconsin,55,71,Central,55071
+"Marinette, WI-MI",Micropolitan Statistical Area,Marinette County,Wisconsin,55,75,Central,55075
+"Menomonie, WI",Micropolitan Statistical Area,Dunn County,Wisconsin,55,33,Central,55033
+"Merrill, WI",Micropolitan Statistical Area,Lincoln County,Wisconsin,55,69,Central,55069
+"Milwaukee-Waukesha-West Allis, WI",Metropolitan Statistical Area,Milwaukee County,Wisconsin,55,79,Central,55079
+"Milwaukee-Waukesha-West Allis, WI",Metropolitan Statistical Area,Ozaukee County,Wisconsin,55,89,Central,55089
+"Milwaukee-Waukesha-West Allis, WI",Metropolitan Statistical Area,Washington County,Wisconsin,55,131,Outlying,55131
+"Milwaukee-Waukesha-West Allis, WI",Metropolitan Statistical Area,Waukesha County,Wisconsin,55,133,Central,55133
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,Pierce County,Wisconsin,55,93,Outlying,55093
+"Minneapolis-St. Paul-Bloomington, MN-WI",Metropolitan Statistical Area,St. Croix County,Wisconsin,55,109,Outlying,55109
+"Oshkosh-Neenah, WI",Metropolitan Statistical Area,Winnebago County,Wisconsin,55,139,Central,55139
+"Platteville, WI",Micropolitan Statistical Area,Grant County,Wisconsin,55,43,Central,55043
+"Racine, WI",Metropolitan Statistical Area,Racine County,Wisconsin,55,101,Central,55101
+"Shawano, WI",Micropolitan Statistical Area,Menominee County,Wisconsin,55,78,Outlying,55078
+"Shawano, WI",Micropolitan Statistical Area,Shawano County,Wisconsin,55,115,Central,55115
+"Sheboygan, WI",Metropolitan Statistical Area,Sheboygan County,Wisconsin,55,117,Central,55117
+"Stevens Point, WI",Micropolitan Statistical Area,Portage County,Wisconsin,55,97,Central,55097
+"Watertown-Fort Atkinson, WI",Micropolitan Statistical Area,Jefferson County,Wisconsin,55,55,Central,55055
+"Wausau, WI",Metropolitan Statistical Area,Marathon County,Wisconsin,55,73,Central,55073
+"Whitewater-Elkhorn, WI",Micropolitan Statistical Area,Walworth County,Wisconsin,55,127,Central,55127
+"Wisconsin Rapids-Marshfield, WI",Micropolitan Statistical Area,Wood County,Wisconsin,55,141,Central,55141
+"Casper, WY",Metropolitan Statistical Area,Natrona County,Wyoming,56,25,Central,56025
+"Cheyenne, WY",Metropolitan Statistical Area,Laramie County,Wyoming,56,21,Central,56021
+"Evanston, WY",Micropolitan Statistical Area,Uinta County,Wyoming,56,41,Central,56041
+"Gillette, WY",Micropolitan Statistical Area,Campbell County,Wyoming,56,5,Central,56005
+"Jackson, WY-ID",Micropolitan Statistical Area,Teton County,Wyoming,56,39,Central,56039
+"Laramie, WY",Micropolitan Statistical Area,Albany County,Wyoming,56,1,Central,56001
+"Riverton, WY",Micropolitan Statistical Area,Fremont County,Wyoming,56,13,Central,56013
+"Rock Springs, WY",Micropolitan Statistical Area,Sweetwater County,Wyoming,56,37,Central,56037
+"Sheridan, WY",Micropolitan Statistical Area,Sheridan County,Wyoming,56,33,Central,56033
+"Adjuntas, PR",Micropolitan Statistical Area,Adjuntas Municipio,Puerto Rico,72,1,Central,72001
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Aguada Municipio,Puerto Rico,72,3,Central,72003
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Aguadilla Municipio,Puerto Rico,72,5,Central,72005
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Añasco Municipio,Puerto Rico,72,11,Central,72011
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Isabela Municipio,Puerto Rico,72,71,Central,72071
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Lares Municipio,Puerto Rico,72,81,Central,72081
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Moca Municipio,Puerto Rico,72,99,Central,72099
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Rincón Municipio,Puerto Rico,72,117,Central,72117
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,San Sebastián Municipio,Puerto Rico,72,131,Central,72131
+"Aguadilla-Isabela, PR",Metropolitan Statistical Area,Utuado Municipio,Puerto Rico,72,141,Central,72141
+"Arecibo, PR",Metropolitan Statistical Area,Arecibo Municipio,Puerto Rico,72,13,Central,72013
+"Arecibo, PR",Metropolitan Statistical Area,Camuy Municipio,Puerto Rico,72,27,Central,72027
+"Arecibo, PR",Metropolitan Statistical Area,Hatillo Municipio,Puerto Rico,72,65,Central,72065
+"Arecibo, PR",Metropolitan Statistical Area,Quebradillas Municipio,Puerto Rico,72,115,Central,72115
+"Coamo, PR",Micropolitan Statistical Area,Coamo Municipio,Puerto Rico,72,43,Central,72043
+"Coco, PR",Micropolitan Statistical Area,Salinas Municipio,Puerto Rico,72,123,Central,72123
+"Guayama, PR",Metropolitan Statistical Area,Arroyo Municipio,Puerto Rico,72,15,Central,72015
+"Guayama, PR",Metropolitan Statistical Area,Guayama Municipio,Puerto Rico,72,57,Central,72057
+"Guayama, PR",Metropolitan Statistical Area,Patillas Municipio,Puerto Rico,72,109,Central,72109
+"Jayuya, PR",Micropolitan Statistical Area,Jayuya Municipio,Puerto Rico,72,73,Central,72073
+"Mayagüez, PR",Metropolitan Statistical Area,Hormigueros Municipio,Puerto Rico,72,67,Central,72067
+"Mayagüez, PR",Metropolitan Statistical Area,Mayagüez Municipio,Puerto Rico,72,97,Central,72097
+"Ponce, PR",Metropolitan Statistical Area,Guánica Municipio,Puerto Rico,72,55,Outlying,72055
+"Ponce, PR",Metropolitan Statistical Area,Guayanilla Municipio,Puerto Rico,72,59,Outlying,72059
+"Ponce, PR",Metropolitan Statistical Area,Juana Díaz Municipio,Puerto Rico,72,75,Outlying,72075
+"Ponce, PR",Metropolitan Statistical Area,Peñuelas Municipio,Puerto Rico,72,111,Outlying,72111
+"Ponce, PR",Metropolitan Statistical Area,Ponce Municipio,Puerto Rico,72,113,Central,72113
+"Ponce, PR",Metropolitan Statistical Area,Villalba Municipio,Puerto Rico,72,149,Outlying,72149
+"Ponce, PR",Metropolitan Statistical Area,Yauco Municipio,Puerto Rico,72,153,Outlying,72153
+"San Germán, PR",Metropolitan Statistical Area,Cabo Rojo Municipio,Puerto Rico,72,23,Central,72023
+"San Germán, PR",Metropolitan Statistical Area,Lajas Municipio,Puerto Rico,72,79,Central,72079
+"San Germán, PR",Metropolitan Statistical Area,Sabana Grande Municipio,Puerto Rico,72,121,Central,72121
+"San Germán, PR",Metropolitan Statistical Area,San Germán Municipio,Puerto Rico,72,125,Central,72125
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Aguas Buenas Municipio,Puerto Rico,72,7,Central,72007
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Aibonito Municipio,Puerto Rico,72,9,Central,72009
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Barceloneta Municipio,Puerto Rico,72,17,Outlying,72017
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Barranquitas Municipio,Puerto Rico,72,19,Central,72019
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Bayamón Municipio,Puerto Rico,72,21,Central,72021
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Caguas Municipio,Puerto Rico,72,25,Central,72025
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Canóvanas Municipio,Puerto Rico,72,29,Central,72029
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Carolina Municipio,Puerto Rico,72,31,Central,72031
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Cataño Municipio,Puerto Rico,72,33,Central,72033
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Cayey Municipio,Puerto Rico,72,35,Central,72035
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Ceiba Municipio,Puerto Rico,72,37,Outlying,72037
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Ciales Municipio,Puerto Rico,72,39,Central,72039
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Cidra Municipio,Puerto Rico,72,41,Central,72041
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Comerío Municipio,Puerto Rico,72,45,Central,72045
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Corozal Municipio,Puerto Rico,72,47,Central,72047
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Dorado Municipio,Puerto Rico,72,51,Central,72051
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Fajardo Municipio,Puerto Rico,72,53,Outlying,72053
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Florida Municipio,Puerto Rico,72,54,Outlying,72054
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Guaynabo Municipio,Puerto Rico,72,61,Central,72061
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Gurabo Municipio,Puerto Rico,72,63,Central,72063
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Humacao Municipio,Puerto Rico,72,69,Central,72069
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Juncos Municipio,Puerto Rico,72,77,Central,72077
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Las Piedras Municipio,Puerto Rico,72,85,Central,72085
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Loíza Municipio,Puerto Rico,72,87,Central,72087
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Luquillo Municipio,Puerto Rico,72,89,Outlying,72089
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Manatí Municipio,Puerto Rico,72,91,Central,72091
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Maunabo Municipio,Puerto Rico,72,95,Outlying,72095
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Morovis Municipio,Puerto Rico,72,101,Central,72101
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Naguabo Municipio,Puerto Rico,72,103,Outlying,72103
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Naranjito Municipio,Puerto Rico,72,105,Central,72105
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Orocovis Municipio,Puerto Rico,72,107,Central,72107
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Río Grande Municipio,Puerto Rico,72,119,Central,72119
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,San Juan Municipio,Puerto Rico,72,127,Central,72127
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,San Lorenzo Municipio,Puerto Rico,72,129,Central,72129
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Toa Alta Municipio,Puerto Rico,72,135,Central,72135
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Toa Baja Municipio,Puerto Rico,72,137,Central,72137
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Trujillo Alto Municipio,Puerto Rico,72,139,Central,72139
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Vega Alta Municipio,Puerto Rico,72,143,Central,72143
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Vega Baja Municipio,Puerto Rico,72,145,Central,72145
+"San Juan-Carolina-Caguas, PR",Metropolitan Statistical Area,Yabucoa Municipio,Puerto Rico,72,151,Central,72151
+"Santa Isabel, PR",Micropolitan Statistical Area,Santa Isabel Municipio,Puerto Rico,72,133,Central,72133
