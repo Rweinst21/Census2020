@@ -1,20 +1,8 @@
 library(censusapi)
 library(tidyverse)
 
+#### FUNCTIONS ####
 
-
-### Low Response Score available in Census Planning Database
-### only years 15-16 available in API
-### download tract-level spreadsheet in zip file below
-### https://www2.census.gov/adrm/PDB/2019/pdb2019trv3_us.zip
-
-#C:/Users/jenna/Documents/pdb2019censusLRS.csv
-
-LRS <- read_csv('YOUR FILE PATH HERE')%>%
-  select(GIDTR, State, State_name, County, County_name, LAND_AREA, Tot_Population_ACS_13_17,Tot_Population_ACSMOE_13_17, Low_Response_Score) %>%
-  filter(State == "22")
-
-### Count of children 4 and under
 np.pull <- function(variables, names = variables, year=2017, survey = "acs/acs5"){
   censuskey="530ce361defc2c476e5b5d5626d224d8354b9b9a"
   tract <- getCensus(name = survey, 
@@ -27,19 +15,6 @@ np.pull <- function(variables, names = variables, year=2017, survey = "acs/acs5"
   return(tract)
 }
 
-age.vars <-c("B01003_001E", "B01003_001M",
-             "B01001_003E", 
-             "B01001_027E", 
-             "B01001_003M", 
-             "B01001_027M")
-age.names <-c("pop", "popMOE", "m_under5","f_under5","m_under5MOE","f_under5MOE")
-ageRaw <- np.pull(variables=age.vars, names=age.names) 
-
-ageRaw[ageRaw == -555555555] <- 0  
-age <- ageRaw %>%
-  mutate(t4less = (m_under5 + f_under5), 
-         t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
-         t4lessCV = (t4lessmoeagg/1.64)/t4less)
 ##calculates MOE for aggregated estimates
 ##moe = sqrt(sum(estimateMOE^2))
 ##input: dataframe of estimates' MOEs (i.e. use cbind)
@@ -73,13 +48,48 @@ moeprop <- function(y, moex, moey, p, ratio = FALSE){
   return(mp)
 }
 
+
+#### LOW RESPONSE SCORE ####
+
+### Low Response Score available in Census Planning Database
+### only years 15-16 available in API
+### download tract-level spreadsheet in zip file below
+### https://www2.census.gov/adrm/PDB/2019/pdb2019trv3_us.zip
+
+#C:/Users/jenna/Documents/pdb2019censusLRS.csv
+
+LRS <- read_csv('YOUR FILE PATH HERE')%>%
+  select(GIDTR, State, State_name, County, County_name, LAND_AREA, Tot_Population_ACS_13_17,Tot_Population_ACSMOE_13_17, Low_Response_Score) %>%
+  filter(State == "22")
+
+
+#### YOUNG CHILDREN ####
+
+### Count of children 4 and under
+
+age.vars <-c("B01003_001E", "B01003_001M",
+             "B01001_003E", 
+             "B01001_027E", 
+             "B01001_003M", 
+             "B01001_027M")
+age.names <-c("pop", "popMOE", "m_under5","f_under5","m_under5MOE","f_under5MOE")
+ageRaw <- np.pull(variables=age.vars, names=age.names) 
+
+ageRaw[ageRaw == -555555555] <- 0  
+age <- ageRaw %>%
+  mutate(t4less = (m_under5 + f_under5), 
+         t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
+         t4lessCV = (t4lessmoeagg/1.64)/t4less)
+
+
+#### LOW ENGLISH PROFICIENCY ####
+
 # The most straighforward measure of English ability is probably the English ability question from the ACS.
 # 
 # A paper published at the Census Bureau reports "that the English-ability question, despite being a self-assessment, does a good job of measuring English ability."
 # https://www.census.gov/newsroom/blogs/research-matters/2015/10/how-well-do-you-speak-english-assessing-the-validity-of-the-american-community-survey-english-ability-question.html
 
 # In neighborhood profiles, we group together people who speak english "well" or "very well" and people who speak English "not well" or "not at all," with the latter group representing people for whom English is a barrier.  
-
 
 lang.vars <- c("B16005_001E","B16005_003E","B16005_005E","B16005_006E","B16005_007E","B16005_008E","B16005_010E","B16005_011E","B16005_012E","B16005_013E","B16005_015E","B16005_016E","B16005_017E","B16005_018E","B16005_020E","B16005_021E","B16005_022E","B16005_023E","B16005_025E","B16005_027E",
                "B16005_028E","B16005_029E","B16005_030E","B16005_032E","B16005_033E","B16005_034E","B16005_035E","B16005_037E","B16005_038E","B16005_039E","B16005_040E","B16005_042E","B16005_043E","B16005_044E","B16005_045E","B16005_001M","B16005_003M","B16005_005M","B16005_006M","B16005_007M",
