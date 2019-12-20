@@ -1,6 +1,10 @@
 library(censusapi)
 library(tidyverse)
 
+#### MAP ####  
+
+tracts.la <- sf::st_read(here("inputs/tl_2010_22_tract10/tl_2010_22_tract10.shp"))
+
 #### FUNCTIONS ####
 
 np.pull <- function(variables, names = variables, year=2017, survey = "acs/acs5"){
@@ -58,8 +62,8 @@ moeprop <- function(y, moex, moey, p, ratio = FALSE){
 
 #C:/Users/jenna/Documents/pdb2019censusLRS.csv
 
-LRS <- read_csv('YOUR FILE PATH HERE')%>%
-  select(GIDTR, State, State_name, County, County_name, LAND_AREA, Tot_Population_ACS_13_17,Tot_Population_ACSMOE_13_17, Low_Response_Score) %>%
+LRS <- read_csv('C:/Users/jenna/Documents/pdb2019censusLRS.csv')%>%
+  select(GEOID = GIDTR, State, State_name, County, County_name, LAND_AREA, Tot_Population_ACS_13_17,Tot_Population_ACSMOE_13_17, Low_Response_Score) %>%
   filter(State == "22")
 
 
@@ -78,8 +82,10 @@ ageRaw <- np.pull(variables=age.vars, names=age.names)
 ageRaw[ageRaw == -555555555] <- 0  
 age <- ageRaw %>%
   mutate(t4less = (m_under5 + f_under5), 
+         t4lesspct = t4less/pop,
          t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
-         t4lessCV = (t4lessmoeagg/1.64)/t4less)
+         t4lessCV = (t4lessmoeagg/1.64)/t4less,
+         GEOID = paste0("22", parish, tract))
 
 
 #### LOW ENGLISH PROFICIENCY ####
@@ -116,7 +122,8 @@ lang <- langRaw %>%
          engnotwellMOE = moeagg(cbind(nat.span.notwellMOE, nat.span.notatallMOE, forbor.span.notwellMOE, forbor.span.notatallMOE,nat.euro.notwellMOE, nat.euro.notatallMOE, nat.asian.notwellMOE, nat.asian.notatallMOE, nat.other.notwellMOE, nat.other.notatallMOE, forbor.euro.notwellMOE, forbor.euro.notatallMOE, forbor.other.notwellMOE, forbor.asian.notwellMOE, forbor.asian.notatallMOE)),
          
          engwellMOEprop = moeprop(y= tot, moex = engwellMOE, moey = totMOE, p = engwellpct),
-         engnotwellMOEprop = moeprop(y= tot, moex = engnotwellMOE, moey = totMOE, p = engnotwellpct)) %>%
-  select(parish, tract, engwelltot, engnotwelltot, engwellpct, engnotwellpct, engwellMOE, engnotwellMOE, engwellMOEprop, engnotwellMOEprop)
+         engnotwellMOEprop = moeprop(y= tot, moex = engnotwellMOE, moey = totMOE, p = engnotwellpct),
+         GEOID = paste0("22", parish, tract)) %>%
+  select(GEOID, parish, tract, engwelltot, engnotwelltot, engwellpct, engnotwellpct, engwellMOE, engnotwellMOE, engwellMOEprop, engnotwellMOEprop)
 
 

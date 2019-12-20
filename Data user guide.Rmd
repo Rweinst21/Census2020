@@ -1,0 +1,214 @@
+---
+title: "Data user guide"
+author: "Jenna"
+date: "December 16, 2019"
+output: rmarkdown::github_document
+---
+
+```{r setup, include=FALSE}
+library(rmarkdown)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(here)
+source(here("data pull.R"))
+library(RColorBrewer)
+```
+
+### Objective: Describe the data required for the Census 2020 planning maps in order to facilitate decisionmaking around presentation of the data.  
+
+
+#### Low Response Score  
+
+The Low Response Score (LRS) is an ordinarly least-squares regression model fitted on 25 variables that: 
+1. best predicted 2010 mail no-response rate, and   
+2. have practical interpretation for outreach (e.g., include population of single mothers, exclude MOEs).   
+
+Point (1) is especially important, as it means the LRS does not account for internet response. One potential risk in using this data for the use case of outreach is misappropriating resources to neighborhoods of highly internet-literate residents like young, mobile renters, who would be considered HTC according to mail return rate, but may not in fact be HTC with the advent of the internet census. 
+
+The LRS is a predicted mail non-response rate, so "an LRS value of 17.7 should be interpreted as 17.7% of households in that census tract are predicted to NOT self-respond to the decennial census." Percentage of renters, percentage of people aged 18-24, and percentage of households headed by unmarried females are the strongest predictors.  
+
+I have not been able to find a recommended threshold for what LRS is most important in the research paper, FAQ, ROAM user guide, or NNIP partners' publications. A map in an article titles "Identifying Hard-to-Survey Populations Using Low Response Scores by Census Tract" on the Census website uses the breakdown of LRS  0 - 17.9, 18 - 21.9, 22 - 24.9, 25 - 28.9, 29 - 46.2.
+
+The national non-response rate in 2010 was 20.7 percent, of course with large geographic variation. Even so, that number could serve as a good cutoff for determining HTC.
+
+Below is a map of New Orleans tract-level LRS broken into the same groups the CB shows.   
+
+```{r}
+
+
+LRS.plotdata <- LRS %>%
+  mutate(bin = factor(cut(LRS$Low_Response_Score,  c(0, 18, 22, 25, 29, 46.2)), labels = c("0 - 17.9", "18 - 21.9", "22 - 24.9", "25 - 28.9", "29 - 46.2")))
+df.polygon.LRS <- tracts.la %>% 
+  mutate(GEOID = as.character(GEOID10)) %>% 
+  left_join(LRS.plotdata, by="GEOID")
+df.polygon.LRS %>% 
+  filter(COUNTYFP10 == "071") %>% 
+  ggplot() + 
+  geom_sf(aes(fill = bin), color="white")+ # This is the main feature layer for this map
+  scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_d(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Low response score")
+```
+ 
+The map below shows that a large majority of tracts in New Orleans are predicted to have a lower response rate in 2020 than the national response rate in 2010.  
+
+```{r}
+
+df.polygon.LRS %>% 
+  filter(COUNTYFP10 == "071" & Low_Response_Score > 20.7) %>% 
+  ggplot() + 
+  geom_sf(color="blue")+ # This is the main feature layer for this map
+  #
+  #scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_d(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Tracts with LRS above national 2010 mail non-response rate")
+```
+
+
+#### Young children  
+
+Below is a map of the same tracts mapped above (i.e. those predicted to have a lower response rate in 2020 than the national response rate in 2010), colored according to the number of children 4 and younger living there as of ACS 2013-2017.  
+
+```{r}
+df.polygon.age <- tracts.la %>% 
+  mutate(GEOID = as.character(GEOID10)) %>% 
+  left_join(age, by="GEOID") %>% 
+  mutate(bin = factor(cut(age$t4less,  c(0, 150, 300, 450, 600, 700)), labels = c("0 - 150", "150 - 300", "300 - 450", "450 - 600", "600+"))) %>%
+  left_join(LRS, by = "GEOID")
+df.polygon.age %>% 
+  filter(COUNTYFP10 == "071" & Low_Response_Score >= 20.7) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = bin), color="white")+ # This is the main feature layer for this map
+  scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_c(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Number of children 4 and under")
+```
+
+Below is a map of the same tracts mapped above, colored according to the percent of children 4 and younger living there as of ACS 2013-2017.  
+
+```{r}
+df.polygon.age %>% 
+  filter(COUNTYFP10 == "071"& Low_Response_Score >= 20.7) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = t4lesspct), color="white")+ # This is the main feature layer for this map
+  #scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_c(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Percent of children 4 and under")
+```
+
+
+#### English as a barrier  
+
+The most straighforward measure of English ability is the English ability question from the ACS.
+
+A paper published at the Census Bureau reports "that the English-ability question, despite being a self-assessment, does a good job of measuring English ability."
+
+In Neighborhood Profiles, we group categories of English ability according to the following logic: "We’ve combined the categories of people who speak only English at home with those who speak another language at home but report that they speak English 'well.' This way we can focus on data about those individuals for whom speaking English is a barrier."  
+
+```{r}
+df.polygon.lang <- tracts.la %>% 
+  mutate(GEOID = as.character(GEOID10)) %>% 
+  left_join(lang, by="GEOID")%>%
+  mutate(bin = factor(cut(lang$engnotwelltot,  c(0, 100, 200, 300, 400)), labels = c("0 - 100", "100 - 200", "200 - 300", "400+"))) %>%
+  left_join(LRS, by = "GEOID")
+df.polygon.lang %>% 
+  filter(COUNTYFP10 == "071"& Low_Response_Score >= 20.7) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = bin), color="white")+ # This is the main feature layer for this map
+  scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_c(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Number of people for whom English is a barrier")
+```
+
+```{r}
+df.polygon.lang %>% 
+  filter(COUNTYFP10 == "071"& Low_Response_Score >= 20.7) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = engnotwellpct), color="white")+ # This is the main feature layer for this map
+  #scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_c(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Percent of people for whom English is a barrier")
+```
