@@ -11,6 +11,7 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(here)
 source(here("data pull.R"))
 library(RColorBrewer)
+library(kableExtra)
 ```
 
 ### Objective: Describe the data required for the Census 2020 planning maps in order to facilitate decisionmaking around presentation of the data.  
@@ -26,6 +27,7 @@ Point (1) is especially important, as it means the LRS does not account for inte
 
 The LRS is a predicted mail non-response rate, so "an LRS value of 17.7 should be interpreted as 17.7% of households in that census tract are predicted to NOT self-respond to the decennial census." Percentage of renters, percentage of people aged 18-24, and percentage of households headed by unmarried females are the strongest predictors.  
 
+##### Threshold 
 I have not been able to find a recommended threshold for what LRS is most important in the research paper, FAQ, ROAM user guide, or NNIP partners' publications. A map in an article titles "Identifying Hard-to-Survey Populations Using Low Response Scores by Census Tract" on the Census website uses the breakdown of LRS  0 - 17.9, 18 - 21.9, 22 - 24.9, 25 - 28.9, 29 - 46.2.
 
 The national non-response rate in 2010 was 20.7 percent, of course with large geographic variation. Even so, that number could serve as a good cutoff for determining HTC.
@@ -95,6 +97,8 @@ df.polygon.LRS %>%
 #### Young children  
 
 Below is a map of the same tracts mapped above (i.e. those predicted to have a lower response rate in 2020 than the national response rate in 2010), colored according to the number of children 4 and younger living there as of ACS 2013-2017.  
+
+Not sure if we're interested in using a threshold on these other data points as well or just providing the data for the HTC tracts. Thinking about what threshold would work well for choosing what tracts to target, I'm not sure there's a clear answer. Our conversations thus far have focused on the raw number of children in the tract. As far as I've seen, there is no specific intervention that happens once a tract has a certain number of children, for example. If we switched the variable to "households with two or more children 4 or under" or "children to households ratio," that may do more to identify what we're looking for, i.e. tracts whose children may be harder to count than other children. However, I think the original rationale of "more children = more hard-to-count people" makes plenty of sense. 
 
 ```{r}
 df.polygon.age <- tracts.la %>% 
@@ -194,6 +198,54 @@ df.polygon.lang %>%
   filter(COUNTYFP10 == "071"& Low_Response_Score >= 20.7) %>% 
   ggplot() + 
   geom_sf(aes(fill = engnotwellpct), color="white")+ # This is the main feature layer for this map
+  #scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_c(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Percent of people for whom English is a barrier")
+```
+
+The plot & table below are to get a feel for how many tracts are home to people for whom English is a barrier & what proportion of tract residents have English as a barrier. Excluding tracts that have 0% of their populations with English as a barrier, on average city-wide, 2.35% of tract residents have English as a barrier. The horizontal line on the plot represents that average.  
+
+```{r}
+mn.ennw <- lang %>% 
+  filter(parish == "071", is.nan(engnotwellpct) == FALSE, engnotwellpct != 0) %>% 
+  summarise(mean.engnotwellpct = mean(engnotwellpct), med.engnotwellpct = median(engnotwellpct))
+lang %>% 
+  filter(parish == "071", is.nan(engnotwellpct) == FALSE, engnotwellpct != 0) %>% 
+  mutate(`% w Eng as barrier` = round(engnotwellpct*100, digits = 2)) %>%
+  dplyr::select(tract, `% w Eng as barrier`) %>%
+  arrange(desc(`% w Eng as barrier`)) %>%
+  kable()
+lang %>% 
+  filter(parish == "071") %>% 
+  ggplot(aes(x=tract, y = engnotwellpct*100)) +
+  geom_point() +
+  geom_hline(yintercept = 2.35) + 
+  labs(title = "% of residents for whom English is a barrier, by tract",
+       y = "%")
+```
+
+The map below shows only the tracts for which greater than 2.35% of the residents have english as a barrier.  
+
+```{r}
+df.polygon.lang %>% 
+  filter(COUNTYFP10 == "071"& Low_Response_Score >= 20.7) %>% 
+  filter(engnotwellpct > .0235) %>%
+  ggplot() + 
+  geom_sf(aes(fill = engnotwellpct*100), color="white")+ # This is the main feature layer for this map
   #scale_fill_brewer(palette = "YlGnBu") + # color palette
   #scale_fill_viridis_c(direction=-1) + # alternate palette
   #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
