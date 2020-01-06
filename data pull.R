@@ -2,9 +2,14 @@ library(censusapi)
 library(tidyverse)
 library(RODBC)
 
+
+
+###The variables we are using for your reference are found here:https://datacenterresearch.sharepoint.com/:x:/g/EURVXu8-_rNJgB2x-nDadH0BYK8bUfMV_BZqWsmrjmyZqg?rtime=Hh-7zc2S10g
+
+
 #### set up IDS 
 
-IDS <- odbcConnect("DC2 IDS", uid = YOURUSERIDHERE, pwd = YOURPWDHERE)
+IDS <- odbcConnect("DC2 IDS", uid = "rweinstein", pwd = "December20!")
 
 #### pull census data from IDS
 censusData <- sqlQuery(IDS, "SELECT * FROM acsraw.NBHDProfiles WHERE Year = 2017")
@@ -22,7 +27,17 @@ water.089 <- sf::st_read(here("inputs/tl_2018_22089_areawater/tl_2018_22089_area
 
 
 #### FUNCTIONS ####
-
+np.pull <- function(variables, names = variables, year=2017, survey = "acs/acs5"){
+  censuskey="530ce361defc2c476e5b5d5626d224d8354b9b9a"
+  tract <- getCensus(name = survey, 
+                     vintage = year, 
+                     key = censuskey, 
+                     vars = variables, 
+                     region = "tract:*", 
+                     regionin = "state:22+county:071") %>% select(-state, -county)
+  colnames(tract) <- c("place", names) 
+  return(tract)
+}
 ##calculates MOE for aggregated estimates
 ##moe = sqrt(sum(estimateMOE^2))
 ##input: dataframe of estimates' MOEs (i.e. use cbind)
@@ -94,6 +109,14 @@ age <- ageRaw %>%
          GEOID = paste0("22", parish, tract))
 
 
+
+
+
+###### DATA IN IDS PULL #####
+
+
+
+
 #### LOW ENGLISH PROFICIENCY ####
 
 # The most straighforward measure of English ability is probably the English ability question from the ACS.
@@ -131,3 +154,42 @@ lang <- langRaw %>%
   mutate(parish = "Orleans")
 
 
+
+
+Census2020IDS <- censusData %>% 
+  select(PlaceCode, pop, popMOE, hh, hhMOE, m_under5, m_under5MOE, f_under5, f_under5MOE, racepop, racepopMOE, white, whiteMOE, black, blackMOE, asian, asianMOE, hisp, hispMOE, renter, renterMOE, occupied, occupiedMOE) %>% 
+  mutate(Population = pop,
+         Population_MOE = popMOE,
+         Total_Households = hh,
+         Total_Households_MOE = hhMOE,
+         Population_Under_5 = m_under5 + f_under5,
+         Population_Under_5_MOE = moeagg(cbind(m_under5MOE, f_under5MOE)),
+         White_percent = white/racepop,
+         White_MOEprop = moeprop( y=racepop, moex =whiteMOE, moey = racepopMOE, p =White_percent),
+         Black_percent = black/racepop,
+         Black_MOEprop = moeprop( y=racepop, moex =blackMOE, moey = racepopMOE, p =Black_percent),
+         Asian_percent = asian/racepop,
+         Asian_MOEprop = moeprop( y=racepop, moex =asianMOE, moey = racepopMOE, p =Asian_percent),
+         Hispanic_percent = hisp/racepop,
+         Hispanic_MOEprop = moeprop( y=racepop, moex =hispMOE, moey = racepopMOE, p =Hispanic_percent),
+         Renter_percent = renter/occupied,
+         Renter_MOEprop = moeprop( y=occupied, moex =renterMOE, moey = occupiedMOE, p =Renter_percent)
+         )
+
+###### DATA NOT ALREADY IN IDS PULL #####
+
+##this variable is in Who Lives but comes from ACS1. I am using same variable names but its different code because different survey
+##The variable households with children under 18 is not the same as who lives because in who lives it is households with OWN children under 18. 
+##### Maybe in future change who lives to "hwoc" (o for own) so this one can be in IDS as "hwc"
+fresh.vars <-c("B19013_001E", "B19013_001M", "B11005_002E", "B11005_002E", "B28002_001E", "B28002_001M", "B28002_012E", "B28002_012M", "B28002_013E", "B28002_013M" )
+fresh.names <-c("medhhinc", "medhhincMOE","hhunder18","hhunder18MOE", "totinta", "totaintMOE", "NoSubscript","NoSubscriptMOE","NoAccess","NoAccessMOE")
+freshRaw <- np.pull(variables=fresh.vars, names=fresh.names) 
+
+fresh <- freshRaw %>% 
+  mutate(Median_household_income = medhhinc,
+         Median_household_incomeMOE = medhhincMOE,
+         Households_with_people_under18 = hhunder18,
+         Households_with_people_under18MOE = hhunder18MOE,
+         No_home_internet_access_percent = (NoSubscript + NoAccess)/totinta,
+         No_home_internet_access_MOEagg = moeagg(cbind(NoSubscriptMOE, NoAccessMOE)),
+         No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent))
