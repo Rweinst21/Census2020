@@ -43,7 +43,44 @@ df.polygon.LRS <- tracts.la %>%
   mutate(GEOID = as.character(GEOID10)) %>% 
   left_join(LRS.plotdata, by="GEOID")
 df.polygon.LRS %>% 
-  filter(COUNTYFP10 == "071") %>% 
+  filter(COUNTYFP10 %in% c("051","071")) %>% 
+  ggplot() + 
+  geom_sf(aes(fill = bin), color="white")+ # This is the main feature layer for this map
+  geom_sf(data = water.051, fill = "white", color="white") +
+  #geom_sf(data = water.057, fill = NA) +
+  geom_sf(data = water.071, fill = "white", color="white") +
+  #geom_sf(data = water.075, fill = NA) +
+  #geom_sf(data = water.087, fill = NA) +
+  #geom_sf(data = water.089, fill = NA) +
+  scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_d(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Low response score, Jefferson and Orleans Parishes")
+```
+
+```{r}
+
+
+LRS.plotdata <- LRS %>%
+  mutate(bin = factor(cut(LRS$Low_Response_Score,  c(0, 18, 22, 25, 29, 46.2)), labels = c("0 - 17.9", "18 - 21.9", "22 - 24.9", "25 - 28.9", "29 - 46.2")))
+df.polygon.LRS <- tracts.la %>% 
+  mutate(GEOID = as.character(GEOID10)) %>% 
+  left_join(LRS.plotdata, by="GEOID")
+df.polygon.LRS %>% 
+  filter(COUNTYFP10 == "051") %>% 
   ggplot() + 
   geom_sf(aes(fill = bin), color="white")+ # This is the main feature layer for this map
   scale_fill_brewer(palette = "YlGnBu") + # color palette
@@ -70,7 +107,7 @@ The map below shows that a large majority of tracts in New Orleans are predicted
 ```{r}
 
 df.polygon.LRS %>% 
-  filter(COUNTYFP10 == "071" & Low_Response_Score > 20.7) %>% 
+  filter(COUNTYFP10 %in% c("071", "051") & Low_Response_Score > 25) %>% 
   ggplot() + 
   geom_sf(color="blue")+ # This is the main feature layer for this map
   #
@@ -90,7 +127,33 @@ df.polygon.LRS %>%
     panel.grid.minor = element_line(colour = "white"),
     panel.background = element_blank(),
     legend.title= element_blank()) +
-  labs(title = "Tracts with LRS above national 2010 mail non-response rate")
+  labs(title = "Tracts with LRS above 25")
+```
+
+```{r}
+
+df.polygon.LRS %>% 
+  filter(COUNTYFP10 == "087" &  Low_Response_Score > 25) %>% 
+  ggplot() + 
+  geom_sf(color="blue")+ # This is the main feature layer for this map
+  #
+  #scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_d(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Tracts with LRS above 25")
 ```
 
 
@@ -243,7 +306,32 @@ The map below shows only the tracts for which greater than 2.35% of the resident
 ```{r}
 df.polygon.lang %>% 
   filter(COUNTYFP10 == "071"& Low_Response_Score >= 20.7) %>% 
-  filter(engnotwellpct > .0235) %>%
+  filter(engnotwellpct > .07) %>%
+  ggplot() + 
+  geom_sf(aes(fill = engnotwellpct*100), color="white")+ # This is the main feature layer for this map
+  #scale_fill_brewer(palette = "YlGnBu") + # color palette
+  #scale_fill_viridis_c(direction=-1) + # alternate palette
+  #coord_sf(xlim = c(-90.085683,-90.051281), ylim = c(29.946286, 29.986772)) + # manually specify the extent
+  #coord_sf(crs=sf::st_crs(2163)) + # manually specify the coordinate system
+  theme_minimal() +
+  theme(
+    axis.text = element_blank(),
+    axis.line = element_blank(),
+    axis.ticks = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_line(colour = "white"),
+    axis.title = element_blank(),
+    panel.grid.major = element_line(colour = "white"), 
+    panel.grid.minor = element_line(colour = "white"),
+    panel.background = element_blank(),
+    legend.title= element_blank()) +
+  labs(title = "Percent of people for whom English is a barrier")
+```
+
+```{r}
+df.polygon.lang %>% 
+  filter(COUNTYFP10 == "087") %>% 
+  filter(engnotwellpct > .02) %>%
   ggplot() + 
   geom_sf(aes(fill = engnotwellpct*100), color="white")+ # This is the main feature layer for this map
   #scale_fill_brewer(palette = "YlGnBu") + # color palette

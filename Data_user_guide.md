@@ -44,11 +44,15 @@ groups the CB shows.
 
 ![](Data_user_guide_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
 
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+
 The map below shows that a large majority of tracts in New Orleans are
 predicted to have a lower response rate in 2020 than the national
 response rate in 2010.
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-2-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
 
 #### Young children
 
@@ -70,12 +74,12 @@ i.e. tracts whose children may be harder to count than other children.
 However, I think the original rationale of “more children = more
 hard-to-count people” makes plenty of sense.
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
 
 Below is a map of the same tracts mapped above, colored according to the
 percent of children 4 and younger living there as of ACS 2013-2017.
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-4-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
 
 #### English as a barrier
 
@@ -93,9 +97,9 @@ language at home but report that they speak English ‘well.’ This way we
 can focus on data about those individuals for whom speaking English is a
 barrier.”
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-5-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-6-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
 
 The plot & table below are to get a feel for how many tracts are home to
 people for whom English is a barrier & what proportion of tract
@@ -2052,9 +2056,11 @@ tract
 
 </table>
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
 
 The map below shows only the tracts for which greater than 2.35% of the
 residents have english as a barrier.
 
-![](Data_user_guide_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+
+![](Data_user_guide_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
