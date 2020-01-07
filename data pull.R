@@ -4,7 +4,9 @@ library(RODBC)
 
 
 
-###The variables we are using for your reference are found here:https://datacenterresearch.sharepoint.com/:x:/g/EURVXu8-_rNJgB2x-nDadH0BYK8bUfMV_BZqWsmrjmyZqg?rtime=Hh-7zc2S10g
+###The variables we are using for your reference are 
+#found here:https://datacenterresearch.sharepoint.com/:x:/g/EURVXu8-_rNJgB2x-nDadH0BYK8bUfMV_BZqWsmrjmyZqg?rtime=Hh-7zc2S10g
+
 
 
 #### set up IDS 
@@ -178,7 +180,7 @@ Census2020IDS <- censusData %>%
 
 ###### DATA NOT ALREADY IN IDS PULL #####
 
-##this variable is in Who Lives but comes from ACS1. I am using same variable names but its different code because different survey
+##Internet variable is in Who Lives but comes from ACS1. I am using same variable names but its different code because pulling from ACS5
 ##The variable households with children under 18 is not the same as who lives because in who lives it is households with OWN children under 18. 
 ##### Maybe in future change who lives to "hwoc" (o for own) so this one can be in IDS as "hwc"
 fresh.vars <-c("B19013_001E", "B19013_001M", "B11005_002E", "B11005_002E", "B28002_001E", "B28002_001M", "B28002_012E", "B28002_012M", "B28002_013E", "B28002_013M" )
