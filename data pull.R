@@ -105,6 +105,7 @@ age <- ageRaw %>%
          #GEOID = paste0("22071", tract)
   #mutate(parish = "Orleans") %>%
   select(GEOID, tract, t4less, t4lessmoeagg)
+write.csv(age,file = "below52020.csv")
 
 #### LOW ENGLISH PROFICIENCY ####
 
@@ -141,7 +142,7 @@ lang <- langRaw %>%
          GEOID = paste0("22071", tract)) %>%
   select(GEOID, tract,  engnotwellpct, engnotwellMOEprop) #%>%
   #mutate(parish = "Orleans")
-
+write.csv(lang,file="lang2020.csv")
 #### TABULAR DATA ####
 
 Census2020IDS <- censusData %>% 
@@ -163,7 +164,7 @@ Census2020IDS <- censusData %>%
          Renter_percent = renter/occupied,
          Renter_MOEprop = moeprop( y=occupied, moex =renterMOE, moey = occupiedMOE, p =Renter_percent)
          )
-
+write.csv(Census2020IDS,file = "tabular_fromIDS_2020.csv")
 ###### DATA NOT ALREADY IN IDS PULL #####
 
 ##Internet variable is in Who Lives but comes from ACS1. I am using same variable names but its different code because pulling from ACS5
@@ -181,3 +182,4 @@ fresh <- freshRaw %>%
          No_home_internet_access_percent = (NoSubscript + NoAccess)/totinta,
          No_home_internet_access_MOEagg = moeagg(cbind(NoSubscriptMOE, NoAccessMOE)),
          No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent))
+write.csv(fresh,file = "tabular_fromCB_2020.csv")
