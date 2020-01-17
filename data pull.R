@@ -100,36 +100,24 @@ LRS <- read_csv('C:/Users/jenna/Documents/pdb2019censusLRS.csv')%>%
   filter(State == "22")
 write.csv(LRS, file = "LRS2020.csv")
 
-#### YOUNG CHILDREN ####
-
-### Count of children 4 and under
-pop.vars <-c("B01003_001E","B01003_001M","B11001_001E","B11001_001M","B11001_002E","B11001_002M")
-pop.names <-c("pop","popMOE","hh","hhMOE","famhh","famhhMOE")
-age.vars <-c("B01003_001E", "B01003_001M",
-             "B11001_001E","B11001_001M",
-             "B01001_003E", 
-             "B01001_027E", 
-             "B01001_003M", 
-             "B01001_027M")
-age.names <-c("pop", "popMOE","hh","hhMOE", "m_under5","f_under5","m_under5MOE","f_under5MOE")
-ageRaw <- np.pull(variables=age.vars, names=age.names) 
-
-ageRaw[ageRaw == -555555555] <- 0  
-age <- ageRaw %>%
-  mutate(t4less = (m_under5 + f_under5), 
-         t4lesspct = t4less/pop,
-         t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
-         t4lessCV = (t4lessmoeagg/1.64)/t4less,
-         GEOID = paste0("22", parish, tract))
-
-
-
-
 
 ###### DATA IN IDS PULL #####
 
+#### YOUNG CHILDREN ####
 
+### Count of children 4 and under
+ageRaw <- censusData %>%
+  select(PlaceCode,pop, popMOE,hh,hhMOE, m_under5,f_under5,m_under5MOE,f_under5MOE)
 
+#ageRaw[ageRaw == -555555555] <- 0  
+age <- ageRaw %>%
+  mutate(t4less = (m_under5 + f_under5), 
+         t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
+         tract = str_pad(PlaceCode,6, pad= "0")) %>%
+         #GEOID = paste0("22071", tract)
+  #mutate(parish = "Orleans") %>%
+  select(GEOID, tract, t4less, t4lessmoeagg)
+write.csv(age,file = "below52020.csv")
 
 #### LOW ENGLISH PROFICIENCY ####
 
@@ -164,11 +152,10 @@ lang <- langRaw %>%
          engnotwellMOEprop = moeprop(y= langtot, moex = engnotwellMOE, moey = langtotMOE, p = engnotwellpct),
          tract = str_pad(PlaceCode,6, pad= "0"),
          GEOID = paste0("22071", tract)) %>%
-  select(GEOID, tract, engwelltot, engnotwelltot, engwellpct, engnotwellpct, engwellMOE, engnotwellMOE, engwellMOEprop, engnotwellMOEprop) %>%
-  mutate(parish = "Orleans")
-
-
-
+  select(GEOID, tract,  engnotwellpct, engnotwellMOEprop) #%>%
+  #mutate(parish = "Orleans")
+write.csv(lang,file="lang2020.csv")
+#### TABULAR DATA ####
 
 Census2020IDS <- censusData %>% 
   select(PlaceCode, pop, popMOE, hh, hhMOE, m_under5, m_under5MOE, f_under5, f_under5MOE, racepop, racepopMOE, white, whiteMOE, black, blackMOE, asian, asianMOE, hisp, hispMOE, renter, renterMOE, occupied, occupiedMOE) %>% 
@@ -189,7 +176,7 @@ Census2020IDS <- censusData %>%
          Renter_percent = renter/occupied,
          Renter_MOEprop = moeprop( y=occupied, moex =renterMOE, moey = occupiedMOE, p =Renter_percent)
          )
-
+write.csv(Census2020IDS,file = "tabular_fromIDS_2020.csv")
 ###### DATA NOT ALREADY IN IDS PULL #####
 
 ##Internet variable is in Who Lives but comes from ACS1. I am using same variable names but its different code because pulling from ACS5
@@ -208,7 +195,7 @@ fresh <- freshRaw %>%
          No_home_internet_access_MOEagg = moeagg(cbind(NoSubscriptMOE, NoAccessMOE)),
          No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent))
 
-
+write.csv(fresh,file = "tabular_fromCB_2020.csv")
 
 
 ###I Kept the work I did for 2017 because the variables are different in 2015 in case we figure that out
@@ -260,6 +247,7 @@ langspoken15 <- langspoken15Raw %>%
 langspoken15sums <- langspoken15Raw %>% 
   select(-place) %>% 
   summarize_all(funs(sum))
+
 
 
 
