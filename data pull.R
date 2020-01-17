@@ -40,6 +40,18 @@ np.pull <- function(variables, names = variables, year=2017, survey = "acs/acs5"
   colnames(tract) <- c("place", names) 
   return(tract)
 }
+
+np.pull15 <- function(variables, names = variables, year=2015, survey = "acs/acs5"){
+  censuskey="530ce361defc2c476e5b5d5626d224d8354b9b9a"
+  tract <- getCensus(name = survey, 
+                     vintage = year, 
+                     key = censuskey, 
+                     vars = variables, 
+                     region = "tract:*", 
+                     regionin = "state:22+county:071") %>% select(-state, -county)
+  colnames(tract) <- c("place", names) 
+  return(tract)
+}
 ##calculates MOE for aggregated estimates
 ##moe = sqrt(sum(estimateMOE^2))
 ##input: dataframe of estimates' MOEs (i.e. use cbind)
@@ -195,3 +207,63 @@ fresh <- freshRaw %>%
          No_home_internet_access_percent = (NoSubscript + NoAccess)/totinta,
          No_home_internet_access_MOEagg = moeagg(cbind(NoSubscriptMOE, NoAccessMOE)),
          No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent))
+
+
+
+
+###I Kept the work I did for 2017 because the variables are different in 2015 in case we figure that out
+#### This data set not available past 2015
+### Pulled 2015 and found way to identify max in each row
+## Next step would be to find a way to do ifelse statement that pulls the column header that identifies the top language spoken based on the max number I pulled
+##The spreadsheet I used to identify and organize these variables is "langspoenvars" and it in this repository
+
+langspoken17.vars <-c("B16001_001E","B16001_005E","B16001_008E","B16001_011E","B16001_014E","B16001_017E","B16001_020E","B16001_023E","B16001_026E","B16001_029E",
+                    "B16001_032E","B16001_035E","B16001_038E","B16001_041E","B16001_044E","B16001_047E","B16001_050E","B16001_053E","B16001_056E","B16001_059E",
+                    "B16001_062E","B16001_065E","B16001_068E","B16001_071E","B16001_074E","B16001_077E","B16001_080E","B16001_083E","B16001_086E","B16001_089E",
+                    "B16001_092E","B16001_095E","B16001_098E","B16001_101E","B16001_104E","B16001_107E","B16001_110E","B16001_113E","B16001_116E","B16001_119E",
+                    "B16001_122E","B16001_125E","B16001_128E","B16001_001M","B16001_005M","B16001_008M","B16001_011M","B16001_014M","B16001_017M","B16001_020M",
+                    "B16001_023M","B16001_026M","B16001_029M","B16001_032M","B16001_035M","B16001_038M","B16001_041M","B16001_044M","B16001_047M","B16001_050M",
+                    "B16001_053M","B16001_056M","B16001_059M","B16001_062M","B16001_065M","B16001_068M","B16001_071M","B16001_074M","B16001_077M","B16001_080M",
+                    "B16001_083M","B16001_086M","B16001_089M","B16001_092M","B16001_095M","B16001_098M","B16001_101M","B16001_104M","B16001_107M","B16001_110M",
+                    "B16001_113M","B16001_116M","B16001_119M","B16001_122M","B16001_125M","B16001_128M")
+langspoken17.names <-c("Tot","Spanish","FrenchCajun","Haitian","Italian","Portuguese","German","Yiddish","Greek","Russian","Polish","SerboCroatian","Ukrainian",
+                     "Armenian","Persian","Gujarati","Hindi","Urdu","Punjabi","Bengali","Nepali","IndoEuro","Telugu","Tamil","Malayalam","Chinese","Japanese",
+                     "Korean","Hmong","Vietnamese","khmer","Thai","OtherAsia","Tagalog","Hawaiian","Arabic","Hebrew","Afroasia","WestAfrica","Swahili","Navajo",
+                     "Native","Other", "TotMOE","SpanishMOE","FrenchCajunMOE","HaitianMOE","ItalianMOE","PortugueseMOE","GermanMOE","YiddishMOE","GreekMOE","RussianMOE",
+                     "PolishMOE","SerboCroatianMOE","UkrainianMOE","ArmenianMOE","PersianMOE","GujaratiMOE","HindiMOE","UrduMOE","PunjabiMOE","BengaliMOE","NepaliMOE",
+                     "IndoEuroMOE","TeluguMOE","TamilMOE","MalayalamMOE","ChineseMOE","JapaneseMOE","KoreanMOE","HmongMOE","VietnameseMOE","khmerMOE","ThaiMOE",
+                     "OtherAsiaMOE","TagalogMOE","HawaiianMOE","ArabicMOE","HebrewMOE","AfroasiaMOE","WestAfricaMOE","SwahiliMOE","NavajoMOE","NativeMOE","OtherMOE")
+langspoken17Raw <- np.pull(variables=langspoken17.vars, names=langspoken17.names) 
+
+langspoken15.vars <-c("B16001_001E","B16001_005E","B16001_008E","B16001_011E","B16001_014E","B16001_017E","B16001_020E","B16001_023E","B16001_026E","B16001_029E",
+                      "B16001_032E","B16001_035E","B16001_038E","B16001_041E","B16001_044E","B16001_047E","B16001_050E","B16001_053E","B16001_056E","B16001_059E",
+                      "B16001_062E","B16001_065E","B16001_068E","B16001_071E","B16001_074E","B16001_077E","B16001_080E","B16001_083E","B16001_086E","B16001_089E",
+                      "B16001_092E","B16001_095E","B16001_098E","B16001_101E","B16001_104E","B16001_107E","B16001_110E","B16001_113E","B16001_116E","B16001_119E",
+                      "B16001_001M","B16001_005M","B16001_008M","B16001_011M","B16001_014M","B16001_017M","B16001_020M","B16001_023M","B16001_026M","B16001_029M",
+                      "B16001_032M","B16001_035M","B16001_038M","B16001_041M","B16001_044M","B16001_047M","B16001_050M","B16001_053M","B16001_056M","B16001_059M",
+                      "B16001_062M","B16001_065M","B16001_068M","B16001_071M","B16001_074M","B16001_077M","B16001_080M","B16001_083M","B16001_086M","B16001_089M",
+                      "B16001_092M","B16001_095M","B16001_098M","B16001_101M","B16001_104M","B16001_107M","B16001_110M","B16001_113M","B16001_116M","B16001_119M")
+langspoken15.names <-c("tot","spanish","french","frenchcreole","italian","porteguese","german","yiddish","otherwestgerm","scan","greek","russian","polish","serb",
+                       "otherslav","armenian","persian","gujarati","hindi","urdu","otherindic","otherindoeur","chinese","japanese","korean","monkhmer","hmong",
+                       "thai","lao","vietnamese","otherasian","tagalo","pacific","navajo","othernorthern","hungarian","arabic","hebrew","african","other", "totMOE",
+                       "spanishMOE","frenchMOE","frenchcreoleMOE","italianMOE","portegueseMOE","germanMOE","yiddishMOE","otherwestgermMOE","scanMOE","greekMOE",
+                       "russianMOE","polishMOE","serbMOE","otherslavMOE","armenianMOE","persianMOE","gujaratiMOE","hindiMOE","urduMOE","otherindicMOE","otherindoeurMOE",
+                       "chineseMOE","japaneseMOE","koreanMOE","monkhmerMOE","hmongMOE","thaiMOE","laoMOE","vietnameseMOE","otherasianMOE","tagaloMOE","pacificMOE",
+                       "navajoMOE","othernorthernMOE","hungarianMOE","arabicMOE","hebrewMOE","africanMOE","otherMOE")
+langspoken15Raw <- np.pull15(variables=langspoken15.vars, names=langspoken15.names) 
+
+
+langspoken15 <- langspoken15Raw %>% 
+  mutate(langMAXnum = apply(.[3:41], 1, max))
+
+
+langspoken15sums <- langspoken15Raw %>% 
+  select(-place) %>% 
+  summarize_all(funs(sum))
+
+
+
+
+
+
+
