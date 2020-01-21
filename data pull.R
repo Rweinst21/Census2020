@@ -239,16 +239,31 @@ langspoken15.names <-c("tot","spanish","french","frenchcreole","italian","porteg
                        "russianMOE","polishMOE","serbMOE","otherslavMOE","armenianMOE","persianMOE","gujaratiMOE","hindiMOE","urduMOE","otherindicMOE","otherindoeurMOE",
                        "chineseMOE","japaneseMOE","koreanMOE","monkhmerMOE","hmongMOE","thaiMOE","laoMOE","vietnameseMOE","otherasianMOE","tagaloMOE","pacificMOE",
                        "navajoMOE","othernorthernMOE","hungarianMOE","arabicMOE","hebrewMOE","africanMOE","otherMOE")
-langspoken15Raw <- np.pull15(variables=langspoken15.vars, names=langspoken15.names) 
+langspoken15Raw <- np.pull(variables=langspoken15.vars, names=langspoken15.names, year = 2015) 
 
+langspoken15NOMOE <- langspoken15Raw %>%
+  filter(parish == "071") %>%
+  select(tract,contains("MOE")) %>%
+  gather(-tract, key = langMOE, value = valMOE) %>%
+  mutate(lang = str_sub(langMOE, 1,-4))
 
-langspoken15 <- langspoken15Raw %>% 
-  mutate(langMAXnum = apply(.[3:41], 1, max))
-
-
-langspoken15sums <- langspoken15Raw %>% 
-  select(-place) %>% 
-  summarize_all(funs(sum))
+langspoken15NO <- langspoken15Raw %>%
+  filter(parish == "071") %>%
+  select(-parish, -contains("MOE")) %>%
+  gather(-tract, key = lang, value = val) %>%
+  bind_cols(langspoken15NOMOE) %>%
+  group_by(tract) %>%
+  top_n(3, val) %>%
+  filter(val > 0, lang!="tot") %>%
+  select(-tract1, -lang1) %>%
+  mutate(cv = (valMOE/1.645)/val, lowEst = val-valMOE, highEst = val+valMOE)
+# langspoken15 <- langspoken15Raw %>% 
+#   mutate(langMAXnum = apply(.[3:41], 1, max))
+# 
+write.csv(langspoken15NO,file = "languages spoken New Orleans.csv")
+# langspoken15sums <- langspoken15Raw %>% 
+#   select(-place) %>% 
+#   summarize_all(funs(sum))
 
 
 
