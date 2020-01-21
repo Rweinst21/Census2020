@@ -101,8 +101,8 @@ ageRaw <- censusData %>%
 age <- ageRaw %>%
   mutate(t4less = (m_under5 + f_under5), 
          t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
-         tract = str_pad(PlaceCode,6, pad= "0")) %>%
-         #GEOID = paste0("22071", tract)
+         tract = str_pad(PlaceCode,6, pad= "0"),
+         GEOID = paste0("22071", tract)) %>%
   #mutate(parish = "Orleans") %>%
   select(GEOID, tract, t4less, t4lessmoeagg)
 write.csv(age,file = "below52020.csv")
@@ -163,7 +163,8 @@ Census2020IDS <- censusData %>%
          Hispanic_MOEprop = moeprop( y=racepop, moex =hispMOE, moey = racepopMOE, p =Hispanic_percent),
          Renter_percent = renter/occupied,
          Renter_MOEprop = moeprop( y=occupied, moex =renterMOE, moey = occupiedMOE, p =Renter_percent)
-         )
+         ) %>%
+  select(PlaceCode, Population = pop, Population_MOE, Total_Households, Total_Households_MOE, White_percent, White_MOEprop, Black_percent, Black_MOEprop,Asian_percent,Asian_MOEprop,Hispanic_percent,Hispanic_MOEprop,Renter_percent,Renter_MOEprop)
 write.csv(Census2020IDS,file = "tabular_fromIDS_2020.csv")
 ###### DATA NOT ALREADY IN IDS PULL #####
 
@@ -181,5 +182,6 @@ fresh <- freshRaw %>%
          Households_with_people_under18MOE = hhunder18MOE,
          No_home_internet_access_percent = (NoSubscript + NoAccess)/totinta,
          No_home_internet_access_MOEagg = moeagg(cbind(NoSubscriptMOE, NoAccessMOE)),
-         No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent))
+         No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent)) %>%
+  select(parish, tract, Median_household_income, Median_household_incomeMOE, Households_with_people_under18, Households_with_people_under18MOE, No_home_internet_access_percent, No_home_internet_access_MOEagg, No_home_internet_access_MOEprop)
 write.csv(fresh,file = "tabular_fromCB_2020.csv")
