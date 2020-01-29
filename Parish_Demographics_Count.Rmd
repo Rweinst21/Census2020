@@ -1,0 +1,71 @@
+---
+title: "Parish_Demographics_Count"
+author: "Rachel Weinstein"
+date: "1/29/2020"
+output: html_document
+---
+
+```{r rmarkdown-setup, echo=FALSE}
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r r-setup, echo=FALSE}
+library(here)
+library(knitr)
+library(grid)
+library(gridExtra)
+library(formattable)
+library(kableExtra)
+library(htmlTable)
+library(purrr)
+```
+```{r, echo=FALSE, include=FALSE}
+# Load required scripts in order. 
+# Note: here() uses the relative path to the same directory.
+source(here("data pull AP.R"))
+#source(here("css_helper.R"))
+# For Asap font
+#font_add_google("Asap")
+#showtext_auto() # Turns on showtext fonts
+```
+
+
+## Race by parish
+
+[<font size = "-1">Definitions and source links</font>]("/a/data-resources/neighborhood-data/definitions/")  
+```{r echo = FALSE, results='asis'}
+
+parishes <- blacktable$name
+
+for (i in 1:64){
+  
+
+
+poptableCount <- bind_rows(blacktable , whitetable , asiantable , nativetable , twotable , hisptable , othertable ) %>% 
+  filter(name == parishes[i])
+
+head <- c(1, 5)
+
+moe <- text_spec("MOE*", link = "/a/data-resources/neighborhood-data/margin-of-error/")
+
+link17 <- text_spec("2013-2017", link = "/data-resources/neighborhood-data/acs/")
+
+table <- htmlTable(poptableCount, 
+          header = c("Parish", "Race", "2000", "2010", link17, moe),
+          rnames = F,
+          cgroup = c(" ", parishes[i]),
+          n.cgroup = head,
+          align = "lccccccccc",
+          align.header = "lccccccccc")
+
+print(table)
+
+}
+```
+<div class="source">
+<strong>Source</strong>: The Data Center analysis of data from U.S. Census 2000 Summary File 1 (SF1) and 2013-2017 American Community Survey   
+&ast; Margins of error (MOE) for the 2013-2017 ACS data are based on a 90% confidence level.   
+na: This estimate was controlled, therefore calculation of margins of error is not necessary.  
+</div>
