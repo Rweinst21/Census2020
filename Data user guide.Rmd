@@ -43,7 +43,7 @@ df.polygon.LRS <- tracts.la %>%
   mutate(GEOID = as.character(GEOID10)) %>% 
   left_join(LRS.plotdata, by="GEOID")
 df.polygon.LRS %>% 
-  filter(COUNTYFP10 %in% c("051","071")) %>% 
+  filter(COUNTYFP10 %in% c("071")) %>% 
   ggplot() + 
   geom_sf(aes(fill = bin), color="white")+ # This is the main feature layer for this map
   geom_sf(data = water.051, fill = "white", color="white") +
@@ -67,8 +67,12 @@ df.polygon.LRS %>%
     panel.grid.major = element_line(colour = "white"), 
     panel.grid.minor = element_line(colour = "white"),
     panel.background = element_blank(),
-    legend.title= element_blank()) +
-  labs(title = "Low response score, Jefferson and Orleans Parishes")
+    legend.title= element_blank(),
+    legend.position = "top") +
+  labs(title = "Low response score, Orleans Parish") +
+  ggsave(filename = "map_example.pdf", device = cairo_pdf, width = 24, height = 16, dpi = 300)
+
+
 ```
 
 ```{r}

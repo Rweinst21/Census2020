@@ -41,17 +41,6 @@ np.pull <- function(variables, names = variables, year=2017, survey = "acs/acs5"
   return(tract)
 }
 
-np.pull15 <- function(variables, names = variables, year=2015, survey = "acs/acs5"){
-  censuskey="530ce361defc2c476e5b5d5626d224d8354b9b9a"
-  tract <- getCensus(name = survey, 
-                     vintage = year, 
-                     key = censuskey, 
-                     vars = variables, 
-                     region = "tract:*", 
-                     regionin = "state:22+county:071") %>% select(-state, -county)
-  colnames(tract) <- c("place", names) 
-  return(tract)
-}
 ##calculates MOE for aggregated estimates
 ##moe = sqrt(sum(estimateMOE^2))
 ##input: dataframe of estimates' MOEs (i.e. use cbind)
@@ -113,8 +102,8 @@ ageRaw <- censusData %>%
 age <- ageRaw %>%
   mutate(t4less = (m_under5 + f_under5), 
          t4lessmoeagg = sqrt(m_under5MOE^2 + f_under5MOE^2),
-         tract = str_pad(PlaceCode,6, pad= "0")) %>%
-         #GEOID = paste0("22071", tract)
+         tract = str_pad(PlaceCode,6, pad= "0"),
+         GEOID = paste0("22071", tract)) %>%
   #mutate(parish = "Orleans") %>%
   select(GEOID, tract, t4less, t4lessmoeagg)
 write.csv(age,file = "below52020.csv")
@@ -138,7 +127,7 @@ langRaw <- censusData %>%
 
 langRaw[langRaw == -555555555] <- 0  
 
-lang <- langRaw %>% 
+llang <- langRaw %>% 
   mutate(engwelltot = (nat.onlyeng + forbor.onlyeng + nat.euro.vwell + nat.span.vwell + nat.span.well + forbor.span.vwell + forbor.span.well + nat.euro.well + nat.asian.vwell + nat.asian.well + nat.other.vwell + nat.other.well + forbor.euro.vwell + forbor.euro.well + forbor.asian.vwell + forbor.asian.well + forbor.other.vwell + forbor.other.well),
          engnotwelltot = (nat.span.notwell + nat.span.notatall + forbor.span.notwell + forbor.span.notatall + nat.euro.notwell + nat.euro.notatall + nat.asian.notwell + nat.asian.notatall + nat.other.notwell + nat.other.notatall + forbor.euro.notwell + forbor.euro.notatall + forbor.other.notwell + forbor.asian.notwell + forbor.asian.notatall),
          
@@ -152,7 +141,8 @@ lang <- langRaw %>%
          engnotwellMOEprop = moeprop(y= langtot, moex = engnotwellMOE, moey = langtotMOE, p = engnotwellpct),
          tract = str_pad(PlaceCode,6, pad= "0"),
          GEOID = paste0("22071", tract)) %>%
-  select(GEOID, tract,  engnotwellpct, engnotwellMOEprop) #%>%
+  select(GEOID, tract,  engnotwellpct, engnotwellMOEprop) %>%
+  filter(engnotwellpct >= .07)
   #mutate(parish = "Orleans")
 write.csv(lang,file="lang2020.csv")
 #### TABULAR DATA ####
@@ -175,7 +165,8 @@ Census2020IDS <- censusData %>%
          Hispanic_MOEprop = moeprop( y=racepop, moex =hispMOE, moey = racepopMOE, p =Hispanic_percent),
          Renter_percent = renter/occupied,
          Renter_MOEprop = moeprop( y=occupied, moex =renterMOE, moey = occupiedMOE, p =Renter_percent)
-         )
+         ) %>%
+  select(PlaceCode, Population = pop, Population_MOE, Total_Households, Total_Households_MOE, White_percent, White_MOEprop, Black_percent, Black_MOEprop,Asian_percent,Asian_MOEprop,Hispanic_percent,Hispanic_MOEprop,Renter_percent,Renter_MOEprop)
 write.csv(Census2020IDS,file = "tabular_fromIDS_2020.csv")
 ###### DATA NOT ALREADY IN IDS PULL #####
 
@@ -193,7 +184,8 @@ fresh <- freshRaw %>%
          Households_with_people_under18MOE = hhunder18MOE,
          No_home_internet_access_percent = (NoSubscript + NoAccess)/totinta,
          No_home_internet_access_MOEagg = moeagg(cbind(NoSubscriptMOE, NoAccessMOE)),
-         No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent))
+         No_home_internet_access_MOEprop = moeprop( y=totinta, moex =No_home_internet_access_MOEagg, moey = totaintMOE, p =No_home_internet_access_percent)) %>%
+  select(parish, tract, Median_household_income, Median_household_incomeMOE, Households_with_people_under18, Households_with_people_under18MOE, No_home_internet_access_percent, No_home_internet_access_MOEagg, No_home_internet_access_MOEprop)
 
 write.csv(fresh,file = "tabular_fromCB_2020.csv")
 
@@ -237,16 +229,34 @@ langspoken15.names <-c("tot","spanish","french","frenchcreole","italian","porteg
                        "russianMOE","polishMOE","serbMOE","otherslavMOE","armenianMOE","persianMOE","gujaratiMOE","hindiMOE","urduMOE","otherindicMOE","otherindoeurMOE",
                        "chineseMOE","japaneseMOE","koreanMOE","monkhmerMOE","hmongMOE","thaiMOE","laoMOE","vietnameseMOE","otherasianMOE","tagaloMOE","pacificMOE",
                        "navajoMOE","othernorthernMOE","hungarianMOE","arabicMOE","hebrewMOE","africanMOE","otherMOE")
-langspoken15Raw <- np.pull15(variables=langspoken15.vars, names=langspoken15.names) 
+langspoken15Raw <- np.pull(variables=langspoken15.vars, names=langspoken15.names, year = 2015) 
 
+langspoken15NOMOE <- langspoken15Raw %>%
+  filter(parish == "071") %>%
+  select(tract,contains("MOE")) %>%
+  gather(-tract, key = langMOE, value = valMOE) %>%
+  mutate(lang = str_sub(langMOE, 1,-4))
 
-langspoken15 <- langspoken15Raw %>% 
-  mutate(langMAXnum = apply(.[3:41], 1, max))
-
-
-langspoken15sums <- langspoken15Raw %>% 
-  select(-place) %>% 
-  summarize_all(funs(sum))
+langspoken15NO <- langspoken15Raw %>%
+  filter(parish == "071") %>%
+  select(-parish, -contains("MOE")) %>%
+  gather(-tract, key = lang, value = val) %>%
+  bind_cols(langspoken15NOMOE) %>%
+  filter(lang!="tot") %>%
+  group_by(tract) %>%
+  top_n(2, val) %>%
+  filter(val > 19) %>%
+  select(-tract1, -lang1, -langMOE) %>%
+  #mutate(cv = (valMOE/1.645)/val, lowEst = val-valMOE, highEst = val+valMOE) %>%
+  mutate(GEOID = paste0("22071", tract)) %>%
+  filter(tract %in% as.list(llang$tract))
+# langspoken15 <- langspoken15Raw %>% 
+#   mutate(langMAXnum = apply(.[3:41], 1, max))
+# 
+write.csv(langspoken15NO,file = "languages spoken New Orleans.csv")
+# langspoken15sums <- langspoken15Raw %>% 
+#   select(-place) %>% 
+#   summarize_all(funs(sum))
 
 
 
