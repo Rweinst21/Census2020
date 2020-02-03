@@ -11,7 +11,7 @@ library(RODBC)
 
 #### set up IDS 
 
-IDS <- odbcConnect("DC2 IDS", uid = "rweinstein", pwd = "December20!")
+IDS <- odbcConnect("DC2 IDS", uid = "rweinstein", pwd = "February20!")
 
 #### pull census data from IDS
 censusData <- sqlQuery(IDS, "SELECT * FROM acsraw.NBHDProfiles WHERE Year = 2017")

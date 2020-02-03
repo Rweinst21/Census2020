@@ -79,298 +79,7 @@ race2000Raw <- np.pull.parish(variables=race2000.vars, names=race2000.names, yea
 
 
 
-
-
-
-
-### 2017
-
-race2017 <- raceRaw %>% 
-  mutate(county = as.numeric(county)) %>% 
-  merge(., county_crosswalk, by = "county") %>% 
-  mutate(   
-    blackpct2017 = black2017 / pop2017,
-    whitepct2017 = white2017 / pop2017,
-    asianpct2017 = asian2017 / pop2017,
-    nativepct2017 = native2017 / pop2017,
-    twopct2017 = two2017 / pop2017,
-    hisppct2017 = hisp2017 / pop2017,
-    other2017 = island2017 + other2017,
-    otherpct2017 = other2017 /pop2017,
-    
-    othermoeagg2017 = moeagg(cbind(islandMOE, otherMOE)),
-    popMOE = ifelse(popMOE < 0, 0, popMOE),
-    hispMOE = ifelse(hispMOE < 0, 0, hispMOE),
-    
-    blackMOEprop2017 = moeprop(y= pop2017, moex = blackMOE, moey = popMOE, p = blackpct2017),
-    whiteMOEprop2017 = moeprop(y= pop2017, moex = whiteMOE, moey = popMOE, p = whitepct2017),
-    asianMOEprop2017 = moeprop(y= pop2017, moex = asianMOE, moey = popMOE, p = asianpct2017),
-    nativeMOEprop2017 = moeprop(y= pop2017, moex = nativeMOE, moey = popMOE, p = nativepct2017),
-    otherMOEprop2017 = moeprop(y= pop2017, moex = othermoeagg2017, moey = popMOE, p = otherpct2017),
-    twoMOEprop2017 = moeprop(y= pop2017, moex = twoMOE, moey = popMOE, p = twopct2017),
-    hispMOEprop2017 = moeprop(y= pop2017, moex = hispMOE, moey = popMOE, p = hisppct2017)
-  
-    )
-
-
-
-
-race2010 <- race2010Raw %>% 
-  mutate(county = as.numeric(county)) %>% 
-  merge(., county_crosswalk, by = "county") %>% 
-  mutate(   
-    blackpct2010 = black2010 / pop2010,
-    whitepct2010 = white2010 / pop2010,
-    asianpct2010 = asian2010 / pop2010,
-    nativepct2010 = native2010 / pop2010,
-    twopct2010 = two2010 / pop2010,
-    hisppct2010 = hisp2010 / pop2010,
-    other2010 = island2010 + other2010,
-    otherpct2010 = other2010 /pop2010)
-
-
-race2000 <- race2000Raw %>% 
-  mutate(county = as.numeric(county)) %>% 
-  merge(., county_crosswalk, by = "county") %>% 
-  mutate(   
-    blackpct2000 = black2000 / pop2000,
-    whitepct2000 = white2000 / pop2000,
-    asianpct2000 = asian2000 / pop2000,
-    nativepct2000 = native2000 / pop2000,
-    twopct2000 = two2000 / pop2000,
-    hisppct2000 = hisp2000 / pop2000,
-    other2000 = island2000 + other2000,
-    otherpct2000 = other2000 /pop2000)
-
-race <-merge(race2000, race2010, by = "county") %>% 
-  merge(., race2017, by = "county") %>% 
-  mutate(blackSIG = stattest(x=blackpct2010, y=blackpct2017, moey = blackMOEprop2017),
-         whiteSIG = stattest(x=whitepct2010, y=whitepct2017, moey = whiteMOEprop2017),
-         asianSIG =stattest(x=asianpct2010, y=asianpct2017, moey = asianMOEprop2017),
-         nativeSIG = stattest(x=nativepct2010, y=nativepct2017, moey=nativeMOEprop2017),
-         otherSIG = stattest(x=otherpct2010, y=otherpct2017, moey = otherMOEprop2017),
-         twoSIG = stattest( x=twopct2010, y=twopct2017, moey = twoMOEprop2017),
-         hispSIG = stattest(x=hisppct2010, y = hisppct2017, moey = hispMOEprop2017))
-
-
-racetablepct <- race %>% 
-  select(name, 
-         blackpct2000, blackpct2010, blackpct2017, blackMOEprop2017, blackSIG,
-         whitepct2000, whitepct2010, whitepct2017, whiteMOEprop2017, whiteSIG,
-         asianpct2000, asianpct2010, asianpct2017, asianMOEprop2017, asianSIG,
-         nativepct2000, nativepct2010, nativepct2017, nativeMOEprop2017, nativeSIG,
-         otherpct2000, otherpct2010, otherpct2017, otherMOEprop2017, otherSIG,
-         twopct2000, twopct2010, twopct2017, twoMOEprop2017, twoSIG,
-         hisppct2000, hisppct2010, hisppct2017, hispMOEprop2017, hispSIG)
-
-
-
-blacktablepct <- racetablepct %>% 
-  mutate(Race = "Black or African American") %>% 
-  select(name, Race, blackpct2000, blackpct2010, blackpct2017, blackMOEprop2017, blackSIG)%>% 
-  rename(y2000 = "blackpct2000",
-         y2010 = "blackpct2010",
-         y2017 = "blackpct2017",
-         MOE = "blackMOEprop2017",
-         Signigicant = "blackSIG") %>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-whitetablepct <- racetablepct %>% 
-  mutate(Race = "White") %>% 
-  select(name, Race, whitepct2000, whitepct2010, whitepct2017, whiteMOEprop2017, whiteSIG) %>% 
-  rename(y2000 = "whitepct2000",
-         y2010 = "whitepct2010",
-         y2017 = "whitepct2017",
-         MOE = "whiteMOEprop2017",
-         Signigicant = "whiteSIG")%>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-asiantablepct <- racetablepct %>% 
-  mutate(Race = "Asian") %>% 
-  select(name, Race, asianpct2000, asianpct2010, asianpct2017, asianMOEprop2017, asianSIG)%>% 
-  rename(y2000 = "asianpct2000",
-         y2010 = "asianpct2010",
-         y2017 = "asianpct2017",
-         MOE = "asianMOEprop2017",
-         Signigicant = "asianSIG")%>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-nativetablepct <- racetablepct %>% 
-  mutate(Race = "American Indian") %>% 
-  select(name, Race, nativepct2000, nativepct2010, nativepct2017, nativeMOEprop2017, nativeSIG)%>% 
-  rename(y2000 = "nativepct2000",
-         y2010 = "nativepct2010",
-         y2017 = "nativepct2017",
-         MOE = "nativeMOEprop2017",
-         Signigicant = "nativeSIG")%>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-othertablepct <- racetablepct %>% 
-  
-  select(name, Race, otherpct2000, otherpct2010, otherpct2017, otherMOEprop2017, otherSIG) %>% 
-  mutate(Race = "Other") %>% 
-  rename(y2000 = "otherpct2000",
-         y2010 = "otherpct2010",
-         y2017 = "otherpct2017",
-         MOE = "otherMOEprop2017",
-         Signigicant = "otherSIG")%>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-twotablepct <- racetablepct %>% 
-  mutate(Race = "2 race categories") %>% 
-  select(name, Race, twopct2000, twopct2010, twopct2017, twoMOEprop2017, twoSIG)%>% 
-  rename(y2000 = "twopct2000",
-         y2010 = "twopct2010",
-         y2017 = "twopct2017",
-         MOE = "twoMOEprop2017",
-         Signigicant = "twoSIG")%>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-hisptablepct <- racetablepct %>% 
-  mutate(Race = "Hispanic (any race)") %>% 
-  select(name, Race, hisppct2000, hisppct2010, hisppct2017, hispMOEprop2017, hispSIG)%>% 
-  rename(y2000 = "hisppct2000",
-         y2010 = "hisppct2010",
-         y2017 = "hisppct2017",
-         MOE = "hispMOEprop2017",
-         Signigicant = "hispSIG")%>% 
-  mutate(y2000 = percent(y2000),
-         y2010 = percent(y2010),
-         y2017 = percent(y2017),
-         MOE = percent(MOE))
-
-
-poptable <- bind_rows(blacktablepct , whitetablepct , asiantablepct , nativetablepct , twotablepct , hisptablepct , othertablepct ) %>% 
-  select(name, Race, y2000, y2010) %>% 
-  merge(., tablepercent2018, by = c("name", "Race"))
-
-write.csv(poptable, "outputs/Parish_Demographics_Percent.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### FOr count
-
-
-
-
-blacktable <- race %>% 
-  mutate(Race = "Black or African American") %>% 
-  select(name, Race, black2000, black2010, black2017, blackMOE)%>% 
-  rename(y2000 = "black2000",
-         y2010 = "black2010",
-         y2017 = "black2017",
-         MOE = "blackMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-whitetable <- race %>% 
-  mutate(Race = "White") %>% 
-  select(name, Race, white2000, white2010, white2017, whiteMOE) %>% 
-  rename(y2000 = "white2000",
-         y2010 = "white2010",
-         y2017 = "white2017",
-         MOE = "whiteMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-asiantable <- race %>% 
-  mutate(Race = "Asian") %>% 
-  select(name, Race, asian2000, asian2010, asian2017, asianMOE)%>% 
-  rename(y2000 = "asian2000",
-         y2010 = "asian2010",
-         y2017 = "asian2017",
-         MOE = "asianMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-nativetable <- race %>% 
-  mutate(Race = "American Indian") %>% 
-  select(name, Race, native2000, native2010, native2017, nativeMOE)%>% 
-  rename(y2000 = "native2000",
-         y2010 = "native2010",
-         y2017 = "native2017",
-         MOE = "nativeMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-othertable <- race %>% 
-  mutate(Race = "2 race categories") %>% 
-  select(name, Race, other2000, other2010, other2017, otherMOE) %>% 
-  rename(y2000 = "other2000",
-         y2010 = "other2010",
-         y2017 = "other2017",
-         MOE = "otherMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-twotable <- race %>% 
-  mutate(Race = "Hispanic (any race)") %>% 
-  select(name, Race, two2000, two2010, two2017, twoMOE)%>% 
-  rename(y2000 = "two2000",
-         y2010 = "two2010",
-         y2017 = "two2017",
-         MOE = "twoMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-hisptable <- race %>% 
-  mutate(Race = "Other") %>% 
-  select(name, Race, hisp2000, hisp2010, hisp2017, hispMOE)%>% 
-  rename(y2000 = "hisp2000",
-         y2010 = "hisp2010",
-         y2017 = "hisp2017",
-         MOE = "hispMOE") %>% 
-  mutate(y2000 = comma(y2000),
-         y2010 = comma(y2010),
-         y2017 = comma(y2017),
-         MOE = comma(MOE))
-
-
-
-
-
-####### PEP PULL
+####### PEP PULL 2018
 
 
 allparishesRaw <- pullDataPEP(charagegroupsVars, 
@@ -454,6 +163,47 @@ race2018 <- race2018Raw %>%
 
 
 
+race2010 <- race2010Raw %>% 
+  mutate(county = as.numeric(county)) %>% 
+  merge(., county_crosswalk, by = "county") %>% 
+  mutate(   
+    blackpct2010 = black2010 / pop2010,
+    whitepct2010 = white2010 / pop2010,
+    asianpct2010 = asian2010 / pop2010,
+    nativepct2010 = native2010 / pop2010,
+    twopct2010 = two2010 / pop2010,
+    hisppct2010 = hisp2010 / pop2010,
+    other2010 = island2010 + other2010,
+    otherpct2010 = other2010 /pop2010)
+
+
+race2000 <- race2000Raw %>% 
+  mutate(county = as.numeric(county)) %>% 
+  merge(., county_crosswalk, by = "county") %>% 
+  mutate(   
+    blackpct2000 = black2000 / pop2000,
+    whitepct2000 = white2000 / pop2000,
+    asianpct2000 = asian2000 / pop2000,
+    nativepct2000 = native2000 / pop2000,
+    twopct2000 = two2000 / pop2000,
+    hisppct2000 = hisp2000 / pop2000,
+    other2000 = island2000 + other2000,
+    otherpct2000 = other2000 /pop2000)
+
+race <-merge(race2000, race2010, by = "name") %>% 
+  merge(., race2018, by = "name")
+#  mutate(blackSIG = stattest(x=blackpct2010, y=blackpct2017, moey = blackMOEprop2017),
+#         whiteSIG = stattest(x=whitepct2010, y=whitepct2017, moey = whiteMOEprop2017),
+#         asianSIG =stattest(x=asianpct2010, y=asianpct2017, moey = asianMOEprop2017),
+#         nativeSIG = stattest(x=nativepct2010, y=nativepct2017, moey=nativeMOEprop2017),
+#         otherSIG = stattest(x=otherpct2010, y=otherpct2017, moey = otherMOEprop2017),
+#         twoSIG = stattest( x=twopct2010, y=twopct2017, moey = twoMOEprop2017),
+#         hispSIG = stattest(x=hisppct2010, y = hisppct2017, moey = hispMOEprop2017))
+
+
+
+
+
 tablepercent2018 <-  race2018 %>% 
   dplyr::rename("Black or African American" = "blackpct2018",
                 "White" = "whitepct2018",
@@ -483,7 +233,7 @@ tablecount2018 <-  race2018 %>%
 
 
 
-
+### Adding all together and printing
 
 
 poptableCount <- bind_rows(blacktable , whitetable , asiantable , nativetable , twotable , hisptable , othertable ) %>% 
@@ -491,3 +241,245 @@ poptableCount <- bind_rows(blacktable , whitetable , asiantable , nativetable , 
   merge(., tablecount2018, by = c("name", "Race"))
 
 write.csv(poptableCount, "outputs/Parish_Demographics_Count.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+racetablepct <- race %>% 
+  select(name, 
+         blackpct2000, blackpct2010, blackpct2018, 
+         whitepct2000, whitepct2010, whitepct2018,
+         asianpct2000, asianpct2010, asianpct2018,
+         nativepct2000, nativepct2010, nativepct2018,
+         otherpct2000, otherpct2010, otherpct2018,
+         twopct2000, twopct2010, twopct2018,
+         hisppct2000, hisppct2010, hisppct2018)
+
+
+
+blacktablepct <- racetablepct %>% 
+  mutate(Race = "Black or African American") %>% 
+  select(name, Race, blackpct2000, blackpct2010, blackpct2018)%>% 
+  rename(y2000 = "blackpct2000",
+         y2010 = "blackpct2010",
+         y2018 = "blackpct2018") %>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+whitetablepct <- racetablepct %>% 
+  mutate(Race = "White") %>% 
+  select(name, Race, whitepct2000, whitepct2010, whitepct2018) %>% 
+  rename(y2000 = "whitepct2000",
+         y2010 = "whitepct2010",
+         y2018 = "whitepct2018")%>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+asiantablepct <- racetablepct %>% 
+  mutate(Race = "Asian") %>% 
+  select(name, Race, asianpct2000, asianpct2010, asianpct2018)%>% 
+  rename(y2000 = "asianpct2000",
+         y2010 = "asianpct2010",
+         y2018 = "asianpct2018")%>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+nativetablepct <- racetablepct %>% 
+  mutate(Race = "American Indian") %>% 
+  select(name, Race, nativepct2000, nativepct2010, nativepct2018)%>% 
+  rename(y2000 = "nativepct2000",
+         y2010 = "nativepct2010",
+         y2018 = "nativepct2018")%>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+othertablepct <- racetablepct %>% 
+  mutate(Race = "Other") %>% 
+  select(name, Race, otherpct2000, otherpct2010, otherpct2018) %>% 
+  mutate(Race = "Other") %>% 
+  rename(y2000 = "otherpct2000",
+         y2010 = "otherpct2010",
+         y2018 = "otherpct2018")%>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+twotablepct <- racetablepct %>% 
+  mutate(Race = "2 race categories") %>% 
+  select(name, Race, twopct2000, twopct2010, twopct2018)%>% 
+  rename(y2000 = "twopct2000",
+         y2010 = "twopct2010",
+         y2018 = "twopct2018")%>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+hisptablepct <- racetablepct %>% 
+  mutate(Race = "Hispanic (any race)") %>% 
+  select(name, Race, hisppct2000, hisppct2010, hisppct2018)%>% 
+  rename(y2000 = "hisppct2000",
+         y2010 = "hisppct2010",
+         y2018 = "hisppct2018")%>% 
+  mutate(y2000 = percent(y2000),
+         y2010 = percent(y2010),
+         y2018 = percent(y2018))
+
+
+poptable <- bind_rows(blacktablepct , whitetablepct , asiantablepct , nativetablepct , twotablepct , hisptablepct , othertablepct ) %>% 
+  select(name, Race, y2000, y2010, y2018) 
+
+write.csv(poptable, "outputs/Parish_Demographics_Percent.csv")
+
+
+
+
+
+
+
+
+#### FOr count
+
+
+
+
+blacktable <- race %>% 
+  mutate(Race = "Black or African American") %>% 
+  select(name, Race, black2000, black2010, black2018)%>% 
+  rename(y2000 = "black2000",
+         y2010 = "black2010",
+         y2018 = "black2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+whitetable <- race %>% 
+  mutate(Race = "White") %>% 
+  select(name, Race, white2000, white2010, white2018) %>% 
+  rename(y2000 = "white2000",
+         y2010 = "white2010",
+         y2018 = "white2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+asiantable <- race %>% 
+  mutate(Race = "Asian") %>% 
+  select(name, Race, asian2000, asian2010, asian2018)%>% 
+  rename(y2000 = "asian2000",
+         y2010 = "asian2010",
+         y2018 = "asian2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+nativetable <- race %>% 
+  mutate(Race = "American Indian") %>% 
+  select(name, Race, native2000, native2010, native2018)%>% 
+  rename(y2000 = "native2000",
+         y2010 = "native2010",
+         y2018 = "native2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+othertable <- race %>% 
+  mutate(Race = "Other") %>% 
+  select(name, Race, other2000, other2010, other2018) %>% 
+  rename(y2000 = "other2000",
+         y2010 = "other2010",
+         y2018 = "other2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+twotable <- race %>% 
+  mutate(Race = "2 race categories") %>% 
+  select(name, Race, two2000, two2010, two2018)%>% 
+  rename(y2000 = "two2000",
+         y2010 = "two2010",
+         y2018 = "two2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+hisptable <- race %>% 
+  mutate(Race = "Hispanic (any race)") %>% 
+  select(name, Race, hisp2000, hisp2010, hisp2018)%>% 
+  rename(y2000 = "hisp2000",
+         y2010 = "hisp2010",
+         y2018 = "hisp2018") %>% 
+  mutate(y2000 = comma(y2000),
+         y2010 = comma(y2010),
+         y2018 = comma(y2018))
+
+
+
+
+poptablecount <- bind_rows(blacktable , whitetable , asiantable , nativetable , twotable , hisptable , othertable ) %>% 
+  select(name, Race, y2000, y2010, y2018) 
+
+write.csv(poptablecount, "outputs/Parish_Demographics_Count.csv")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### No longer need
+
+### 2017
+
+#race2017 <- raceRaw %>% 
+#  mutate(county = as.numeric(county)) %>% 
+#  merge(., county_crosswalk, by = "county") %>% 
+#  mutate(   
+#    blackpct2017 = black2017 / pop2017,
+#    whitepct2017 = white2017 / pop2017,
+#    asianpct2017 = asian2017 / pop2017,
+#    nativepct2017 = native2017 / pop2017,
+#    twopct2017 = two2017 / pop2017,
+#    hisppct2017 = hisp2017 / pop2017,
+#    other2017 = island2017 + other2017,
+#    otherpct2017 = other2017 /pop2017,
+#    
+#    othermoeagg2017 = moeagg(cbind(islandMOE, otherMOE)),
+#    popMOE = ifelse(popMOE < 0, 0, popMOE),
+#    hispMOE = ifelse(hispMOE < 0, 0, hispMOE),
+#    
+#    blackMOEprop2017 = moeprop(y= pop2017, moex = blackMOE, moey = popMOE, p = blackpct2017),
+#    whiteMOEprop2017 = moeprop(y= pop2017, moex = whiteMOE, moey = popMOE, p = whitepct2017),
+#    asianMOEprop2017 = moeprop(y= pop2017, moex = asianMOE, moey = popMOE, p = asianpct2017),
+#    nativeMOEprop2017 = moeprop(y= pop2017, moex = nativeMOE, moey = popMOE, p = nativepct2017),
+#    otherMOEprop2017 = moeprop(y= pop2017, moex = othermoeagg2017, moey = popMOE, p = otherpct2017),
+#    twoMOEprop2017 = moeprop(y= pop2017, moex = twoMOE, moey = popMOE, p = twopct2017),
+#    hispMOEprop2017 = moeprop(y= pop2017, moex = hispMOE, moey = popMOE, p = hisppct2017)
+#  
+#    )
+#
+
